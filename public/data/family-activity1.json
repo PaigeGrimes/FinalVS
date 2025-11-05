@@ -1,0 +1,335 @@
+{
+  "businesses": [
+    {
+      "id": "mote-marine",
+      "question": "What's the best aquarium for kids in Sarasota?",
+      "name": "Mote Marine Laboratory & Aquarium",
+      "tagline": "Hands-on marine science adventures",
+      "logo": "🐟",
+      "rating": 4.7,
+      "description": "Mote Marine offers interactive exhibits with manatees, sharks, and sea turtles, plus educational programs on conservation that engage kids through touch tanks and animal encounters. As a nonprofit research institution, it's transitioning to the new Mote SEA facility at Nathan Benderson Park in late 2025 for expanded family experiences. Locals recommend visiting during manatee rehabilitation seasons for unique sightings, and note free parking at the current City Island location—perfect for combining with nearby Bayfront Park playtime.",
+      "maker": { "name": "Mote Team", "title": "Nonprofit Operators" },
+      "location": "Sarasota",
+      "priceRange": "$20-25/person",
+      "contact": {
+        "website": "https://mote.org",
+        "phone": "941-388-4441",
+        "address": "1600 Ken Thompson Pkwy, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/motemarinelab",
+        "facebook": "https://facebook.com/motemarinelab"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=mote+marine+sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117479-Reviews-Mote_Marine_Laboratory_and_Aquarium-Sarasota_Florida.html"
+      },
+      "tags": ["Aquarium", "Marine Education", "Animal Encounters", "Family Fun"],
+      "category": "aquarium",
+      "relatedQuestions": [
+        "Best animal park for kids in Sarasota?",
+        "Top family museum in Sarasota?",
+        "Best wildlife sanctuary for families in Sarasota?"
+      ]
+    },
+    {
+      "id": "sarasota-jungle-gardens",
+      "question": "Best animal park for kids in Sarasota?",
+      "name": "Sarasota Jungle Gardens",
+      "tagline": "Interactive wildlife and shows",
+      "logo": "🦜",
+      "rating": 4.5,
+      "description": "Sarasota Jungle Gardens features free-roaming flamingos, reptile shows, bird encounters, and a petting zoo, making it a top spot for kids to learn about animals up close. Open most days with scheduled wildlife presentations, it's a historic attraction since 1939 with lush gardens for exploration. Insider tip: Feed the flamingos for a memorable experience, and visit mid-morning to catch all shows—plenty of shaded areas for hot days, with easy parking in this central Sarasota location.",
+      "maker": { "name": "Jungle Gardens Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$15-25/person",
+      "contact": {
+        "website": "https://sarasotajunglegardens.com",
+        "phone": "941-355-5305",
+        "address": "3701 Bay Shore Rd, Sarasota, FL 34234"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/sarasotajunglegardens",
+        "facebook": "https://facebook.com/sarasotajunglegardens"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=sarasota+jungle+gardens+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117480-Reviews-Sarasota_Jungle_Gardens-Sarasota_Florida.html"
+      },
+      "tags": ["Animal Park", "Shows", "Petting Zoo", "Gardens"],
+      "category": "animal-park",
+      "relatedQuestions": [
+        "What's the best aquarium for kids in Sarasota?",
+        "Best adventure course for families in Sarasota?",
+        "Top children's garden in Sarasota?"
+      ]
+    },
+    {
+      "id": "the-ringling",
+      "question": "Top family museum in Sarasota?",
+      "name": "The Ringling",
+      "tagline": "Circus history and art wonders",
+      "logo": "🎪",
+      "rating": 4.8,
+      "description": "The Ringling Museum showcases circus artifacts, art collections, and the historic Ca' d'Zan mansion, with kid-friendly circus performances and interactive exhibits. The Summer Circus Spectacular runs through August 2025, offering family entertainment in the Asolo Theater. Locals suggest exploring the grounds for picnics, and note free admission for kids under 6—great for rainy days, with community ties through educational programs.",
+      "maker": { "name": "Florida State University", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$15-25/person",
+      "contact": {
+        "website": "https://www.ringling.org",
+        "phone": "941-359-5700",
+        "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/theringling",
+        "facebook": "https://facebook.com/theringling"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=the+ringling+museum+sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117482-Reviews-The_Ringling-Sarasota_Florida.html"
+      },
+      "tags": ["Museum", "Circus", "Art", "Family Shows"],
+      "category": "museum",
+      "relatedQuestions": [
+        "Best wildlife sanctuary for families in Sarasota?",
+        "What's the best aquarium for kids in Sarasota?",
+        "Best nature park for kids in Sarasota?"
+      ]
+    },
+    {
+      "id": "big-cat-habitat",
+      "question": "Best wildlife sanctuary for families in Sarasota?",
+      "name": "Big Cat Habitat and Gulf Coast Sanctuary",
+      "tagline": "Exotic animal encounters and shows",
+      "logo": "🦁",
+      "rating": 4.4,
+      "description": "Big Cat Habitat features big cats, bears, and lemurs with daily animal presentations, petting zoo, and feeding experiences for an up-close wildlife adventure. Open weekends with special events like capybara yoga, it's a nonprofit sanctuary emphasizing conservation education. Families tip: Arrive early for pony rides, and note air-conditioned shows for comfort—strong community support through annual visitor numbers and memberships.",
+      "maker": { "name": "Clayton Rosaire", "title": "Founder" },
+      "location": "Sarasota",
+      "priceRange": "$20-30/person",
+      "contact": {
+        "website": "https://bigcathabitat.org",
+        "phone": "941-371-6377",
+        "address": "7101 Palmer Blvd, Sarasota, FL 34240"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/bigcathabitat",
+        "facebook": "https://facebook.com/bigcathabitat"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=big+cat+habitat+sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/big-cat-habitat-and-gulf-coast-sanctuary-sarasota"
+      },
+      "tags": ["Wildlife Sanctuary", "Animal Shows", "Petting Zoo", "Conservation"],
+      "category": "wildlife-sanctuary",
+      "relatedQuestions": [
+        "Top family museum in Sarasota?",
+        "Best adventure course for families in Sarasota?",
+        "Best outdoor park for kids in Sarasota?"
+      ]
+    },
+    {
+      "id": "treeumph-adventure",
+      "question": "Best adventure course for families in Sarasota?",
+      "name": "TreeUmph! Adventure Course",
+      "tagline": "Treetop obstacles and ziplines",
+      "logo": "🌳",
+      "rating": 4.6,
+      "description": "TreeUmph! offers over 100 obstacles, ropes courses, and ziplines in a forested setting, with courses scaled for different ages including junior levels for kids. It's a thrilling outdoor activity promoting teamwork and confidence, open daily with safety harnesses. Insider tip: Book ahead for weekends, wear closed-toe shoes, and visit in cooler months—community events like group challenges build local connections.",
+      "maker": { "name": "TreeUmph Team", "title": "Operators" },
+      "location": "Bradenton",
+      "priceRange": "$30-60/person",
+      "contact": {
+        "website": "https://treeumph.com",
+        "phone": "941-322-2130",
+        "address": "21805 State Rd 70 E, Bradenton, FL 34211"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/treeumph",
+        "facebook": "https://facebook.com/treeumph"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=treeumph+adventure+sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34098-d3426771-Reviews-TreeUmph_Adventure_Course-Bradenton_Florida.html"
+      },
+      "tags": ["Adventure Course", "Ziplines", "Obstacles", "Outdoor Fun"],
+      "category": "adventure-course",
+      "relatedQuestions": [
+        "Best animal park for kids in Sarasota?",
+        "Best nature park for kids in Sarasota?",
+        "Top children's garden in Sarasota?"
+      ]
+    },
+    {
+      "id": "myakka-river-state-park",
+      "question": "Best nature park for kids in Sarasota?",
+      "name": "Myakka River State Park",
+      "tagline": "Wildlife safaris and trails",
+      "logo": "🦌",
+      "rating": 4.7,
+      "description": "Myakka River State Park spans 37,000 acres with airboat tours, canopy walks, hiking trails, and wildlife viewing for alligators and birds, ideal for family nature education. As one of Florida's oldest parks, it offers camping and picnicking. Locals advise early visits for cooler weather and better animal sightings, with tram tours perfect for kids—strong ties to conservation efforts in the community.",
+      "maker": { "name": "Florida State Parks", "title": "Managers" },
+      "location": "Sarasota",
+      "priceRange": "$6/vehicle",
+      "contact": {
+        "website": "https://www.floridastateparks.org/parks-and-trails/myakka-river-state-park",
+        "phone": "941-361-6511",
+        "address": "13208 State Rd 72, Sarasota, FL 34241"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/floridastateparks",
+        "facebook": "https://facebook.com/MyakkaRiverStatePark"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=myakka+river+state+park+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117484-Reviews-Myakka_River_State_Park-Sarasota_Florida.html"
+      },
+      "tags": ["State Park", "Wildlife", "Trails", "Airboat Tours"],
+      "category": "state-park",
+      "relatedQuestions": [
+        "Best adventure course for families in Sarasota?",
+        "Best wildlife sanctuary for families in Sarasota?",
+        "Best outdoor park for kids in Sarasota?"
+      ]
+    },
+    {
+      "id": "sarasota-childrens-garden",
+      "question": "Top children's garden in Sarasota?",
+      "name": "Sarasota Children's Garden",
+      "tagline": "Magical nature play space",
+      "logo": "🌸",
+      "rating": 4.5,
+      "description": "The Sarasota Children's Garden encourages creative play with fairy houses, mazes, and nature exploration, leaving electronics behind for imaginative fun. As a nonprofit charity, it's designed for kids to discover magic in the outdoors. Tip for families: Wear play clothes for messy fun, and check for storytime events—community support through donations keeps it thriving.",
+      "maker": { "name": "Children's Garden Team", "title": "Nonprofit Operators" },
+      "location": "Sarasota",
+      "priceRange": "$6-10/person",
+      "contact": {
+        "website": "https://www.sarasotachildrensgarden.com",
+        "phone": "941-330-1711",
+        "address": "1670 10th Way, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/sarasotachildrensgarden",
+        "facebook": "https://facebook.com/sarasotachildrensgarden"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=sarasota+childrens+garden+reviews",
+        "featured": "https://www.yelp.com/biz/the-childrens-garden-sarasota"
+      },
+      "tags": ["Children's Garden", "Play Area", "Nature", "Imaginative"],
+      "category": "childrens-garden",
+      "relatedQuestions": [
+        "Best nature park for kids in Sarasota?",
+        "Top family museum in Sarasota?",
+        "Best outdoor park for kids in Sarasota?"
+      ]
+    },
+    {
+      "id": "nathan-benderson-park",
+      "question": "Best outdoor park for kids in Sarasota?",
+      "name": "Nathan Benderson Park",
+      "tagline": "Lakeside recreation and events",
+      "logo": "🚣",
+      "rating": 4.6,
+      "description": "Nathan Benderson Park features playgrounds, walking trails, rowing events, and future home to Mote SEA aquarium, offering diverse outdoor activities for families. As a world-class rowing facility, it hosts community events and has ample parking. Insider: Rent bikes for lake loops, and visit during festivals for extra fun—strong local ties through sports and education programs.",
+      "maker": { "name": "Suncoast Aquatic Nature Center Associates", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "Free entry",
+      "contact": {
+        "website": "https://www.nbpcares.org",
+        "phone": "941-358-7275",
+        "address": "5851 Nathan Benderson Cir, Sarasota, FL 34235"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/nathanbendersonpark",
+        "facebook": "https://facebook.com/nathanbendersonpark"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=nathan+benderson+park+reviews",
+        "featured": "https://www.yelp.com/biz/nathan-benderson-park-sarasota"
+      },
+      "tags": ["Outdoor Park", "Playground", "Trails", "Events"],
+      "category": "outdoor-park",
+      "relatedQuestions": [
+        "Best wildlife sanctuary for families in Sarasota?",
+        "What's the best aquarium for kids in Sarasota?",
+        "Best animal park for kids in Sarasota?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "aquarium",
+      "name": "Aquarium",
+      "description": "Marine life and educational exhibits",
+      "icon": "🐟"
+    },
+    {
+      "id": "animal-park",
+      "name": "Animal Park",
+      "description": "Interactive wildlife encounters",
+      "icon": "🦜"
+    },
+    {
+      "id": "museum",
+      "name": "Museum",
+      "description": "Cultural and historical fun",
+      "icon": "🎪"
+    },
+    {
+      "id": "wildlife-sanctuary",
+      "name": "Wildlife Sanctuary",
+      "description": "Exotic animal rescues and shows",
+      "icon": "🦁"
+    },
+    {
+      "id": "adventure-course",
+      "name": "Adventure Course",
+      "description": "Treetop challenges and ziplines",
+      "icon": "🌳"
+    },
+    {
+      "id": "state-park",
+      "name": "State Park",
+      "description": "Nature trails and wildlife viewing",
+      "icon": "🦌"
+    },
+    {
+      "id": "childrens-garden",
+      "name": "Children's Garden",
+      "description": "Imaginative outdoor play spaces",
+      "icon": "🌸"
+    },
+    {
+      "id": "outdoor-park",
+      "name": "Outdoor Park",
+      "description": "Recreational areas and playgrounds",
+      "icon": "🚣"
+    }
+  ],
+  "locations": [
+    "Sarasota",
+    "Bradenton",
+    "Venice"
+  ],
+  "priceRanges": [
+    {
+      "id": "free",
+      "label": "Free",
+      "range": "Free entry",
+      "description": "No cost activities"
+    },
+    {
+      "id": "low-cost",
+      "label": "Low-Cost",
+      "range": "$6-15/person",
+      "description": "Affordable family fun"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$20-60/person",
+      "description": "Premium experiences"
+    }
+  ]
+}

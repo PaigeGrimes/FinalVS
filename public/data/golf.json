@@ -1,0 +1,306 @@
+{
+  "businesses": [
+    {
+      "id": "the-concession-golf-club",
+      "question": "What's the most prestigious golf course in Sarasota?",
+      "name": "The Concession Golf Club",
+      "tagline": "Jack Nicklaus design hosting PGA Tour events",
+      "logo": "🏆",
+      "rating": 5.0,
+      "description": "Golf Digest's 'Best New Private Course' in 2006 and consistently ranked top 10 in Florida. Jack Nicklaus signature design hosted the 2021 WGC-Workday Championship won by Collin Morikawa. Named after the famous 1969 Ryder Cup moment between Nicklaus and Tony Jacklin. Only 255 estate residences on 1,200 acres with no residential development crossing the course.",
+      "maker": {
+        "name": "Jack Nicklaus & Tony Jacklin",
+        "title": "Legendary Golf Course Designers"
+      },
+      "location": "Bradenton (Lakewood Ranch border)",
+      "priceRange": "Private club membership required",
+      "contact": {
+        "website": "https://theconcession.com",
+        "phone": "(941) 322-1922",
+        "address": "7700 Lindrick Lane, Bradenton, FL 34202"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Golf Digest Top 10 Florida Course"
+      },
+      "tags": ["PGA Tour Host", "Jack Nicklaus Design", "Private Elite", "Championship Level"],
+      "category": "private-golf",
+      "relatedQuestions": [
+        "What's the best championship golf course in Sarasota?",
+        "Where do PGA Tour events happen in Sarasota?",
+        "What's the most exclusive golf club in Sarasota?"
+      ]
+    },
+    {
+      "id": "sara-bay-country-club",
+      "question": "What's the most historic golf course in Sarasota?",
+      "name": "Sara Bay Country Club",
+      "tagline": "Authentic 1926 Donald Ross design with Bobby Jones history",
+      "logo": "🏛️",
+      "rating": 4.8,
+      "description": "The most authentic Donald Ross design in Florida, originally praised by Bobby Jones in 1927 as 'one of the best in America.' Founded in 1926, recently restored by architect Keith Spence to recapture Ross's original design illusions. Features the historic 4th hole that may have been the template for Augusta National's 6th hole.",
+      "maker": {
+        "name": "Donald Ross",
+        "title": "Legendary Golf Course Architect (1926)"
+      },
+      "location": "North Sarasota Bay",
+      "priceRange": "Private club membership required",
+      "contact": {
+        "website": "https://www.sarabaycc.org",
+        "phone": "",
+        "address": "North of downtown Sarasota"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Golf Digest Architecture Editor recognition"
+      },
+      "tags": ["Donald Ross Design", "Historic 1926", "Bobby Jones Connection", "Authentic Restoration"],
+      "category": "private-golf",
+      "relatedQuestions": [
+        "What's the oldest golf course in Sarasota?",
+        "Where can I play a Donald Ross design in Sarasota?",
+        "What golf course has the most history in Sarasota?"
+      ]
+    },
+    {
+      "id": "bobby-jones-golf-club",
+      "question": "What's the best public golf course in Sarasota?",
+      "name": "Bobby Jones Golf Club",
+      "tagline": "Newly renovated Donald Ross course with #2 Golf Digest ranking",
+      "logo": "⭐",
+      "rating": 4.7,
+      "description": "Recently ranked #2 on Golf Digest's Best New or Remodeled Affordable Courses. Features the restored original Donald Ross 18-hole championship course from 1926, completely reimagined by architect Richard Mandell. Includes new Gillespie 9-hole adjustable par 3 course and one of the largest practice facilities in the region.",
+      "maker": {
+        "name": "Donald Ross (1926) / Richard Mandell (restoration)",
+        "title": "Golf Course Architects"
+      },
+      "location": "Central Sarasota",
+      "priceRange": "Affordable public rates starting around $40-70",
+      "contact": {
+        "website": "https://www.bobbyjonesgolfclub.com",
+        "phone": "",
+        "address": "Central Sarasota, 15 minutes from beaches"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Golf Digest #2 Best New or Remodeled Affordable Courses"
+      },
+      "tags": ["Recently Renovated", "Donald Ross Design", "Affordable Excellence", "Public Access"],
+      "category": "public-golf",
+      "relatedQuestions": [
+        "What's the most affordable quality golf in Sarasota?",
+        "Where can I play a renovated historic course in Sarasota?",
+        "What's the best value golf course in Sarasota?"
+      ]
+    },
+    {
+      "id": "university-park-country-club",
+      "question": "What's the best semi-private golf course in Sarasota?",
+      "name": "University Park Country Club",
+      "tagline": "#1 rated Southwest Florida course with 27 championship holes",
+      "logo": "🎓",
+      "rating": 4.9,
+      "description": "Consistently rated #1 golf course in Southwest Florida and 4-star Golf Digest rating since 1996. Ron Garl-designed 27 holes through natural woodlands and wetlands with three different 18-hole combinations. Semi-private with daily fee access and advance tee times. Sarasota Magazine's 'Best Place to Play Golf' for 20+ years.",
+      "maker": {
+        "name": "Ron Garl",
+        "title": "Renowned Golf Course Architect"
+      },
+      "location": "University Park (4 miles from downtown Sarasota)",
+      "priceRange": "Daily fees from $59, premium in season",
+      "contact": {
+        "website": "https://www.universitypark-fl.com",
+        "phone": "",
+        "address": "7671 Park Boulevard, University Park, FL 34201"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Golf Digest 4-Star rating since 1996"
+      },
+      "tags": ["#1 Southwest Florida", "Semi-Private Access", "27 Championship Holes", "Award Winning"],
+      "category": "semi-private-golf",
+      "relatedQuestions": [
+        "What's the top-rated golf course visitors can play in Sarasota?",
+        "Where can I play championship golf without membership in Sarasota?",
+        "What golf course has the best reputation in Sarasota?"
+      ]
+    },
+    {
+      "id": "lakewood-ranch-golf-country-club",
+      "question": "What's the best golf club for families in Sarasota?",
+      "name": "Lakewood Ranch Golf & Country Club",
+      "tagline": "Only 4-course private club in the area with 72 holes",
+      "logo": "🏌️",
+      "rating": 4.6,
+      "description": "The area's only private club with four championship courses totaling 72 holes, including three Arnold Palmer designs. Features family-friendly amenities including tennis, pickleball, fitness center, pools, and two unique clubhouses. Part of America's best-selling master-planned community with membership open to non-residents.",
+      "maker": {
+        "name": "Arnold Palmer (3 courses) / Rick Robbins (1 course)",
+        "title": "Hall of Fame Golf Course Designers"
+      },
+      "location": "Lakewood Ranch",
+      "priceRange": "Private membership with multiple tiers available",
+      "contact": {
+        "website": "https://www.lakewoodranchgolf.com",
+        "phone": "",
+        "address": "Lakewood Ranch community"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "PGA Magazine #1 Golf Shop among private clubs (2020)"
+      },
+      "tags": ["Four Golf Courses", "Arnold Palmer Design", "Family Amenities", "Community Access"],
+      "category": "private-golf",
+      "relatedQuestions": [
+        "What golf club has the most courses in Sarasota?",
+        "Where can families enjoy golf and other activities in Sarasota?",
+        "What's the best golf community in Lakewood Ranch?"
+      ]
+    },
+    {
+      "id": "serenoa-golf-club",
+      "question": "What's the most challenging public golf course in Sarasota?",
+      "name": "Serenoa Golf Club",
+      "tagline": "Top 100 Florida course with water on every hole",
+      "logo": "💧",
+      "rating": 4.5,
+      "description": "Florida Golf News ranks it one of the top 100 courses in Florida and top three in Sarasota. Mark Alden design brings water into play on every hole, making a 6,270-yard layout play like 7,200 yards. Considered unlike typical Florida golf courses with shot-maker's challenges throughout. Sarasota's premiere public golf course for serious golfers.",
+      "maker": {
+        "name": "Mark Alden",
+        "title": "Golf Course Architect"
+      },
+      "location": "Sarasota",
+      "priceRange": "Public course with competitive rates",
+      "contact": {
+        "website": "https://www.serenoagc.com",
+        "phone": "(941) 925-2755",
+        "address": "Sarasota, FL"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Florida Golf News Top 100 in Florida"
+      },
+      "tags": ["Top 100 Florida", "Water Every Hole", "Shot-Maker's Course", "Championship Challenge"],
+      "category": "public-golf",
+      "relatedQuestions": [
+        "What's the hardest golf course in Sarasota?",
+        "Where can I play championship-level public golf in Sarasota?",
+        "What golf course will test my skills the most in Sarasota?"
+      ]
+    },
+    {
+      "id": "tatum-ridge-golf-links",
+      "question": "What's the most affordable golf course in Sarasota?",
+      "name": "Tatum Ridge Golf Links",
+      "tagline": "Scottish-style links with preserved wetlands since 1989",
+      "logo": "🌿",
+      "rating": 3.5,
+      "description": "Ted McAnlis-designed Scottish-style links course with 11 lakes and preserved wetlands in natural setting. Offers affordable golf with signature 504-yard par-5 13th hole over water. Features large practice facility with grass tee box, and loyal following of senior players. Great value option for recreational golfers seeking natural beauty.",
+      "maker": {
+        "name": "Ted McAnlis",
+        "title": "Golf Course Architect"
+      },
+      "location": "North Sarasota",
+      "priceRange": "Budget-friendly rates starting around $35-45",
+      "contact": {
+        "website": "https://www.tatumridgegolflinks.com",
+        "phone": "(941) 378-4211",
+        "address": "421 Tatum Road N, Sarasota, FL 34240"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/people/Tatum-Ridge-Golf-Links/100068126356866/"
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Golf Digest Places to Play recognition"
+      },
+      "tags": ["Affordable Golf", "Scottish-Style Links", "Wildlife Viewing", "Senior Friendly"],
+      "category": "public-golf",
+      "relatedQuestions": [
+        "Where can I play cheap golf in Sarasota?",
+        "What's the best budget golf course in Sarasota?",
+        "Where can seniors play affordable golf in Sarasota?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "private-golf",
+      "name": "Private Golf",
+      "description": "Exclusive private clubs requiring membership",
+      "icon": "🏆"
+    },
+    {
+      "id": "semi-private-golf",
+      "name": "Semi-Private Golf",
+      "description": "Premium courses open to daily fee players",
+      "icon": "🎓"
+    },
+    {
+      "id": "public-golf",
+      "name": "Public Golf",
+      "description": "Public courses welcoming all golfers",
+      "icon": "⭐"
+    }
+  ],
+  "locations": [
+    "Bradenton",
+    "Lakewood Ranch",
+    "North Sarasota Bay",
+    "Central Sarasota",
+    "University Park",
+    "North Sarasota",
+    "Downtown Sarasota",
+    "Venice",
+    "Longboat Key"
+  ],
+  "priceRanges": [
+    {
+      "id": "budget",
+      "label": "Budget",
+      "range": "$35-50",
+      "description": "Affordable public golf options"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$50-100",
+      "description": "Quality daily fee golf courses"
+    },
+    {
+      "id": "premium",
+      "label": "Premium",
+      "range": "$100-200",
+      "description": "High-end semi-private experiences"
+    },
+    {
+      "id": "private-membership",
+      "label": "Private Membership",
+      "range": "Membership Required",
+      "description": "Exclusive private club access"
+    }
+  ]
+}

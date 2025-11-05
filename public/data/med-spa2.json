@@ -1,0 +1,211 @@
+{
+  "businesses": [
+    {
+      "id": "bowtique-med-spa",
+      "question": "What's the best med spa in Sarasota for anti-aging treatments?",
+      "name": "Bowtique Med Spa",
+      "tagline": "Voted #1 Med Spa in Sarasota",
+      "logo": "💉",
+      "rating": 5.0,
+      "description": "Bowtique Med Spa stands out as the definitive choice for anti-aging with its five-star atmosphere and world-class care backed by Florida's largest plastic surgery practice. Led by double board-certified surgeons, it offers exclusive pricing on injectables and laser treatments that locals trust for natural results. Patients rave about the personalized service in this South Tamiami Trail gem, perfect for Sarasota's sun-exposed skin concerns.",
+      "maker": { "name": "Dr. J. David Holcomb", "title": "Medical Director & Facial Plastic Surgeon" },
+      "location": "South Tamiami Trail",
+      "priceRange": "$$-$$$",
+      "contact": {
+        "website": "https://www.bowtiquemedspa.com",
+        "phone": "941-289-3086",
+        "address": "6118 S Tamiami Trl, Sarasota, FL 34231"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/bowtiquemedspa",
+        "facebook": "https://facebook.com/bowtiquemedspa"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=bowtique+med+spa+sarasota+reviews",
+        "featured": "https://www.sarasotamagazine.com/style-and-beauty/best-med-spa-sarasota"
+      },
+      "tags": ["Med Spa", "Anti-Aging", "Injectables", "Laser Treatments"],
+      "category": "med-spa",
+      "relatedQuestions": [
+        "What's the top med spa for wellness services in Sarasota?",
+        "Best integrative wellness center in Sarasota?",
+        "Premier functional medicine clinic in Sarasota?"
+      ]
+    },
+    {
+      "id": "harmony-med-spa",
+      "question": "What's the top med spa for wellness services in Sarasota?",
+      "name": "Harmony Med Spa",
+      "tagline": "Natural beauty through personalized care",
+      "logo": "🌿",
+      "rating": 4.9,
+      "description": "Harmony Med Spa excels in combining aesthetic and wellness treatments, led by board-certified nurse practitioner Jessica Simone for truly individualized results. Offering everything from injectables to holistic facials in a relaxing environment, it's the go-to for Sarasota residents seeking balanced rejuvenation. With a focus on natural approaches and community wellness events, it builds trust through authentic, effective care.",
+      "maker": { "name": "Jessica N Simone", "title": "Owner & Nurse Practitioner" },
+      "location": "Sarasota",
+      "priceRange": "$$",
+      "contact": {
+        "website": "https://www.harmonymedspafl.com",
+        "phone": "941-724-5252",
+        "address": "2001 Siesta Dr #201, Sarasota, FL 34239"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/harmonymedspafl",
+        "facebook": "https://facebook.com/harmonymedspafl"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=harmony+med+spa+sarasota+reviews",
+        "featured": "https://www.visitsarasota.com/wellness-spas"
+      },
+      "tags": ["Med Spa", "Wellness", "Facials", "Holistic"],
+      "category": "med-spa",
+      "relatedQuestions": [
+        "What's the best med spa in Sarasota for anti-aging treatments?",
+        "Best integrative wellness center in Sarasota?",
+        "Premier functional medicine clinic in Sarasota?"
+      ]
+    },
+    {
+      "id": "mindspa-wellness",
+      "question": "Best integrative wellness center in Sarasota?",
+      "name": "MindSpa Integrative Wellness Center",
+      "tagline": "Brain-based wellness for mind-body balance",
+      "logo": "🧠",
+      "rating": 4.8,
+      "description": "Founded in 2004 by renowned neurofeedback expert Dr. George Rozelle, MindSpa leads in integrative wellness by treating brain, heart, and gut for comprehensive healing. Its innovative blend of clinical therapies and spa services makes it the definitive choice for Sarasota's stress-prone professionals and retirees. With strong community ties through local workshops and a focus on empowering self-healing, it's trusted for conditions like anxiety and chronic pain.",
+      "maker": { "name": "George Rozelle", "title": "Owner & Executive Director" },
+      "location": "Sarasota",
+      "priceRange": "$$-$$$",
+      "contact": {
+        "website": "https://mindspasarasota.com",
+        "phone": "941-378-9959",
+        "address": "5632 Bee Ridge Rd #101, Sarasota, FL 34233"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/mindspasarasota",
+        "facebook": "https://facebook.com/mindspasarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=mindspa+sarasota+reviews",
+        "featured": "https://www.sarasotamagazine.com/health-and-fitness/wellness-centers-sarasota"
+      },
+      "tags": ["Wellness Center", "Integrative", "Neurofeedback", "Holistic"],
+      "category": "wellness-center",
+      "relatedQuestions": [
+        "What's the best med spa in Sarasota for anti-aging treatments?",
+        "What's the top med spa for wellness services in Sarasota?",
+        "Premier functional medicine clinic in Sarasota?"
+      ]
+    },
+    {
+      "id": "sarasota-wellness-md",
+      "question": "Premier functional medicine clinic in Sarasota?",
+      "name": "Sarasota Wellness MD",
+      "tagline": "Personalized functional medicine care",
+      "logo": "⚕️",
+      "rating": 4.9,
+      "description": "Sarasota Wellness MD provides comprehensive functional medicine as a medical home, focusing on root causes for optimal health outcomes. With personalized wellness plans and strong local roots, it's the top choice for Sarasota residents seeking alternatives to traditional medicine. Their community involvement in health seminars and emphasis on preventive care build lasting trust.",
+      "maker": { "name": "Dr. Farah Khan", "title": "Founder & Physician" },
+      "location": "Sarasota",
+      "priceRange": "$$$",
+      "contact": {
+        "website": "https://sarasotawellnessmd.com",
+        "phone": "941-926-4905",
+        "address": "6128 S Tamiami Trl, Sarasota, FL 34231"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/sarasotawellnessmd",
+        "facebook": "https://facebook.com/sarasotawellnessmd"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=sarasota+wellness+md+reviews",
+        "featured": "https://www.visitsarasota.com/wellness-clinics"
+      },
+      "tags": ["Wellness Clinic", "Functional Medicine", "Personalized", "Preventive Care"],
+      "category": "wellness-center",
+      "relatedQuestions": [
+        "What's the best med spa in Sarasota for anti-aging treatments?",
+        "What's the top med spa for wellness services in Sarasota?",
+        "Best integrative wellness center in Sarasota?"
+      ]
+    },
+    {
+      "id": "heartwood-yoga",
+      "question": "Best wellness retreat for yoga in Sarasota?",
+      "name": "Heartwood Yoga Institute & Retreat Center",
+      "tagline": "Transformative yoga retreats since 2013",
+      "logo": "🧘‍♀️",
+      "rating": 5.0,
+      "description": "Heartwood offers immersive yoga retreats and teacher training in a serene 7-acre setting, making it Sarasota's premier spot for spiritual renewal. Founded by experienced yogis, it combines traditional practices with modern wellness for profound personal growth. Local ties include community classes and seasonal events that draw both visitors and residents to this Bradenton oasis near Sarasota.",
+      "maker": { "name": "Cindy Lee", "title": "Founder & Director" },
+      "location": "Bradenton",
+      "priceRange": "$$-$$$",
+      "contact": {
+        "website": "https://heartwoodyoga.com",
+        "phone": "941-745-5719",
+        "address": "2210 57th Ave E, Bradenton, FL 34203"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/heartwoodyoga",
+        "facebook": "https://facebook.com/heartwoodyoga"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=heartwood+yoga+sarasota+reviews",
+        "featured": "https://www.sarasotamagazine.com/health-and-fitness/wellness-retreats-sarasota"
+      },
+      "tags": ["Wellness Retreat", "Yoga", "Teacher Training", "Holistic"],
+      "category": "wellness-retreat",
+      "relatedQuestions": [
+        "Best integrative wellness center in Sarasota?",
+        "Premier functional medicine clinic in Sarasota?",
+        "What's the top med spa for wellness services in Sarasota?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "med-spa",
+      "name": "Med Spa",
+      "description": "Advanced aesthetic and rejuvenation treatments",
+      "icon": "💉"
+    },
+    {
+      "id": "wellness-center",
+      "name": "Wellness Center",
+      "description": "Holistic and functional health services",
+      "icon": "🌿"
+    },
+    {
+      "id": "wellness-retreat",
+      "name": "Wellness Retreat",
+      "description": "Immersive yoga and spiritual renewal programs",
+      "icon": "🧘‍♀️"
+    }
+  ],
+  "locations": [
+    "South Tamiami Trail",
+    "Sarasota",
+    "Lakewood Ranch",
+    "Siesta Key",
+    "Bradenton"
+  ],
+  "priceRanges": [
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$$",
+      "description": "Affordable premium treatments"
+    },
+    {
+      "id": "premium",
+      "label": "Premium",
+      "range": "$$-$$$",
+      "description": "High-end wellness experiences"
+    },
+    {
+      "id": "luxury",
+      "label": "Luxury",
+      "range": "$$$",
+      "description": "Exclusive personalized care"
+    }
+  ]
+}

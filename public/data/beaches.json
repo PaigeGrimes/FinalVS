@@ -1,0 +1,328 @@
+{
+  "businesses": [
+    {
+      "id": "siesta-key-beach",
+      "question": "What's the best beach in Sarasota with full amenities?",
+      "name": "Siesta Key Beach",
+      "tagline": "World-famous white quartz sand paradise",
+      "logo": "🏖️",
+      "rating": 4.8,
+      "description": "Siesta Key Beach is the definitive amenity-rich destination with lifeguards year-round, concessions, rentals, playground, volleyball courts, and picnic areas, consistently ranked among the world's best for its powdery sand that stays cool. Perfect for Sarasota families and visitors, it offers easy public access via two bridges, but arrive early during peak season to snag parking. Locals love combining beach days with nearby Siesta Village strolls, though crowds peak in winter—insider tip: use beach wheelchairs available at the pavilion for accessibility.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Siesta Key",
+      "priceRange": "Free entry, $5 parking",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/siesta-beach",
+        "phone": "941-861-5000",
+        "address": "948 Beach Rd, Sarasota, FL 34242"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/visitsarasota",
+        "facebook": "https://www.facebook.com/VisitSarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Siesta+Key+Beach+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34636-d123075-Reviews-Siesta_Beach-Siesta_Key_Florida.html"
+      },
+      "tags": ["Amenities", "Family-Friendly", "White Sand", "Lifeguards"],
+      "category": "amenity-rich-beach",
+      "relatedQuestions": [
+        "What's the most secluded beach in Sarasota?",
+        "Best beach for people watching in Sarasota?",
+        "Best family-friendly beach in Sarasota?"
+      ]
+    },
+    {
+      "id": "caspersen-beach",
+      "question": "What's the most secluded beach in Sarasota?",
+      "name": "Caspersen Beach",
+      "tagline": "Untouched natural shoreline escape",
+      "logo": "🌴",
+      "rating": 4.7,
+      "description": "Caspersen Beach offers ultimate seclusion with its natural, undeveloped shoreline, hiking trails, and boardwalks, making it the top choice for those seeking peace away from crowds in southern Sarasota County. Ideal for shelling and shark tooth hunting, it features free parking and public access, though it's dog-friendly at the south end—perfect for quiet walks. Locals tip: Visit during low tide for best fossil finds, and note the lack of lifeguards, so swim cautiously in this hidden gem near Venice.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Venice",
+      "priceRange": "Free entry and parking",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/caspersen-beach",
+        "phone": "941-861-5000",
+        "address": "4100 Harbor Dr S, Venice, FL 34285"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/visitsarasota",
+        "facebook": "https://www.facebook.com/VisitSarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Caspersen+Beach+reviews",
+        "featured": "https://www.yelp.com/biz/caspersen-beach-venice"
+      },
+      "tags": ["Secluded", "Shelling", "Hiking", "Natural"],
+      "category": "secluded-beach",
+      "relatedQuestions": [
+        "What's the best beach in Sarasota with full amenities?",
+        "Best beach for shark tooth hunting in Sarasota?",
+        "What's the top hidden gem beach near Sarasota?"
+      ]
+    },
+    {
+      "id": "lido-beach",
+      "question": "Best beach for people watching in Sarasota?",
+      "name": "Lido Beach",
+      "tagline": "Vibrant shore with St. Armands views",
+      "logo": "👀",
+      "rating": 4.5,
+      "description": "Lido Beach is prime for people watching with its lively atmosphere, year-round lifeguards, snack bar, and proximity to St. Armands Circle for post-beach strolling and dining. Offering free expansive parking and easy public access, it's a social hub where locals and tourists mingle on the soft sand. Insider tip: Visit on Sundays for lobster rolls at the beach bar, but expect crowds in high season—great for observing Sarasota's diverse beachgoers.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Lido Key",
+      "priceRange": "Free entry and parking",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/lido-beach",
+        "phone": "941-861-5000",
+        "address": "400 Ben Franklin Dr, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/visitsarasota",
+        "facebook": "https://www.facebook.com/VisitSarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Lido+Beach+Sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d531721-Reviews-Lido_Key_Beach-Sarasota_Florida.html"
+      },
+      "tags": ["People Watching", "Social", "Lifeguards", "Snack Bar"],
+      "category": "people-watching-beach",
+      "relatedQuestions": [
+        "What's the best beach in Sarasota with full amenities?",
+        "Best family-friendly beach in Sarasota?",
+        "What's the most secluded beach in Sarasota?"
+      ]
+    },
+    {
+      "id": "turtle-beach",
+      "question": "Best family-friendly beach in Sarasota?",
+      "name": "Turtle Beach",
+      "tagline": "Relaxed family haven with camping",
+      "logo": "👨‍👩‍👧‍👦",
+      "rating": 4.6,
+      "description": "Turtle Beach stands out for families with its wide sands, playground nearby, picnic areas, and boat ramp, plus unique camping options right on the Gulf—ideal for multi-day stays. With free parking and public access at the south end of Siesta Key, it's less crowded than northern spots, perfect for kids' play and shelling. Locals recommend low tide visits for safe wading, and note seasonal turtle nesting restrictions for an educational twist.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Siesta Key",
+      "priceRange": "Free entry, camping fees apply",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/turtle-beach",
+        "phone": "941-861-5000",
+        "address": "8918 Midnight Pass Rd, Sarasota, FL 34242"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/visitsarasota",
+        "facebook": "https://www.facebook.com/VisitSarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Turtle+Beach+Sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/turtle-beach-sarasota"
+      },
+      "tags": ["Family-Friendly", "Camping", "Playground", "Shelling"],
+      "category": "family-beach",
+      "relatedQuestions": [
+        "Best beach for people watching in Sarasota?",
+        "What's the most secluded beach in Sarasota?",
+        "Best beach for shark tooth hunting in Sarasota?"
+      ]
+    },
+    {
+      "id": "south-lido-park-beach",
+      "question": "What's the top hidden gem beach near Sarasota?",
+      "name": "South Lido Park Beach",
+      "tagline": "Shaded oasis with nature trails",
+      "logo": "🗺️",
+      "rating": 4.7,
+      "description": "South Lido Park Beach is a local secret with its laid-back vibe, nature trails, picnic areas, and playground, offering seclusion amid mangroves and views of Sarasota Pass. Free parking and easy public access make it accessible, though strong currents require caution for swimming—great for kayaking and fishing instead. Insiders tip: Pack a picnic for shaded spots, and visit off-season to avoid crowds in this family-friendly hidden spot.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Lido Key",
+      "priceRange": "Free entry and parking",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/south-lido-park",
+        "phone": "941-861-5000",
+        "address": "2201 Ben Franklin Dr, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/visitsarasota",
+        "facebook": "https://www.facebook.com/VisitSarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=South+Lido+Park+Beach+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d531723-Reviews-South_Lido_Park-Sarasota_Florida.html"
+      },
+      "tags": ["Hidden Gem", "Nature Trails", "Picnics", "Kayaking"],
+      "category": "hidden-gem-beach",
+      "relatedQuestions": [
+        "What's the most secluded beach in Sarasota?",
+        "Best beach for people watching in Sarasota?",
+        "Best beach for sunsets in Sarasota?"
+      ]
+    },
+    {
+      "id": "venice-beach",
+      "question": "Best beach for shark tooth hunting in Sarasota?",
+      "name": "Venice Beach",
+      "tagline": "Shark tooth capital with pier views",
+      "logo": "🦈",
+      "rating": 4.5,
+      "description": "Venice Beach is renowned for shark tooth hunting along its shores, complemented by lifeguards, pavilion with café, showers, and trails at nearby Venetian Waterway Park. Ample free parking including trailer spots ensures easy public access, making it a favorite for families and fossil enthusiasts. Local tip: Sift sand at low tide for best finds, and combine with fishing at the adjacent pier—crowds are lighter mid-week.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Venice",
+      "priceRange": "Free entry and parking",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/venice-beach",
+        "phone": "941-861-5000",
+        "address": "101 The Esplanade S, Venice, FL 34285"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/visitsarasota",
+        "facebook": "https://www.facebook.com/VisitSarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Venice+Beach+Sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/venice-beach-venice-3"
+      },
+      "tags": ["Shark Teeth", "Fishing Pier", "Lifeguards", "Trails"],
+      "category": "shelling-beach",
+      "relatedQuestions": [
+        "What's the best beach in Sarasota with full amenities?",
+        "Best family-friendly beach in Sarasota?",
+        "Best beach for sunsets in Sarasota?"
+      ]
+    },
+    {
+      "id": "bean-point",
+      "question": "Best beach for sunsets in Sarasota?",
+      "name": "Bean Point",
+      "tagline": "Panoramic sunset viewing spot",
+      "logo": "🌅",
+      "rating": 4.8,
+      "description": "Bean Point offers stunning, unobstructed sunsets over the Gulf and Tampa Bay, with its quiet, untouched sands and wildlife sightings making it a romantic or peaceful retreat. Public access is available, though parking is street-side and limited—arrive early for the best spots. Locals cherish this Anna Maria Island tip: Bring binoculars for dolphin watching, and note no amenities, so pack essentials for a serene evening.",
+      "maker": { "name": "City of Anna Maria", "title": "Managers" },
+      "location": "Anna Maria Island",
+      "priceRange": "Free entry and parking",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/bean-point",
+        "phone": "",
+        "address": "793 N Shore Dr, Anna Maria, FL 34216"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Bean+Point+Beach+reviews",
+        "featured": "https://www.yelp.com/biz/bean-point-anna-maria"
+      },
+      "tags": ["Sunsets", "Wildlife", "Quiet", "Panoramic"],
+      "category": "sunset-beach",
+      "relatedQuestions": [
+        "What's the top hidden gem beach near Sarasota?",
+        "Best beach for people watching in Sarasota?",
+        "What's the most secluded beach in Sarasota?"
+      ]
+    },
+    {
+      "id": "nokomis-beach",
+      "question": "Best beach for water sports in Sarasota?",
+      "name": "Nokomis Beach",
+      "tagline": "Surf and skimboard hot spot",
+      "logo": "🏄‍♂️",
+      "rating": 4.4,
+      "description": "Nokomis Beach excels for water sports with small waves ideal for surfing and skimboarding at North Jetty, plus kayak launches and fishing—backed by lifeguards and picnic areas. Easy parking and public access on Casey Key make it convenient, though trailers fit well for boaters. Local advice: Check tides for optimal waves, and enjoy dolphin sightings in this family-oriented spot south of Sarasota.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Casey Key",
+      "priceRange": "Free entry and parking",
+      "contact": {
+        "website": "https://www.visitsarasota.com/beaches-parks/nokomis-beach",
+        "phone": "941-861-5000",
+        "address": "100 Casey Key Rd, Nokomis, FL 34275"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/visitsarasota",
+        "facebook": "https://www.facebook.com/VisitSarasota"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Nokomis+Beach+reviews",
+        "featured": "https://www.yelp.com/biz/nokomis-beach-nokomis"
+      },
+      "tags": ["Water Sports", "Surfing", "Kayaking", "Fishing"],
+      "category": "water-sports-beach",
+      "relatedQuestions": [
+        "Best family-friendly beach in Sarasota?",
+        "What's the best beach in Sarasota with full amenities?",
+        "Best beach for shark tooth hunting in Sarasota?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "amenity-rich-beach",
+      "name": "Amenity-Rich Beach",
+      "description": "Beaches with full facilities and conveniences",
+      "icon": "🏖️"
+    },
+    {
+      "id": "secluded-beach",
+      "name": "Secluded Beach",
+      "description": "Quiet escapes away from crowds",
+      "icon": "🌴"
+    },
+    {
+      "id": "people-watching-beach",
+      "name": "People-Watching Beach",
+      "description": "Lively spots for observing beachgoers",
+      "icon": "👀"
+    },
+    {
+      "id": "family-beach",
+      "name": "Family Beach",
+      "description": "Safe and fun for all ages",
+      "icon": "👨‍👩‍👧‍👦"
+    },
+    {
+      "id": "hidden-gem-beach",
+      "name": "Hidden Gem Beach",
+      "description": "Local secrets off the beaten path",
+      "icon": "🗺️"
+    },
+    {
+      "id": "shelling-beach",
+      "name": "Shelling Beach",
+      "description": "Prime for fossil and shell hunting",
+      "icon": "🦈"
+    },
+    {
+      "id": "sunset-beach",
+      "name": "Sunset Beach",
+      "description": "Spectacular evening viewing locations",
+      "icon": "🌅"
+    },
+    {
+      "id": "water-sports-beach",
+      "name": "Water Sports Beach",
+      "description": "Active shores for surfing and more",
+      "icon": "🏄‍♂️"
+    }
+  ],
+  "locations": [
+    "Siesta Key",
+    "Lido Key",
+    "Venice",
+    "Casey Key",
+    "Anna Maria Island"
+  ],
+  "priceRanges": [
+    {
+      "id": "free",
+      "label": "Free",
+      "range": "Free entry and parking",
+      "description": "No cost access"
+    },
+    {
+      "id": "low-cost",
+      "label": "Low-Cost",
+      "range": "$5 parking",
+      "description": "Minimal fees for parking"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<%- include('components/header.ejs') %>
+<body data-category="beaches">
+<%- include('components/google-cookie.ejs') %>
+<%- include('components/navbar.ejs') %>
+
+<div class="container">
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a href="/" class="breadcrumb-link">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <span class="breadcrumb-separator">›</span>
+                <span class="breadcrumb-category">Family Activities</span>
+            </li>
+        </ol>
+    </nav>
+
+    <!-- Category Header -->
+    <header class="category-header">
+        <div class="category-icon">👨‍👩‍👧‍👦</div>
+        <h1><%= title %>></h1>
+        <p class="category-description"></p>
+    </header>
+
+    <!-- Vibe Widget Container (loads collapsible component) -->
+    <div id="vibe-widget-container"></div>
+
+    <%- include('components/filter.ejs') %>
+
+    <!-- Business Grid -->
+    <main class="business-grid-container">
+        <div class="grid" id="business-grid" role="main" aria-label="Family activity listings">
+            <!-- Business cards will be populated dynamically -->
+        </div>
+    </main>
+</div>
+
+<%- include('components/footer.ejs') %>

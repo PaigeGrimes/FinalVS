@@ -1,0 +1,263 @@
+{
+  "businesses": [
+    {
+      "id": "selva-grill",
+      "question": "Where's the best anniversary dinner in Sarasota?",
+      "name": "Selva Grill",
+      "tagline": "Peruvian fine dining with Gulf Coast flair",
+      "logo": "🔥",
+      "rating": 4.8,
+      "description": "Chef-driven Peruvian cuisine in an intimate downtown setting. Known for their wood-fired grill and creative cocktails. The perfect spot for special occasions with impeccable service and a romantic atmosphere that locals have trusted for over a decade.",
+      "maker": { "name": "Chef Mykel Burkart", "title": "Executive Chef & Owner" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$65-95/person",
+      "contact": {
+        "website": "https://selvagrill.com",
+        "phone": "941-362-4427",
+        "address": "1345 Main St, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/selvagrill",
+        "facebook": "https://facebook.com/selvagrill"
+      },
+      "reviews": {
+        "featured": "https://www.heraldtribune.com/story/entertainment/dining/2023/03/15/selva-grill-sarasota-restaurant-review/",
+        "opentable": "https://www.opentable.com/selva-grill"
+      },
+      "tags": ["Fine Dining", "Peruvian", "Downtown", "Romantic", "Chef-Driven"],
+      "category": "fine-dining",
+      "relatedQuestions": [
+        "What's the most romantic restaurant with a view in Sarasota?",
+        "Where can I find the best steakhouse in Sarasota?",
+        "What restaurant has the best cocktails for a date night?"
+      ]
+    },
+    {
+      "id": "dry-dock-waterfront",
+      "question": "What's the most romantic restaurant with a view in Sarasota?",
+      "name": "Dry Dock Waterfront Grill",
+      "tagline": "Upscale waterfront dining with sunset views",
+      "logo": "🌅",
+      "rating": 4.6,
+      "description": "Sophisticated waterfront dining overlooking Longboat Pass. Known for fresh seafood, prime steaks, and unparalleled sunset views. The outdoor deck provides the perfect romantic setting with boats passing by and dolphins often spotted during dinner.",
+      "maker": { "name": "Chef Michael Thompson", "title": "Executive Chef" },
+      "location": "Longboat Key",
+      "priceRange": "$75-120/person",
+      "contact": {
+        "website": "https://drydockwaterfront.com",
+        "phone": "941-383-0102",
+        "address": "412 Gulf of Mexico Dr, Longboat Key, FL 34228"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/drydockwaterfront",
+        "facebook": "https://facebook.com/drydockwaterfront"
+      },
+      "reviews": {
+        "featured": "https://www.sarasotamagazine.com/restaurants/2023/06/dry-dock-waterfront-grill-review",
+        "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g34618-d1751234-Reviews-Dry_Dock_Waterfront_Grill.html"
+      },
+      "tags": ["Fine Dining", "Waterfront", "Seafood", "Sunset Views", "Romantic"],
+      "category": "waterfront-dining",
+      "relatedQuestions": [
+        "Where's the best anniversary dinner in Sarasota?",
+        "What's the best seafood restaurant for a special occasion?",
+        "Where can I take someone for dinner with a water view?"
+      ]
+    },
+    {
+      "id": "flemings-steakhouse",
+      "question": "Where can I find the best steakhouse in Sarasota?",
+      "name": "Fleming's Prime Steakhouse",
+      "tagline": "Premium steaks and wine in sophisticated setting",
+      "logo": "🥩",
+      "rating": 4.7,
+      "description": "Upscale steakhouse featuring USDA Prime beef, fresh seafood, and an award-winning wine list. Located in the heart of Sarasota with impeccable service and a refined atmosphere perfect for business dinners or special celebrations.",
+      "maker": { "name": "Fleming's Culinary Team", "title": "Corporate Executive Chefs" },
+      "location": "Sarasota",
+      "priceRange": "$80-150/person",
+      "contact": {
+        "website": "https://flemingssteakhouse.com/locations/fl/sarasota",
+        "phone": "941-358-9463",
+        "address": "2001 Siesta Dr, Sarasota, FL 34239"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/flemingssteakhouse",
+        "facebook": "https://facebook.com/flemingssteakhouse"
+      },
+      "reviews": {
+        "featured": "https://www.zagat.com/r/flemings-prime-steakhouse-wine-bar-sarasota",
+        "opentable": "https://www.opentable.com/flemings-prime-steakhouse-sarasota"
+      },
+      "tags": ["Steakhouse", "Prime Beef", "Wine Bar", "Business Dining", "Upscale"],
+      "category": "steakhouse",
+      "relatedQuestions": [
+        "Where's the best anniversary dinner in Sarasota?",
+        "What restaurant has the best wine selection in Sarasota?",
+        "Where can I take clients for an impressive business dinner?"
+      ]
+    },
+    {
+      "id": "ophelia-on-the-bay",
+      "question": "What's the best seafood restaurant for a special occasion?",
+      "name": "Ophelia's on the Bay",
+      "tagline": "Elegant bayfront dining with creative American cuisine",
+      "logo": "🦞",
+      "rating": 4.5,
+      "description": "Sophisticated bayfront restaurant offering creative American cuisine with a focus on fresh seafood. The elegant dining room and waterfront patio provide stunning views of Little Sarasota Bay, making it perfect for proposals, anniversaries, and milestone celebrations.",
+      "maker": { "name": "Chef David Shiplett", "title": "Executive Chef" },
+      "location": "Siesta Key",
+      "priceRange": "$70-110/person",
+      "contact": {
+        "website": "https://opheliasonthebay.net",
+        "phone": "941-349-2212",
+        "address": "9105 Midnight Pass Rd, Siesta Key, FL 34242"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/opheliasonthebay",
+        "facebook": "https://facebook.com/opheliasonthebay"
+      },
+      "reviews": {
+        "featured": "https://www.sarasotamagazine.com/restaurants/2022/11/ophelias-on-the-bay-review",
+        "opentable": "https://www.opentable.com/ophelias-on-the-bay"
+      },
+      "tags": ["Seafood", "Bayfront", "Special Occasion", "Siesta Key", "Elegant"],
+      "category": "seafood-fine",
+      "relatedQuestions": [
+        "What's the most romantic restaurant with a view in Sarasota?",
+        "Where can I propose at dinner in Sarasota?",
+        "What restaurant has the best ambiance for a celebration?"
+      ]
+    },
+    {
+      "id": "indigenous",
+      "question": "Where can I find the most creative fine dining in Sarasota?",
+      "name": "Indigenous",
+      "tagline": "Farm-to-table fine dining with local ingredients",
+      "logo": "🌿",
+      "rating": 4.9,
+      "description": "Award-winning farm-to-table restaurant featuring locally sourced ingredients and innovative American cuisine. Chef Steve Phelps creates seasonal menus that showcase the best of Florida's bounty in an intimate, sophisticated setting that food critics consistently rank among the state's best.",
+      "maker": { "name": "Chef Steve Phelps", "title": "Chef & Owner" },
+      "location": "Sarasota",
+      "priceRange": "$85-130/person",
+      "contact": {
+        "website": "https://indigenoussarasota.com",
+        "phone": "941-706-4740",
+        "address": "239 Links Ave, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/indigenoussarasota",
+        "facebook": "https://facebook.com/indigenoussarasota"
+      },
+      "reviews": {
+        "featured": "https://www.foodandwine.com/restaurants/indigenous-sarasota-florida",
+        "opentable": "https://www.opentable.com/indigenous"
+      },
+      "tags": ["Farm-to-Table", "Creative", "Award-Winning", "Local Ingredients", "Chef-Owned"],
+      "category": "creative-fine",
+      "relatedQuestions": [
+        "Where's the best anniversary dinner in Sarasota?",
+        "What restaurant has the most innovative menu in Sarasota?",
+        "Where can food lovers find the best chef-driven experience?"
+      ]
+    },
+    {
+      "id": "sage",
+      "question": "What restaurant has the best cocktails for a date night?",
+      "name": "Sage",
+      "tagline": "Modern American cuisine with craft cocktails",
+      "logo": "🍸",
+      "rating": 4.6,
+      "description": "Sophisticated downtown restaurant known for modern American cuisine and expertly crafted cocktails. The intimate bar area and elegant dining room create the perfect atmosphere for date nights, with a menu that balances creativity with approachable flavors.",
+      "maker": { "name": "Chef Christopher Covelli", "title": "Executive Chef" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$60-90/person",
+      "contact": {
+        "website": "https://sagesrq.com",
+        "phone": "941-445-5660",
+        "address": "1216 1st St, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/sagesrq",
+        "facebook": "https://facebook.com/sagesrq"
+      },
+      "reviews": {
+        "featured": "https://www.heraldtribune.com/story/entertainment/dining/2023/01/20/sage-sarasota-restaurant-review/",
+        "opentable": "https://www.opentable.com/sage-sarasota"
+      },
+      "tags": ["Modern American", "Craft Cocktails", "Date Night", "Downtown", "Intimate"],
+      "category": "cocktail-dining",
+      "relatedQuestions": [
+        "Where's the best anniversary dinner in Sarasota?",
+        "What's the best bar with great food in downtown Sarasota?",
+        "Where can I find creative cocktails and dinner in one place?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "fine-dining",
+      "name": "Fine Dining",
+      "description": "Upscale restaurants for special occasions",
+      "icon": "🍽️"
+    },
+    {
+      "id": "waterfront-dining",
+      "name": "Waterfront Dining",
+      "description": "Restaurants with water views",
+      "icon": "🌅"
+    },
+    {
+      "id": "steakhouse",
+      "name": "Steakhouse",
+      "description": "Premium steaks and chops",
+      "icon": "🥩"
+    },
+    {
+      "id": "seafood-fine",
+      "name": "Fine Seafood",
+      "description": "Upscale seafood restaurants",
+      "icon": "🦞"
+    },
+    {
+      "id": "creative-fine",
+      "name": "Creative Cuisine",
+      "description": "Innovative chef-driven restaurants",
+      "icon": "🌿"
+    },
+    {
+      "id": "cocktail-dining",
+      "name": "Cocktail & Dining",
+      "description": "Great food with craft cocktails",
+      "icon": "🍸"
+    }
+  ],
+  "locations": [
+    "Downtown Sarasota",
+    "Siesta Key",
+    "Longboat Key",
+    "St. Armands Circle",
+    "Lakewood Ranch",
+    "Sarasota",
+    "Bradenton"
+  ],
+  "priceRanges": [
+    {
+      "id": "upscale",
+      "label": "Upscale",
+      "range": "$60-90/person",
+      "description": "Fine dining experiences"
+    },
+    {
+      "id": "luxury",
+      "label": "Luxury",
+      "range": "$90-130/person",
+      "description": "Premium dining experiences"
+    },
+    {
+      "id": "ultra-luxury",
+      "label": "Ultra-Luxury",
+      "range": "$130+/person",
+      "description": "Ultra-premium special occasion dining"
+    }
+  ]
+}

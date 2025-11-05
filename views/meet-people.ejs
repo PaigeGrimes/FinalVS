@@ -1,0 +1,88 @@
+<%- include('components/header.ejs') %>
+<body data-category="meet-people">
+<%- include('components/google-cookie.ejs') %>
+<%- include('components/navbar.ejs') %>
+
+<div class="container">
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+            <li class="breadcrumb-item">
+                <a href="/" class="breadcrumb-link">Home</a>
+            </li>
+            <li class="breadcrumb-item">
+                <span class="breadcrumb-separator">›</span>
+                <span class="breadcrumb-category">Meet People</span>
+            </li>
+        </ol>
+    </nav>
+
+    <!-- Category Header -->
+    <header class="category-header">
+        <div class="category-icon">🤝</div>
+        <h1>Meet People</h1>
+        <p class="category-description">Discover the best places to meet people in Sarasota. From solo-friendly venues and sports leagues to networking events, art classes, and community activities for making new connections.</p>
+    </header>
+
+
+
+    <!-- Vibe Widget Container (loads collapsible component) -->
+    <div id="vibe-widget-container"></div>
+
+    <%- include('components/filter.ejs') %>
+
+    <!-- Business Grid -->
+    <main class="business-grid-container">
+        <div class="grid" id="business-grid" role="main" aria-label="Social venue listings">
+            <!-- Venue cards will be populated dynamically -->
+        </div>
+    </main>
+</div>
+<!-- Related Categories -->
+<section class="related-categories">
+    <h2>Related Social Categories</h2>
+    <div class="related-categories-grid">
+        <a href="/party-vibes" class="related-category-card">
+            <div class="related-category-icon">🎉</div>
+            <h3>Party Vibe</h3>
+            <p>Lively restaurants & bars for groups</p>
+        </a>
+        <a href="/fine-dining" class="related-category-card">
+            <div class="related-category-icon">✨</div>
+            <h3>Fine Dining</h3>
+            <p>Upscale dining for special occasions</p>
+        </a>
+        <a href="/food-service" class="related-category-card">
+            <div class="related-category-icon">🍽️</div>
+            <h3>Food Services</h3>
+            <p>Casual dining & local favorites</p>
+        </a>
+        <a href="/st-armands" class="related-category-card">
+            <div class="related-category-icon">🏖️</div>
+            <h3>St. Armands Circle</h3>
+            <p>Upscale shopping & dining district</p>
+        </a>
+        <a href="/family" class="related-category-card">
+            <div class="related-category-icon">👨‍👩‍👧‍👦</div>
+            <h3>Family Activities</h3>
+            <p>Fun activities for the whole family</p>
+        </a>
+        <a href="/med-spas" class="related-category-card">
+            <div class="related-category-icon">💆‍♀️</div>
+            <h3>Med Spas</h3>
+            <p>Wellness & beauty treatments</p>
+        </a>
+        <a href="/golf" class="related-category-card">
+            <div class="related-category-icon">⛳</div>
+            <h3>Golf Courses</h3>
+            <p>Premier golf experiences</p>
+        </a>
+        <a href="/movie-theaters" class="related-category-card">
+            <div class="related-category-icon">🎬</div>
+            <h3>Movie Theaters</h3>
+            <p>Cinema & entertainment venues</p>
+        </a>
+    </div>
+</section>
+
+<%- include('components/footer.ejs') %>

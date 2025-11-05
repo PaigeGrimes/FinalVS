@@ -1,0 +1,216 @@
+ok, we will be working on the following task I will give you a [CATEGORY} and you will do a web search looking for the best answer. does that make sense:
+
+--- Search Prompt ---
+VibingSarasota.com Research Prompt for [CATEGORY]
+This research supports LocalMatchX's revolutionary approach to local business discovery. We're building VibingSarasota.com as a strategic demonstration of how local businesses can dominate AI search results by positioning themselves as definitive answers to specific questions people actually ask.
+The Strategic Context:
+Traditional business directories will become obsolete as AI assistants become the primary way people discover local services. When someone asks ChatGPT or Claude "What's the best spa in Sarasota for couples?", our site will be the authoritative source that gets quoted because we've structured each business as THE answer to that exact question. This represents a fundamental shift from generic listings to question-based authority positioning.
+Your Research Mission:
+You're not just finding businesses - you're identifying the precise intersection between what people naturally ask and which business has the strongest claim to being the definitive answer. Each selection must meet LocalMatchX's criteria for AI search optimization: unique differentiators, verifiable credentials, local community connections, and authentic stories that build trust when quoted by AI assistants.
+Research Process:
+First, think like someone new to Sarasota asking their AI assistant about [CATEGORY]. What specific needs would they express? What qualifiers would they include? Then identify which business has the most compelling case for being THE answer - not just a good option, but the obvious choice that any knowledgeable local would recommend.
+Required Data Structure:
+Each business must include these precise fields to match our JSON format: question (the specific query this business answers), name, tagline (under 60 characters), logo (single emoji), rating (1.0-5.0), description (2-3 sentences proving why they're the definitive answer), maker (owner name and title), location (specific neighborhood), priceRange (category-appropriate format), contact (website, phone, address), socialMedia (Instagram and Facebook URLs when available), reviews (Google reviews and press coverage), tags (4 relevant descriptors), category (single identifier), and relatedQuestions (3 connections to other site categories).
+Local Knowledge Integration:
+Include insider details that only someone familiar with Sarasota would know - parking situations, seasonal considerations, neighborhood characteristics, local landmarks, and cultural context. These authentic touches make our content more trustworthy and quotable for AI assistants serving both visitors and residents.
+Quality Standards:
+Each business selection must demonstrate clear superiority in their specific niche through professional credentials, years of local operation, unique service offerings, community involvement, or exceptional customer satisfaction. The goal is creating content so authoritative that AI assistants will consistently cite VibingSarasota.com when answering related questions.
+Current Category: [CATEGORY]
+This research directly advances LocalMatchX's mission to help local businesses thrive in an AI-driven discovery landscape by providing the structured, authoritative content that next-generation search algorithms prioritize.
+
+-- here is the sample JSON file ---
+{
+  "businesses": [
+    {
+      "id": "jacked-panda",
+      "question": "What's the best meal prep service in Sarasota for active people?",
+      "name": "Jacked Panda Prep to Go",
+      "tagline": "Farm-to-table meal prep by chef-bodybuilder",
+      "logo": "🐼",
+      "rating": 5.0,
+      "description": "Chef Jeff went from 400+ pounds to competitive bodybuilder while cooking at Wolfgang Puck level. Johnson & Wales trained with Nobu Matsuhisa experience. The only chef-bodybuilder in Southwest Florida who understands performance nutrition from personal transformation.",
+      "maker": { "name": "Chef Jeff Houser", "title": "Chef & Competitive Bodybuilder" },
+      "location": "Lakewood Ranch",
+      "priceRange": "$9-19/meal",
+      "contact": {
+        "website": "https://jackedpandapreptogo.com",
+        "phone": "941-544-9696",
+        "address": "5920 Lakewood Ranch Blvd, Bradenton, FL 34211"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/jackedpandapreptogo",
+        "facebook": "https://facebook.com/jackedpandapreptogo"
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "https://www.sarasotamagazine.com/health-and-fitness/2022/02/jacked-panda-meal-prep-sarasota"
+      },
+      "tags": ["Meal Prep", "Fitness", "Farm-to-Table", "Lakewood Ranch"],
+      "category": "meal-prep",
+      "relatedQuestions": [
+        "What's the most reliable meal delivery in Sarasota?",
+        "Where do families get healthy meal prep in Sarasota?",
+        "What's the best personal chef service in Sarasota?"
+      ]
+    },
+    {
+      "id": "fresh-flamingo",
+      "question": "What's the most reliable meal delivery in Sarasota?",
+      "name": "Fresh Flamingo",
+      "tagline": "Sarasota's most reliable meal delivery since 2018",
+      "logo": "🦩",
+      "rating": 5.0,
+      "description": "Patrick's been doing this since 2018 and still answers customer emails personally. Monday/Wednesday delivery throughout Sarasota to Anna Maria Island that actually shows up on time. A+ BBB rating with zero complaints - rarer than parking at St. Armands during season.",
+      "maker": { "name": "Patrick Malatinszki", "title": "Owner & Founder" },
+      "location": "Sarasota-Venice",
+      "priceRange": "$12-18/meal",
+      "contact": { "website": "https://freshflamingo.com", "phone": "", "address": "" },
+      "socialMedia": { "facebook": "#" },
+      "reviews": { "google": "#", "bbb": "https://www.bbb.org/us/fl/sarasota/profile/caterer/fresh-flamingo-llc-0653-90418600" },
+      "tags": ["Meal Delivery", "Family Friendly", "Reliable", "Local Favorite"],
+      "category": "meal-delivery",
+      "relatedQuestions": [
+        "What's the best meal prep service in Sarasota for active people?",
+        "Where do families get healthy meal prep in Sarasota?",
+        "What meal service has the most variety in Sarasota?"
+      ]
+    },
+    {
+      "id": "fitex-meals",
+      "question": "What meal service has the most variety in Sarasota?",
+      "name": "FitEx Meals",
+      "tagline": "300+ meal choices with Tampa Bay coverage",
+      "logo": "🍽️",
+      "rating": 4.2,
+      "description": "Widest coverage from Tampa Bay to Sarasota with over 300 rotating meal choices weekly. Tampa-based operation with both delivery and pickup options throughout the region. Perfect for families who get bored easily or need reliable portions.",
+      "maker": { "name": "FitEx Team", "title": "Tampa Bay Based" },
+      "location": "Tampa Bay Coverage",
+      "priceRange": "$9.59-10.99/meal",
+      "contact": { "website": "https://fitexmeals.com", "phone": "", "address": "" },
+      "socialMedia": { "facebook": "#" },
+      "reviews": { "google": "#", "featured": "https://thatssotampa.com/fitex-meals-delivery-service/" },
+      "tags": ["Meal Delivery", "Variety", "Tampa Bay", "Family Portions"],
+      "category": "meal-delivery",
+      "relatedQuestions": [
+        "What's the best meal prep service in Sarasota for active people?",
+        "What's the most reliable meal delivery in Sarasota?",
+        "Where do families get healthy meal prep in Sarasota?"
+      ]
+    },
+    {
+      "id": "chef-david-hill",
+      "question": "What's the best personal chef service in Sarasota?",
+      "name": "Chef David Hill",
+      "tagline": "Luxury personal chef with celebrity clientele experience",
+      "logo": "👨‍🍳",
+      "rating": 5.0,
+      "description": "Luxury market leader with celebrity clientele experience covering Sarasota to Longboat Key. Specializes in fresh daily-sourced Gulf Coast seafood and fine dining experiences. When your neighbors need someone for their yacht party, this is who they call.",
+      "maker": { "name": "Chef David Hill", "title": "Personal Chef" },
+      "location": "Sarasota-Longboat Key",
+      "priceRange": "$100-200+/person",
+      "contact": { "website": "https://sarasotachefdavidhill.com", "phone": "239-738-3210", "address": "" },
+      "socialMedia": {},
+      "reviews": { "google": "#", "portfolio": "https://chefdavidhill.com" },
+      "tags": ["Personal Chef", "Luxury", "Seafood", "Events"],
+      "category": "personal-chef",
+      "relatedQuestions": [
+        "What's the best meal prep service in Sarasota for active people?",
+        "Where can I find affordable personal chef services in Sarasota?",
+        "What's the most reliable meal delivery in Sarasota?"
+      ]
+    },
+    {
+      "id": "chef-mike-industries",
+      "question": "Who does unique personal chef services in Sarasota?",
+      "name": "Chef Mike Industries",
+      "tagline": "Personal chef with food truck twist",
+      "logo": "🚚",
+      "rating": 5.0,
+      "description": "Johnson & Wales credentials with unique food truck component alongside traditional private chef services. Team approach handles multiple clients simultaneously, covering everything from Siesta Key beach weddings to Lakewood Ranch dinner parties. Specializes in vegan, keto, and whole foods preparation.",
+      "maker": { "name": "Chef Mike", "title": "Personal Chef & Food Truck Owner" },
+      "location": "Sarasota",
+      "priceRange": "$50-150/person",
+      "contact": { "website": "https://chefmikesrq.com", "phone": "", "address": "1909 Northgate Boulevard, Sarasota, FL" },
+      "socialMedia": {},
+      "reviews": { "google": "#" },
+      "tags": ["Personal Chef", "Food Truck", "Events", "Dietary Specialties"],
+      "category": "personal-chef",
+      "relatedQuestions": [
+        "What's the best personal chef service in Sarasota?",
+        "Where can I find food trucks in Sarasota?",
+        "Who does catering for beach weddings in Sarasota?"
+      ]
+    },
+    {
+      "id": "chef-amalia",
+      "question": "Who is the most experienced personal chef in Sarasota?",
+      "name": "Chef Amalia Flores",
+      "tagline": "CIA-trained chef with MasterChef Latino experience",
+      "logo": "⭐",
+      "rating": 5.0,
+      "description": "Culinary Institute of America training with MasterChef Latino TV experience. Twenty-five years of professional cooking and actual television personality status. Creates premium gourmet dining experiences for special Sarasota occasions.",
+      "maker": { "name": "Chef Amalia Flores", "title": "Personal Chef & TV Personality" },
+      "location": "Sarasota",
+      "priceRange": "$75-200/person",
+      "contact": { "website": "https://chefamalia.com", "phone": "", "address": "" },
+      "socialMedia": {},
+      "reviews": { "google": "#" },
+      "tags": ["Personal Chef", "TV Chef", "Gourmet", "Experience"],
+      "category": "personal-chef",
+      "relatedQuestions": [
+        "What's the best personal chef service in Sarasota?",
+        "Who does unique personal chef services in Sarasota?",
+        "Where can I find celebrity chefs in Sarasota?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "meal-prep",
+      "name": "Meal Prep",
+      "description": "Prepared meals for fitness and convenience",
+      "icon": "🥗"
+    },
+    {
+      "id": "meal-delivery",
+      "name": "Meal Delivery",
+      "description": "Fresh meals delivered to your door",
+      "icon": "🚚"
+    },
+    {
+      "id": "personal-chef",
+      "name": "Personal Chef",
+      "description": "Private chef services for events and ongoing needs",
+      "icon": "👨‍🍳"
+    }
+  ],
+  "locations": [
+    "Lakewood Ranch",
+    "Sarasota",
+    "Venice",
+    "Bradenton",
+    "Anna Maria Island",
+    "Longboat Key",
+    "Siesta Key"
+  ],
+  "priceRanges": [
+    {
+      "id": "budget",
+      "label": "Budget",
+      "range": "$8-15/meal",
+      "description": "Affordable meal options"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$15-25/meal",
+      "description": "Premium local services"
+    },
+    {
+      "id": "luxury",
+      "label": "Luxury",
+      "range": "$50-200+/person",
+      "description": "High-end personal chef experiences"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "businesses": [
+    {
+      "id": "rooftop-360",
+      "question": "Where's the best place for drinks and dinner with friends in Sarasota?",
+      "name": "Rooftop 360",
+      "tagline": "Downtown's hottest rooftop bar and restaurant",
+      "logo": "🏙️",
+      "rating": 4.4,
+      "description": "Sarasota's premier rooftop destination with 360-degree city views, craft cocktails, and shareable plates. The perfect spot for group dinners, celebrations, and weekend nights out. Live DJ sets on weekends create an energetic atmosphere that locals love.",
+      "maker": { "name": "Rooftop 360 Team", "title": "Restaurant Group" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$25-45/person",
+      "contact": {
+        "website": "https://rooftop360sarasota.com",
+        "phone": "941-444-4200",
+        "address": "1592 Main St, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/rooftop360srq",
+        "facebook": "https://facebook.com/rooftop360srq"
+      },
+      "reviews": {
+        "featured": "https://www.sarasotamagazine.com/restaurants/2023/08/rooftop-360-review",
+        "yelp": "https://www.yelp.com/biz/rooftop-360-sarasota"
+      },
+      "tags": ["Rooftop Bar", "City Views", "Craft Cocktails", "Live Music", "Groups"],
+      "category": "rooftop-bar",
+      "relatedQuestions": [
+        "What restaurant has the most fun atmosphere in Sarasota?",
+        "Where can I find live music and good food in downtown Sarasota?",
+        "What's the best spot for a birthday celebration dinner?"
+      ]
+    },
+    {
+      "id": "mattisons-city-grille",
+      "question": "What restaurant has the most fun atmosphere in Sarasota?",
+      "name": "Mattison's City Grille",
+      "tagline": "Lively downtown dining with live entertainment",
+      "logo": "🎵",
+      "rating": 4.3,
+      "description": "Energetic downtown restaurant known for live music, dancing, and a vibrant social scene. The outdoor patio buzzes with activity while the indoor dining room features regular live entertainment. Perfect for groups who want dinner and a show in one location.",
+      "maker": { "name": "Paul Mattison", "title": "Owner & Restaurateur" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$20-35/person",
+      "contact": {
+        "website": "https://mattisons.com/city-grille",
+        "phone": "941-330-0440",
+        "address": "1 N Lemon Ave, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/mattisonsrestaurants",
+        "facebook": "https://facebook.com/mattisonsrestaurants"
+      },
+      "reviews": {
+        "featured": "https://www.heraldtribune.com/story/entertainment/dining/2022/12/10/mattisons-city-grille-review/",
+        "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g34607-d1751235-Reviews-Mattisons_City_Grille.html"
+      },
+      "tags": ["Live Music", "Dancing", "Outdoor Patio", "Entertainment", "Social Scene"],
+      "category": "live-entertainment",
+      "relatedQuestions": [
+        "Where's the best place for drinks and dinner with friends in Sarasota?",
+        "Where can I find live music and good food in downtown Sarasota?",
+        "What's the best restaurant with outdoor seating for groups?"
+      ]
+    },
+    {
+      "id": "captain-curt-crab-cantina",
+      "question": "Where can I find live music and good food in downtown Sarasota?",
+      "name": "Captain Curt's Crab & Oyster Bar",
+      "tagline": "Waterfront seafood with live music and island vibes",
+      "logo": "🦀",
+      "rating": 4.2,
+      "description": "Casual waterfront spot with fresh seafood, tropical cocktails, and regular live music. The tiki bar atmosphere and bayfront location create a fun, laid-back vibe perfect for groups. Known for their raw bar and weekend live bands that keep the energy high.",
+      "maker": { "name": "Captain Curt's Team", "title": "Waterfront Restaurant" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$18-32/person",
+      "contact": {
+        "website": "https://captaincurts.com",
+        "phone": "941-366-3570",
+        "address": "1200 Ken Thompson Pkwy, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/captaincurts",
+        "facebook": "https://facebook.com/captaincurts"
+      },
+      "reviews": {
+        "featured": "https://www.sarasotamagazine.com/restaurants/2023/05/captain-curts-review",
+        "yelp": "https://www.yelp.com/biz/captain-curts-crab-and-oyster-bar-sarasota"
+      },
+      "tags": ["Waterfront", "Live Music", "Seafood", "Tiki Bar", "Casual"],
+      "category": "waterfront-casual",
+      "relatedQuestions": [
+        "What restaurant has the most fun atmosphere in Sarasota?",
+        "Where's the best place for drinks and dinner with friends in Sarasota?",
+        "What's the best waterfront restaurant for a casual group dinner?"
+      ]
+    },
+    {
+      "id": "gecko-grill",
+      "question": "What's the best spot for a birthday celebration dinner?",
+      "name": "Gecko's Grill & Pub",
+      "tagline": "Sports bar with great food and party atmosphere",
+      "logo": "🦎",
+      "rating": 4.1,
+      "description": "Lively sports bar and grill known for accommodating large groups and celebrations. Multiple big screens, pool tables, and a menu that pleases everyone. The staff goes above and beyond for birthday parties and special events, making it a local favorite for group celebrations.",
+      "maker": { "name": "Gecko's Management", "title": "Sports Bar & Grill" },
+      "location": "Sarasota",
+      "priceRange": "$15-28/person",
+      "contact": {
+        "website": "https://geckosgrill.com",
+        "phone": "941-378-6006",
+        "address": "6606 Superior Ave, Sarasota, FL 34231"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/geckosgrill",
+        "facebook": "https://facebook.com/geckosgrill"
+      },
+      "reviews": {
+        "featured": "https://www.heraldtribune.com/story/entertainment/dining/2023/02/15/geckos-grill-review/",
+        "google": "https://www.google.com/maps/place/Gecko's+Grill+%26+Pub"
+      },
+      "tags": ["Sports Bar", "Birthday Parties", "Groups", "Pool Tables", "Casual"],
+      "category": "sports-bar",
+      "relatedQuestions": [
+        "Where's the best place for drinks and dinner with friends in Sarasota?",
+        "What restaurant can handle large groups for celebrations?",
+        "Where can I watch the game and get good food?"
+      ]
+    },
+    {
+      "id": "jack-dusty",
+      "question": "What's the best trendy spot for dinner and cocktails?",
+      "name": "Jack Dusty",
+      "tagline": "Upscale coastal cuisine with craft cocktails",
+      "logo": "🍹",
+      "rating": 4.5,
+      "description": "Sophisticated yet lively restaurant at The Ritz-Carlton featuring coastal cuisine and innovative cocktails. The stylish atmosphere attracts a trendy crowd, especially during happy hour and weekend nights. Perfect for groups who want upscale dining with a social vibe.",
+      "maker": { "name": "Chef de Cuisine Team", "title": "The Ritz-Carlton" },
+      "location": "Sarasota",
+      "priceRange": "$35-55/person",
+      "contact": {
+        "website": "https://www.ritzcarlton.com/en/hotels/florida/sarasota/dining/jack-dusty",
+        "phone": "941-309-2266",
+        "address": "1111 Ritz-Carlton Dr, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/ritzcarlton",
+        "facebook": "https://facebook.com/ritzcarlton"
+      },
+      "reviews": {
+        "featured": "https://www.sarasotamagazine.com/restaurants/2023/07/jack-dusty-review",
+        "opentable": "https://www.opentable.com/jack-dusty"
+      },
+      "tags": ["Upscale Casual", "Craft Cocktails", "Trendy", "Happy Hour", "Ritz-Carlton"],
+      "category": "upscale-casual",
+      "relatedQuestions": [
+        "Where's the best place for drinks and dinner with friends in Sarasota?",
+        "What restaurant has the best happy hour in Sarasota?",
+        "Where can I find creative cocktails and a social atmosphere?"
+      ]
+    },
+    {
+      "id": "siesta-key-oyster-bar",
+      "question": "What's the best beach restaurant for a fun group dinner?",
+      "name": "Siesta Key Oyster Bar",
+      "tagline": "Beachside dining with live music and island vibes",
+      "logo": "🏖️",
+      "rating": 4.0,
+      "description": "Iconic beachside restaurant and bar known for its laid-back atmosphere, fresh seafood, and regular live music. The outdoor deck overlooks Siesta Key Beach, creating the perfect setting for casual group dinners with a fun, tropical vibe that captures the essence of beach life.",
+      "maker": { "name": "SKOB Management", "title": "Beach Restaurant" },
+      "location": "Siesta Key",
+      "priceRange": "$16-30/person",
+      "contact": {
+        "website": "https://skob.com",
+        "phone": "941-346-5443",
+        "address": "5238 Ocean Blvd, Siesta Key, FL 34242"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/siestakey_oysterbar",
+        "facebook": "https://facebook.com/siestakey.oysterbar"
+      },
+      "reviews": {
+        "featured": "https://www.sarasotamagazine.com/restaurants/2022/09/siesta-key-oyster-bar-review",
+        "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g34618-d1751236-Reviews-Siesta_Key_Oyster_Bar.html"
+      },
+      "tags": ["Beach Dining", "Live Music", "Outdoor Deck", "Seafood", "Island Vibes"],
+      "category": "beach-casual",
+      "relatedQuestions": [
+        "Where can I find live music and good food in downtown Sarasota?",
+        "What restaurant has the most fun atmosphere in Sarasota?",
+        "Where's the best waterfront restaurant for a casual group dinner?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "rooftop-bar",
+      "name": "Rooftop Bars",
+      "description": "Elevated dining with city views",
+      "icon": "🏙️"
+    },
+    {
+      "id": "live-entertainment",
+      "name": "Live Entertainment",
+      "description": "Restaurants with live music and shows",
+      "icon": "🎵"
+    },
+    {
+      "id": "waterfront-casual",
+      "name": "Waterfront Casual",
+      "description": "Relaxed waterfront dining",
+      "icon": "🦀"
+    },
+    {
+      "id": "sports-bar",
+      "name": "Sports Bars",
+      "description": "Sports viewing with great food",
+      "icon": "🦎"
+    },
+    {
+      "id": "upscale-casual",
+      "name": "Upscale Casual",
+      "description": "Trendy dining with cocktails",
+      "icon": "🍹"
+    },
+    {
+      "id": "beach-casual",
+      "name": "Beach Casual",
+      "description": "Beachside dining and bars",
+      "icon": "🏖️"
+    }
+  ],
+  "locations": [
+    "Downtown Sarasota",
+    "Siesta Key",
+    "Sarasota",
+    "Lakewood Ranch",
+    "St. Armands Circle",
+    "Longboat Key",
+    "Bradenton"
+  ],
+  "priceRanges": [
+    {
+      "id": "casual",
+      "label": "Casual",
+      "range": "$15-25/person",
+      "description": "Affordable fun dining"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$25-40/person",
+      "description": "Quality dining with atmosphere"
+    },
+    {
+      "id": "upscale-casual",
+      "label": "Upscale Casual",
+      "range": "$35-55/person",
+      "description": "Trendy dining experiences"
+    }
+  ]
+}

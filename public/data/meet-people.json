@@ -1,0 +1,959 @@
+{
+  "businesses": [
+    {
+      "id": "olearys-tiki-bar",
+      "question": "Where should I go in Sarasota to meet people when I'm by myself?",
+      "name": "O'Leary's Tiki Bar & Grill",
+      "tagline": "Waterfront tiki bar with bay views",
+      "logo": "🍹",
+      "rating": 4.0,
+      "description": "O'Leary's Tiki Bar and Grill is a quintessential Florida beach bar on Sarasota Bay in downtown Sarasota, offering tropical drinks and live music under a large tiki hut. It's perfect for socializing alone with friendly bartenders and an atmosphere where patrons easily start conversations while enjoying waterfront activities. In the heart of Sarasota, it's a go-to spot for locals and visitors seeking casual connections.",
+      "maker": { "name": "O'Leary's Team", "title": "Operators" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$$",
+      "contact": {
+        "website": "https://www.floridabeachbar.com/olearys-tiki-bar-and-grill",
+        "phone": "(941) 953-7505",
+        "address": "5 Bayfront Drive, Sarasota, FL 34236"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=O'Leary's+Tiki+Bar+&+Grill+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["tiki bar", "waterfront", "live music", "dog-friendly"],
+      "category": "solo-social",
+      "relatedQuestions": [
+        "Where can I join a community activity alone in Sarasota?",
+        "Where should my friends and I go for nightlife in downtown Sarasota?",
+        "Where's the best area for bar hopping with friends in Sarasota?"
+      ]
+    },
+    {
+      "id": "siesta-key-drum-circle",
+      "question": "Where can I join a community activity alone in Sarasota?",
+      "name": "Siesta Key Drum Circle",
+      "tagline": "Weekly beach rhythm gathering",
+      "logo": "🥁",
+      "rating": 4.5,
+      "description": "The Siesta Key Drum Circle is a family-friendly weekly ritual on Siesta Beach, known for its quartz sand and beauty in Sarasota County, attracting diverse locals and visitors. It's excellent for joining alone as it welcomes anyone to drum or dance freely without structure, fostering community and connection with nature. A mainstay like Shawn Bowen keeps the energy alive, making it a welcoming spot for personal expression.",
+      "maker": { "name": "Shawn Bowen", "title": "Mainstay Drummer" },
+      "location": "Siesta Key",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://siestasand.us/beach-meets-beat-the-siesta-key-drum-circle/",
+        "phone": "",
+        "address": "Siesta Beach, Siesta Key, FL"
+      },
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/sharer.php?u=https://siestasand.us/beach-meets-beat-the-siesta-key-drum-circle/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Siesta+Key+Drum+Circle+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Community", "Music", "Dance", "Beach"],
+      "category": "community-activity",
+      "relatedQuestions": [
+        "Where should I go in Sarasota to meet people when I'm by myself?",
+        "Where should my friends and I go for nightlife in downtown Sarasota?",
+        "Where can I join sports leagues to meet people in Sarasota?"
+      ]
+    },
+    {
+      "id": "the-gator-club",
+      "question": "Where should my friends and I go for nightlife in downtown Sarasota?",
+      "name": "The Gator Club",
+      "tagline": "Historic downtown nightlife spot",
+      "logo": "🎸",
+      "rating": 4.2,
+      "description": "The Gator Club is a lively venue in downtown Sarasota, offering live music and dancing for group outings. It's great for nightlife with friends due to its energetic atmosphere and central location. A staple for social evenings in the area.",
+      "maker": { "name": "The Gator Club Team", "title": "Operators" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$$",
+      "contact": {
+        "website": "https://www.facebook.com/gatorclub/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/gatorclub/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=The+Gator+Club+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Nightlife", "Live Music", "Dancing", "Downtown"],
+      "category": "group-nightlife",
+      "relatedQuestions": [
+        "Where's the best area for bar hopping with friends in Sarasota?",
+        "Where can I join sports leagues to meet people in Sarasota?",
+        "What's the best fitness community for meeting people in Sarasota?"
+      ]
+    },
+    {
+      "id": "gulf-gate-district",
+      "question": "Where's the best area for bar hopping with friends in Sarasota?",
+      "name": "Gulf Gate District",
+      "tagline": "Diverse bars and ethnic spots",
+      "logo": "🍻",
+      "rating": 4.3,
+      "description": "Gulf Gate District is a compact area in Sarasota with bars like Mr. Beery's and Molly Malone's, offering an old-world vibe for bar hopping. It's ideal for friends due to the variety of pubs and proximity, creating a fun, character-filled night out. Located south of Stickney Point Road off Rt 41.",
+      "maker": { "name": "Gulf Gate Association", "title": "District Managers" },
+      "location": "Gulf Gate",
+      "priceRange": "$$",
+      "contact": {
+        "website": "https://www.escape-to-sarasota.com/gulf-gate.html",
+        "phone": "",
+        "address": "Gateway Avenue, Sarasota, FL"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Gulf+Gate+District+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Bar Hopping", "Nightlife", "Ethnic Shops", "Diverse Cuisine"],
+      "category": "bar-district",
+      "relatedQuestions": [
+        "Where should my friends and I go for nightlife in downtown Sarasota?",
+        "Where can I join sports leagues to meet people in Sarasota?",
+        "Where can I take art classes and meet creative people in Sarasota?"
+      ]
+    },
+    {
+      "id": "mvp-sports-social",
+      "question": "Where can I join sports leagues to meet people in Sarasota?",
+      "name": "MVP Sports and Social Club",
+      "tagline": "Co-ed sports for social fun",
+      "logo": "⚽",
+      "rating": 4.5,
+      "description": "MVP Sports and Social Club runs adult co-ed leagues in Manatee and Sarasota for kickball, volleyball, and more, emphasizing fun and socializing. It's excellent for meeting people through team play and post-game specials at local bars. Year-round options for 18+ in the area.",
+      "maker": { "name": "MVP Team", "title": "Operators" },
+      "location": "Manatee and Sarasota",
+      "priceRange": "$ per league",
+      "contact": {
+        "website": "https://mvpsportsandsocial.com/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=MVP+Sports+and+Social+Club+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Sports Leagues", "Social Events", "Meet People", "Co-ed Activities"],
+      "category": "sports-league",
+      "relatedQuestions": [
+        "What's the best fitness community for meeting people in Sarasota?",
+        "Where can I take art classes and meet creative people in Sarasota?",
+        "Where can I work in a creative space with other artists in Sarasota?"
+      ]
+    },
+    {
+      "id": "f45-training-sarasota",
+      "question": "What's the best fitness community for meeting people in Sarasota?",
+      "name": "F45 Training Sarasota",
+      "tagline": "Group functional fitness classes",
+      "logo": "🏋️",
+      "rating": 4.7,
+      "description": "F45 Training Sarasota provides team-based functional workouts in a supportive community, ideal for meeting locals through group classes. In Sarasota, it unlocks inner athletes with varied movements, fostering camaraderie. Great for social fitness seekers.",
+      "maker": { "name": "F45 Team", "title": "Trainers" },
+      "location": "Sarasota",
+      "priceRange": "$$ membership",
+      "contact": {
+        "website": "https://f45training.com/studio/sarasota/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=F45+Training+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Team Training", "Group Fitness", "Community Support", "Functional Workouts"],
+      "category": "fitness-community",
+      "relatedQuestions": [
+        "Where can I join sports leagues to meet people in Sarasota?",
+        "Where can I take art classes and meet creative people in Sarasota?",
+        "Where can I network professionally during the week in Sarasota?"
+      ]
+    },
+    {
+      "id": "art-center-sarasota",
+      "question": "Where can I take art classes and meet creative people in Sarasota?",
+      "name": "Art Center Sarasota",
+      "tagline": "Contemporary art classes and events",
+      "logo": "🎨",
+      "rating": 4.6,
+      "description": "Art Center Sarasota offers classes, workshops, and receptions in the heart of Sarasota, perfect for meeting creatives through peer critiques and summer camps. It fosters community with opening nights and collaborative events. A hub for artistic social connections.",
+      "maker": { "name": "Art Center Team", "title": "Operators" },
+      "location": "Heart of Sarasota",
+      "priceRange": "$5 per class",
+      "contact": {
+        "website": "https://www.artsarasota.org/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Art+Center+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Art Classes", "Creative Community", "Workshops", "Social Events"],
+      "category": "art-class",
+      "relatedQuestions": [
+        "Where can I work in a creative space with other artists in Sarasota?",
+        "Where can I network professionally during the week in Sarasota?",
+        "What are the best business networking events in Sarasota?"
+      ]
+    },
+    {
+      "id": "spaaces",
+      "question": "Where can I work in a creative space with other artists in Sarasota?",
+      "name": "SPAACES",
+      "tagline": "Creative coworking for artists",
+      "logo": "🖌️",
+      "rating": 4.8,
+      "description": "SPAACES provides a shared creative environment in Sarasota for artists to collaborate and work. It's excellent for meeting peers in a supportive space. Focus on artistic community building.",
+      "maker": { "name": "SPAACES Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$ membership",
+      "contact": {
+        "website": "https://spaaces.art/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=SPAACES+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Creative Coworking", "Artists", "Collaboration", "Community"],
+      "category": "creative-space",
+      "relatedQuestions": [
+        "Where can I take art classes and meet creative people in Sarasota?",
+        "Where can I network professionally during the week in Sarasota?",
+        "Where do young professionals go for upscale nightlife in Sarasota?"
+      ]
+    },
+    {
+      "id": "hub-sarasota",
+      "question": "Where can I network professionally during the week in Sarasota?",
+      "name": "HUB Sarasota",
+      "tagline": "Creative coworking for professionals",
+      "logo": "💼",
+      "rating": 4.96,
+      "description": "HUB Sarasota is a shared workspace at 227 Central Avenue, inspiring independents with positive productivity and community. It's ideal for weekday networking in Sarasota's vibrant scene. Fosters connections among locals.",
+      "maker": { "name": "HUB Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$ day pass",
+      "contact": {
+        "website": "https://www.coworker.com/united-states/florida/sarasota/hub-sarasota",
+        "phone": "",
+        "address": "227 Central Avenue, Sarasota, FL"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=HUB+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Coworking", "Professional Networking", "Creative Environment", "Community Space"],
+      "category": "networking-space",
+      "relatedQuestions": [
+        "What are the best business networking events in Sarasota?",
+        "Where do young professionals go for upscale nightlife in Sarasota?",
+        "What's the best party spot for people in their 20s-30s in Siesta Key?"
+      ]
+    },
+    {
+      "id": "greater-sarasota-chamber",
+      "question": "What are the best business networking events in Sarasota?",
+      "name": "Greater Sarasota Chamber of Commerce",
+      "tagline": "Local business networking hub",
+      "logo": "🤝",
+      "rating": 4.5,
+      "description": "The Greater Sarasota Chamber hosts calendar events for networking, supporting local businesses in Sarasota. It's great for professional connections through chamber activities. Focus on community engagement.",
+      "maker": { "name": "Chamber Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "Varies",
+      "contact": {
+        "website": "https://business.sarasotachamber.com/chamber-calendar",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Greater+Sarasota+Chamber+of+Commerce+reviews",
+        "featured": ""
+      },
+      "tags": ["Business Networking", "Events", "Chamber Calendar", "Professional"],
+      "category": "networking-event",
+      "relatedQuestions": [
+        "Where can I network professionally during the week in Sarasota?",
+        "Where do young professionals go for upscale nightlife in Sarasota?",
+        "Where should I go for sophisticated dining and drinks in Sarasota?"
+      ]
+    },
+    {
+      "id": "pangea-alchemy-lab",
+      "question": "Where do young professionals go for upscale nightlife in Sarasota?",
+      "name": "Pangea Alchemy Lab",
+      "tagline": "Cozy speakeasy with craft cocktails",
+      "logo": "🍸",
+      "rating": 4.6,
+      "description": "Pangea Alchemy Lab is a hidden speakeasy in Sarasota offering handcrafted cocktails until 2 AM on weekends. It's perfect for 20s-30s upscale nightlife with its vibrant atmosphere. A gem for young professionals.",
+      "maker": { "name": "Pangea Team", "title": "Mixologists" },
+      "location": "Sarasota",
+      "priceRange": "$$",
+      "contact": {
+        "website": "https://www.pangeaalchemylab.com",
+        "phone": "",
+        "address": "1564 Main St, Sarasota, FL 34236"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Pangea+Alchemy+Lab+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Speakeasy", "Cocktails", "Nightlife", "Mixology"],
+      "category": "upscale-nightlife",
+      "relatedQuestions": [
+        "What's the best party spot for people in their 20s-30s in Siesta Key?",
+        "Where should I go for sophisticated dining and drinks in Sarasota?",
+        "What's the best upscale social area for mature adults in Sarasota?"
+      ]
+    },
+    {
+      "id": "st-armands-circle",
+      "question": "What's the best upscale social area for mature adults in Sarasota?",
+      "name": "St. Armands Circle",
+      "tagline": "Upscale shopping and dining circle",
+      "logo": "🛍️",
+      "rating": 4.6,
+      "description": "St. Armands Circle is an upscale area in Sarasota with shops and restaurants, ideal for mature adults in 40s-50s. It offers a sophisticated social vibe near Lido Beach. Managed by the association for community events.",
+      "maker": { "name": "St. Armands Circle Association", "title": "Managers" },
+      "location": "Lido Key",
+      "priceRange": "Varies",
+      "contact": {
+        "website": "https://starmandscircleassoc.com/",
+        "phone": "941-388-1554",
+        "address": "300 Madison Dr, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/starmandscircle",
+        "facebook": "https://facebook.com/starmandscircle"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=St.+Armands+Circle+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Upscale Social", "Shopping", "Dining", "Events"],
+      "category": "upscale-area",
+      "relatedQuestions": [
+        "Where should I go for sophisticated dining and drinks in Sarasota?",
+        "Where can I find a sober social venue with regular events in Sarasota?",
+        "Where should I go to find the most welcoming Jewish congregation in Sarasota?"
+      ]
+    },
+    {
+      "id": "manna-tea-kava",
+      "question": "Where can I find a sober social venue with regular events in Sarasota?",
+      "name": "Manna Tea & Kava Bar",
+      "tagline": "Sober lounge with community events",
+      "logo": "☕",
+      "rating": 4.5,
+      "description": "Manna Tea & Kava Bar is a sober venue in Sarasota offering kava and tea with regular social events. It's welcoming for alcohol-free gatherings. Focus on community connections.",
+      "maker": { "name": "Manna Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$",
+      "contact": {
+        "website": "https://www.facebook.com/mannateankava/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/mannateankava/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Manna+Tea+&+Kava+Bar+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Sober Social", "Kava", "Tea", "Events"],
+      "category": "sober-venue",
+      "relatedQuestions": [
+        "Where can I go for a sober social space that feels like a bar without alcohol?",
+        "Where can I find sophisticated tea experiences and intimate gatherings in Sarasota?",
+        "Where should I go to find the most welcoming Jewish congregation in Sarasota?"
+      ]
+    },
+    {
+      "id": "flobucha-kombucha-taproom",
+      "question": "Where can I go for a sober social space that feels like a bar without alcohol?",
+      "name": "Flobucha Kombucha Taproom",
+      "tagline": "Kombucha bar with social atmosphere",
+      "logo": "🥤",
+      "rating": 4.6,
+      "description": "Flobucha Kombucha Taproom offers a bar-like atmosphere without alcohol, serving kombucha on tap in Sarasota. It's ideal for sober socializing with a fun, relaxed vibe. Community-focused for health-conscious gatherings.",
+      "maker": { "name": "Flobucha Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$",
+      "contact": {
+        "website": "https://www.flobucha.com/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Flobucha+Kombucha+Taproom+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Kombucha", "Sober Social", "Health-Conscious", "Bar Atmosphere"],
+      "category": "sober-taproom",
+      "relatedQuestions": [
+        "Where can I find sophisticated tea experiences and intimate gatherings in Sarasota?",
+        "Where should I go to find the most welcoming Jewish congregation in Sarasota?",
+        "Where can I find an incredibly welcoming non-denominational church in Sarasota?"
+      ]
+    },
+    {
+      "id": "temple-emanu-el",
+      "question": "Where should I go to find the most welcoming Jewish congregation in Sarasota?",
+      "name": "Temple Emanu-El",
+      "tagline": "Vibrant Jewish community center",
+      "logo": "🕍",
+      "rating": 4.8,
+      "description": "Temple Emanu-El is a warm Jewish congregation in Sarasota, recognized for its friendly vibe by Reform Judaism Magazine. It's welcoming for all, fostering connections through services and events. Serving Sarasota, Manatee, and Lakewood Ranch.",
+      "maker": { "name": "Rabbis Glickman and Shefrin", "title": "Rabbis" },
+      "location": "Sarasota",
+      "priceRange": "Free/Donation",
+      "contact": {
+        "website": "https://www.sarasotatemple.org/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Temple+Emanu-El+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Jewish Community", "Social Events", "Spiritual Services", "Family Support"],
+      "category": "religious-community",
+      "relatedQuestions": [
+        "Where can I find an incredibly welcoming non-denominational church in Sarasota?",
+        "Where should I go for progressive and inclusive Christian worship in Sarasota?",
+        "Where can I find a welcoming Buddhist meditation community in Sarasota?"
+      ]
+    },
+    {
+      "id": "suncoast-community-church",
+      "question": "Where can I find an incredibly welcoming non-denominational church in Sarasota?",
+      "name": "Suncoast Community Church",
+      "tagline": "Inclusive non-denominational worship",
+      "logo": "⛪",
+      "rating": 4.7,
+      "description": "Suncoast Community Church in Sarasota welcomes diverse backgrounds with casual services for all ages. It's ideal for welcoming spiritual community. Focus on connection and questions.",
+      "maker": { "name": "Suncoast Team", "title": "Pastors" },
+      "location": "Sarasota",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://www.suncoastcommunity.com/",
+        "phone": "",
+        "address": "8000 Hawkins Rd, Sarasota, FL 34241"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Suncoast+Community+Church+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Non-Denominational", "Inclusive", "Worship", "Community"],
+      "category": "non-denominational-church",
+      "relatedQuestions": [
+        "Where should I go to find the most welcoming Jewish congregation in Sarasota?",
+        "Where should I go for progressive and inclusive Christian worship in Sarasota?",
+        "Where can I explore universal spiritual practices with diverse people in Sarasota?"
+      ]
+    },
+    {
+      "id": "first-congregational-ucc",
+      "question": "Where should I go for progressive and inclusive Christian worship in Sarasota?",
+      "name": "First Congregational United Church of Christ",
+      "tagline": "Progressive inclusive Christian community",
+      "logo": "✝️",
+      "rating": 4.8,
+      "description": "First Congregational UCC in Sarasota is diverse and inclusive, honoring all faith stories and advocating for justice. It's perfect for progressive worship with LGBTQIA+ welcome. Led by Rev. Dr. Wes Bixby.",
+      "maker": { "name": "Rev. Dr. Wes Bixby", "title": "Senior Pastor" },
+      "location": "Sarasota",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://uccsarasota.com/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=First+Congregational+United+Church+of+Christ+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Inclusive", "Progressive", "Justice", "Community"],
+      "category": "christian-church",
+      "relatedQuestions": [
+        "Where can I find an incredibly welcoming non-denominational church in Sarasota?",
+        "Where can I find a welcoming Buddhist meditation community in Sarasota?",
+        "Where should I go to join dynamic book clubs and meet literary enthusiasts in Sarasota?"
+      ]
+    },
+    {
+      "id": "kadampa-meditation-center",
+      "question": "Where can I find a welcoming Buddhist meditation community in Sarasota?",
+      "name": "Kadampa Meditation Center Florida",
+      "tagline": "Modern Buddhist meditation temple",
+      "logo": "🧘",
+      "rating": 4.7,
+      "description": "Kadampa Meditation Center Florida in Sarasota offers classes on inner peace and Buddhism, welcoming all backgrounds. It's supportive for meditation community practice. Led by Gen Kelsang Gomlam.",
+      "maker": { "name": "Gen Kelsang Gomlam", "title": "Resident Teacher" },
+      "location": "Sarasota",
+      "priceRange": "Donation",
+      "contact": {
+        "website": "https://meditationinsarasota.org/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Kadampa+Meditation+Center+Florida+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Buddhist Meditation", "Inclusive Community", "Inner Peace", "Kadampa Buddhism"],
+      "category": "meditation-center",
+      "relatedQuestions": [
+        "Where should I go for progressive and inclusive Christian worship in Sarasota?",
+        "Where can I explore universal spiritual practices with diverse people in Sarasota?",
+        "Where should I go to join dynamic book clubs and meet literary enthusiasts in Sarasota?"
+      ]
+    },
+    {
+      "id": "interfaith-center",
+      "question": "Where can I explore universal spiritual practices with diverse people in Sarasota?",
+      "name": "Interfaith Center for Spiritual Growth",
+      "tagline": "Diverse spiritual community gatherings",
+      "logo": "🌟",
+      "rating": 4.6,
+      "description": "Interfaith Center for Spiritual Growth offers Sunday services and classes exploring universal truths, welcoming all paths. It's ideal for diverse spiritual practices in a supportive group. Events like Sufi gatherings with donations.",
+      "maker": { "name": "Marilyn Alf", "title": "Caring Committee Contact" },
+      "location": "Sarasota",
+      "priceRange": "Free/Donation",
+      "contact": {
+        "website": "https://interfaithspirit.org/",
+        "phone": "(734) 686-7849",
+        "address": ""
+      },
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/interfaithspirit/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Interfaith+Center+for+Spiritual+Growth+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Interfaith", "Spiritual Growth", "Meditation", "Community Events"],
+      "category": "spiritual-center",
+      "relatedQuestions": [
+        "Where can I find a welcoming Buddhist meditation community in Sarasota?",
+        "Where should I go to join dynamic book clubs and meet literary enthusiasts in Sarasota?",
+        "Where can I read quietly alongside other book lovers in Sarasota?"
+      ]
+    },
+    {
+      "id": "bookstore1sarasota",
+      "question": "Where should I go to join dynamic book clubs and meet literary enthusiasts in Sarasota?",
+      "name": "Bookstore1Sarasota",
+      "tagline": "Local bookstore with book clubs",
+      "logo": "📚",
+      "rating": 4.7,
+      "description": "Bookstore1Sarasota hosts book clubs and events for literary enthusiasts in Sarasota. It's great for meeting readers through discussions. Focus on community book lovers.",
+      "maker": { "name": "Bookstore1 Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "Free with purchase",
+      "contact": {
+        "website": "https://www.sarasotabooks.com/bookclubs",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Bookstore1Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Book Clubs", "Literary Events", "Community", "Reading"],
+      "category": "book-club",
+      "relatedQuestions": [
+        "Where can I read quietly alongside other book lovers in Sarasota?",
+        "Where can I find intimate concerts and socially conscious arts events in Sarasota?",
+        "Where can I volunteer and meet people while helping the community in Sarasota?"
+      ]
+    },
+    {
+      "id": "silent-book-club",
+      "question": "Where can I read quietly alongside other book lovers in Sarasota?",
+      "name": "Silent Book Club Sarasota-Bradenton",
+      "tagline": "Quiet reading social group",
+      "logo": "📖",
+      "rating": 4.6,
+      "description": "Silent Book Club Sarasota-Bradenton offers quiet reading sessions with fellow book lovers. It's ideal for social yet silent literary gatherings. Community-focused for introverted readers.",
+      "maker": { "name": "Silent Book Club Team", "title": "Organizers" },
+      "location": "Sarasota-Bradenton",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://silentbook.club/blogs/events/sarasota-florida-usa",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Silent+Book+Club+Sarasota-Bradenton+reviews",
+        "featured": ""
+      },
+      "tags": ["Silent Reading", "Book Lovers", "Social Group", "Community"],
+      "category": "reading-club",
+      "relatedQuestions": [
+        "Where should I go to join dynamic book clubs and meet literary enthusiasts in Sarasota?",
+        "Where can I find intimate concerts and socially conscious arts events in Sarasota?",
+        "Where can I volunteer and meet people while helping the community in Sarasota?"
+      ]
+    },
+    {
+      "id": "fogartyville-community-center",
+      "question": "Where can I find intimate concerts and socially conscious arts events in Sarasota?",
+      "name": "Fogartyville Community Media and Arts Center",
+      "tagline": "Premier listening room for arts",
+      "logo": "🎤",
+      "rating": 4.7,
+      "description": "Fogartyville is Sarasota's gathering place for music and community in the Rosemary District, hosting live concerts and arts events. It's ideal for intimate, socially conscious experiences. Offers exhibitions and educational programs.",
+      "maker": { "name": "Fogartyville Team", "title": "Operators" },
+      "location": "Rosemary District",
+      "priceRange": "$ ticket",
+      "contact": {
+        "website": "https://wslr.org/fogartyville/",
+        "phone": "941-894-6469",
+        "address": "525 Kumquat Court, Sarasota, FL"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Fogartyville+Community+Media+and+Arts+Center+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Arts", "Music", "Community", "Live Concerts"],
+      "category": "arts-center",
+      "relatedQuestions": [
+        "Where can I read quietly alongside other book lovers in Sarasota?",
+        "Where can I volunteer and meet people while helping the community in Sarasota?",
+        "Where should I go in Sarasota to meet people when I'm by myself?"
+      ]
+    },
+    {
+      "id": "all-faiths-food-bank",
+      "question": "Where can I volunteer and meet people while helping the community in Sarasota?",
+      "name": "All Faiths Food Bank",
+      "tagline": "Community food distribution volunteering",
+      "logo": "🤲",
+      "rating": 4.8,
+      "description": "All Faiths Food Bank in Sarasota offers volunteering like food sorting and distribution, supporting local families. It's great for meeting people through group efforts. Encourages corporate and community involvement.",
+      "maker": { "name": "Anita", "title": "Volunteer" },
+      "location": "Sarasota",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://allfaithsfoodbank.org/volunteer/",
+        "phone": "",
+        "address": ""
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=All+Faiths+Food+Bank+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["Community Service", "Volunteering", "Food Distribution", "Social Connection"],
+      "category": "volunteer-organization",
+      "relatedQuestions": [
+        "Where can I find intimate concerts and socially conscious arts events in Sarasota?",
+        "Where should I go in Sarasota to meet people when I'm by myself?",
+        "Where can I join a community activity alone in Sarasota?"
+      ]
+    },
+    {
+      "id": "the-beach-club",
+      "question": "What's the best party spot for people in their 20s-30s in Siesta Key?",
+      "name": "The Beach Club",
+      "tagline": "Lively club with live music",
+      "logo": "🌴",
+      "rating": 4.4,
+      "description": "The Beach Club on Siesta Key offers live music and dancing since 1947, with happy hour daily. It's ideal for 20s-30s parties with its energetic vibe open until 2 AM. A Siesta Key staple for nightlife.",
+      "maker": { "name": "Beach Club Team", "title": "Operators" },
+      "location": "Siesta Key",
+      "priceRange": "$$",
+      "contact": {
+        "website": "https://beachclubsiestakey.com/",
+        "phone": "",
+        "address": "5151 Ocean Blvd, Siesta Key, FL"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=The+Beach+Club+Siesta+Key+reviews",
+        "featured": ""
+      },
+      "tags": ["Siesta Key", "Nightlife", "Live Music", "Dancing"],
+      "category": "party-spot",
+      "relatedQuestions": [
+        "Where do young professionals go for upscale nightlife in Sarasota?",
+        "Where should I go for sophisticated dining and drinks in Sarasota?",
+        "Where can I find a sober social venue with regular events in Sarasota?"
+      ]
+    },
+    {
+      "id": "sage-srq",
+      "question": "Where should I go for sophisticated dining and drinks in Sarasota?",
+      "name": "Sage SRQ Restaurant & Rooftop Bar",
+      "tagline": "Worldly cuisine in historic setting",
+      "logo": "🍴",
+      "rating": 4.7,
+      "description": "Sage SRQ offers international dishes and cocktails in a historic downtown Sarasota building on the National Register. It's perfect for 40s-50s sophisticated dining with its inviting ambiance and event menus. Walking distance to arts district.",
+      "maker": { "name": "Christopher Covelli", "title": "Executive Chef" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$$$",
+      "contact": {
+        "website": "https://sagesrq.com/",
+        "phone": "941-445-5660",
+        "address": "First Street, Sarasota, FL"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Sage+SRQ+Restaurant+Sarasota+reviews",
+        "featured": ""
+      },
+      "tags": ["International Cuisine", "Historic Venue", "Craft Cocktails", "Event Hosting"],
+      "category": "sophisticated-dining",
+      "relatedQuestions": [
+        "What's the best upscale social area for mature adults in Sarasota?",
+        "Where can I find a sober social venue with regular events in Sarasota?",
+        "Where can I go for a sober social space that feels like a bar without alcohol?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "solo-social",
+      "name": "Solo Socializing",
+      "description": "Venues for meeting people alone",
+      "icon": "🍹"
+    },
+    {
+      "id": "community-activity",
+      "name": "Community Activity",
+      "description": "Group events to join solo",
+      "icon": "🥁"
+    },
+    {
+      "id": "group-nightlife",
+      "name": "Group Nightlife",
+      "description": "Night spots for friends",
+      "icon": "🎸"
+    },
+    {
+      "id": "bar-district",
+      "name": "Bar District",
+      "description": "Areas for bar hopping",
+      "icon": "🍻"
+    },
+    {
+      "id": "sports-league",
+      "name": "Sports League",
+      "description": "Leagues to meet through sports",
+      "icon": "⚽"
+    },
+    {
+      "id": "fitness-community",
+      "name": "Fitness Community",
+      "description": "Group fitness for socializing",
+      "icon": "🏋️"
+    },
+    {
+      "id": "art-class",
+      "name": "Art Class",
+      "description": "Classes for creative meetings",
+      "icon": "🎨"
+    },
+    {
+      "id": "creative-space",
+      "name": "Creative Space",
+      "description": "Coworking for artists",
+      "icon": "🖌️"
+    },
+    {
+      "id": "networking-space",
+      "name": "Networking Space",
+      "description": "Professional coworking",
+      "icon": "💼"
+    },
+    {
+      "id": "networking-event",
+      "name": "Networking Event",
+      "description": "Business events for connections",
+      "icon": "🤝"
+    },
+    {
+      "id": "upscale-nightlife",
+      "name": "Upscale Nightlife",
+      "description": "Sophisticated spots for young pros",
+      "icon": "🍸"
+    },
+    {
+      "id": "party-spot",
+      "name": "Party Spot",
+      "description": "Lively parties for 20s-30s",
+      "icon": "🌴"
+    },
+    {
+      "id": "sophisticated-dining",
+      "name": "Sophisticated Dining",
+      "description": "Refined dining for mature adults",
+      "icon": "🍴"
+    },
+    {
+      "id": "upscale-area",
+      "name": "Upscale Area",
+      "description": "Social areas for 40s-50s",
+      "icon": "🛍️"
+    },
+    {
+      "id": "sober-venue",
+      "name": "Sober Venue",
+      "description": "Alcohol-free social spots",
+      "icon": "☕"
+    },
+    {
+      "id": "sober-taproom",
+      "name": "Sober Taproom",
+      "description": "Kombucha bars for sober fun",
+      "icon": "🥤"
+    },
+    {
+      "id": "religious-community",
+      "name": "Religious Community",
+      "description": "Welcoming congregations",
+      "icon": "🕍"
+    },
+    {
+      "id": "non-denominational-church",
+      "name": "Non-Denominational Church",
+      "description": "Inclusive worship groups",
+      "icon": "⛪"
+    },
+    {
+      "id": "christian-church",
+      "name": "Christian Church",
+      "description": "Progressive Christian communities",
+      "icon": "✝️"
+    },
+    {
+      "id": "meditation-center",
+      "name": "Meditation Center",
+      "description": "Buddhist meditation groups",
+      "icon": "🧘"
+    },
+    {
+      "id": "spiritual-center",
+      "name": "Spiritual Center",
+      "description": "Interfaith spiritual practices",
+      "icon": "🌟"
+    },
+    {
+      "id": "book-club",
+      "name": "Book Club",
+      "description": "Literary discussion groups",
+      "icon": "📚"
+    },
+    {
+      "id": "reading-club",
+      "name": "Reading Club",
+      "description": "Silent reading socials",
+      "icon": "📖"
+    },
+    {
+      "id": "arts-center",
+      "name": "Arts Center",
+      "description": "Concerts and arts events",
+      "icon": "🎤"
+    },
+    {
+      "id": "volunteer-organization",
+      "name": "Volunteer Organization",
+      "description": "Community service groups",
+      "icon": "🤲"
+    }
+  ],
+  "locations": [
+    "Downtown Sarasota",
+    "Siesta Key",
+    "Gulf Gate",
+    "Manatee and Sarasota",
+    "Sarasota",
+    "Heart of Sarasota",
+    "Rosemary District",
+    "Lido Key",
+    "Sarasota-Bradenton"
+  ],
+  "priceRanges": [
+    {
+      "id": "free",
+      "label": "Free",
+      "range": "Free",
+      "description": "No cost entry"
+    },
+    {
+      "id": "low-cost",
+      "label": "Low-Cost",
+      "range": "$",
+      "description": "Affordable options"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$$",
+      "description": "Moderate pricing"
+    },
+    {
+      "id": "premium",
+      "label": "Premium",
+      "range": "$$$",
+      "description": "Upscale experiences"
+    },
+    {
+      "id": "donation",
+      "label": "Donation",
+      "range": "Donation",
+      "description": "Donation-based activities"
+    },
+    {
+      "id": "free-donation",
+      "label": "Free/Donation",
+      "range": "Free/Donation",
+      "description": "Free or donation-based"
+    },
+    {
+      "id": "varies",
+      "label": "Varies",
+      "range": "Varies",
+      "description": "Variable pricing"
+    },
+    {
+      "id": "free-with-purchase",
+      "label": "Free with Purchase",
+      "range": "Free with purchase",
+      "description": "Free with purchase required"
+    },
+    {
+      "id": "ticket",
+      "label": "Ticket",
+      "range": "$ ticket",
+      "description": "Ticketed events"
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "businesses": [
+    {
+      "id": "sarasota-childrens-garden",
+      "question": "What's the best attraction for toddlers in Sarasota?",
+      "name": "Sarasota Children's Garden",
+      "tagline": "Magical nature play for little ones",
+      "logo": "🌳",
+      "rating": 4.5,
+      "description": "Sarasota Children's Garden is the ultimate spot for toddlers with its fairy houses, mazes, and sensory play areas designed to spark imagination without electronics. As a nonprofit haven in Gillespie Park, it's perfect for unstructured exploration amid lush greenery. Locals tip: Visit mid-morning to avoid afternoon heat, and pack a picnic for the shaded areas—great for birthday parties too, with easy street parking in this downtown neighborhood.",
+      "maker": { "name": "Children's Garden Team", "title": "Nonprofit Operators" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$6-10/person",
+      "contact": {
+        "website": "https://www.sarasotachildrensgarden.com",
+        "phone": "941-330-1711",
+        "address": "1670 10th Way, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/sarasotachildrensgarden",
+        "facebook": "https://facebook.com/sarasotachildrensgarden"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=sarasota+childrens+garden+reviews",
+        "featured": "https://www.yelp.com/biz/the-childrens-garden-sarasota"
+      },
+      "tags": ["Toddlers", "Playground", "Nature", "Imaginative Play"],
+      "category": "toddler-attraction",
+      "relatedQuestions": [
+        "Where can we take kids under 5 in Sarasota?",
+        "What's the best free family activity in Sarasota?",
+        "Where can kids learn while having fun in Sarasota?"
+      ]
+    },
+    {
+      "id": "payne-park",
+      "question": "Where can we take kids under 5 in Sarasota?",
+      "name": "Payne Park",
+      "tagline": "Circus-themed playground adventure",
+      "logo": "🎪",
+      "rating": 4.7,
+      "description": "Payne Park features a circus-inspired playground with climbing structures, slides, and swings, ideal for kids under 5 in a safe, shaded downtown setting. With a skate park and café nearby, it's a community favorite for family outings. Insider tip: Combine with a visit to the adjacent amphitheater for events, and note free parking—perfect for rainy days under covered areas.",
+      "maker": { "name": "Sarasota Parks and Recreation", "title": "Managers" },
+      "location": "Downtown Sarasota",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://www.letsplaysarasota.com/parks/payne-park",
+        "phone": "941-263-6386",
+        "address": "2010 Adams Ln, Sarasota, FL 34237"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=payne+park+sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/payne-park-sarasota"
+      },
+      "tags": ["Under 5", "Playground", "Circus Theme", "Free"],
+      "category": "playground",
+      "relatedQuestions": [
+        "What's the best playground in Sarasota?",
+        "What's the best free family activity in Sarasota?",
+        "Best outdoor park for kids in Sarasota?"
+      ]
+    },
+    {
+      "id": "treeumph-adventure",
+      "question": "What's the most fun activity for teenagers in Sarasota?",
+      "name": "TreeUmph! Adventure Course",
+      "tagline": "Treetop thrills for teens",
+      "logo": "🧗",
+      "rating": 4.6,
+      "description": "TreeUmph! offers challenging ropes courses, ziplines, and obstacles scaled for teens, promoting adrenaline and teamwork in a forested Bradenton setting near Sarasota. It's a top pick for active youth with safety harnesses and group rates. Locals suggest booking weekends in advance and visiting in cooler months—great for birthday parties or family bonding.",
+      "maker": { "name": "TreeUmph Team", "title": "Operators" },
+      "location": "Bradenton",
+      "priceRange": "$30-60/person",
+      "contact": {
+        "website": "https://treeumph.com",
+        "phone": "941-322-2130",
+        "address": "21805 State Rd 70 E, Bradenton, FL 34211"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/treeumph",
+        "facebook": "https://facebook.com/treeumph"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=treeumph+adventure+sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34098-d3426771-Reviews-TreeUmph_Adventure_Course-Bradenton_Florida.html"
+      },
+      "tags": ["Teenagers", "Adventure", "Ziplines", "Outdoor"],
+      "category": "teen-activity",
+      "relatedQuestions": [
+        "Where can tweens have fun in Sarasota?",
+        "Where can we go that's fun for both kids and adults in Sarasota?",
+        "Best adventure course for families in Sarasota?"
+      ]
+    },
+    {
+      "id": "arcade-monsters",
+      "question": "Where can tweens have fun in Sarasota?",
+      "name": "Arcade Monsters Lido Beach",
+      "tagline": "Unlimited gaming paradise",
+      "logo": "🕹️",
+      "rating": 4.5,
+      "description": "Arcade Monsters features unlimited play on classic and modern games, VR experiences, and a bar for parents, making it ideal for tweens on Lido Beach. Pay once for all-day access in this air-conditioned spot. Tip: Visit on weekdays to avoid crowds, and combine with beach time—community favorite for rainy days or evenings.",
+      "maker": { "name": "Arcade Monsters Team", "title": "Operators" },
+      "location": "Lido Beach",
+      "priceRange": "$20-30/person",
+      "contact": {
+        "website": "https://arcademonsters.com",
+        "phone": "941-960-2669",
+        "address": "190 Taft Dr, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/arcademonsters",
+        "facebook": "https://facebook.com/arcademonsters"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=arcade+monsters+lido+beach+reviews",
+        "featured": "https://www.yelp.com/biz/arcade-monsters-sarasota"
+      },
+      "tags": ["Tweens", "Arcade", "Gaming", "Indoor"],
+      "category": "gaming-attraction",
+      "relatedQuestions": [
+        "What's the most fun activity for teenagers in Sarasota?",
+        "What's the best indoor family attraction in Sarasota?",
+        "What can we do with kids when it's raining in Sarasota?"
+      ]
+    },
+    {
+      "id": "mote-marine-aquarium",
+      "question": "What's the best attraction for kids in Sarasota?",
+      "name": "Mote Marine Laboratory & Aquarium",
+      "tagline": "Interactive ocean discoveries",
+      "logo": "🐠",
+      "rating": 4.7,
+      "description": "Mote Marine engages kids with touch tanks, manatee exhibits, and shark feedings, blending fun and education on marine life. Expanding to a new facility in 2025, it's a must for families. Arrive early for shows, and note seasonal manatee sightings—free parking and ties to local conservation efforts.",
+      "maker": { "name": "Mote Team", "title": "Nonprofit Operators" },
+      "location": "Sarasota",
+      "priceRange": "$20-25/person",
+      "contact": {
+        "website": "https://mote.org",
+        "phone": "941-388-4441",
+        "address": "1600 Ken Thompson Pkwy, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/motemarinelab",
+        "facebook": "https://facebook.com/motemarinelab"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=mote+marine+sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117479-Reviews-Mote_Marine_Laboratory_and_Aquarium-Sarasota_Florida.html"
+      },
+      "tags": ["Kids Attraction", "Aquarium", "Educational", "Animals"],
+      "category": "aquarium",
+      "relatedQuestions": [
+        "Where can kids see animals in Sarasota?",
+        "What's the most educational family activity in Sarasota?",
+        "Best wildlife sanctuary for families in Sarasota?"
+      ]
+    },
+    {
+      "id": "ringling-museum",
+      "question": "What's the most educational family activity in Sarasota?",
+      "name": "The Ringling Museum",
+      "tagline": "Circus and art exploration",
+      "logo": "🖼️",
+      "rating": 4.8,
+      "description": "The Ringling offers circus history, art galleries, and mansion tours with interactive elements for educational family fun. Free Mondays for locals enhance accessibility. Explore grounds for picnics, and catch summer circus shows—deep community roots as a cultural landmark.",
+      "maker": { "name": "Florida State University", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$15-25/person",
+      "contact": {
+        "website": "https://www.ringling.org",
+        "phone": "941-359-5700",
+        "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/theringling",
+        "facebook": "https://facebook.com/theringling"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=the+ringling+museum+sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117482-Reviews-The_Ringling-Sarasota_Florida.html"
+      },
+      "tags": ["Educational", "Museum", "Circus", "Family"],
+      "category": "museum",
+      "relatedQuestions": [
+        "Where can kids learn while having fun in Sarasota?",
+        "Top family museum in Sarasota?",
+        "Where can three generations have fun together in Sarasota?"
+      ]
+    },
+    {
+      "id": "sarasota-jungle-gardens",
+      "question": "Where can kids see animals in Sarasota?",
+      "name": "Sarasota Jungle Gardens",
+      "tagline": "Up-close animal encounters",
+      "logo": "🦜",
+      "rating": 4.5,
+      "description": "Kids can feed flamingos, watch reptile shows, and explore exotic birds at Sarasota Jungle Gardens, a historic attraction with petting areas. Daily shows provide education and fun. Mid-morning visits catch all activities, with shaded paths for comfort—local favorite for family outings.",
+      "maker": { "name": "Jungle Gardens Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$15-25/person",
+      "contact": {
+        "website": "https://sarasotajunglegardens.com",
+        "phone": "941-355-5305",
+        "address": "3701 Bay Shore Rd, Sarasota, FL 34234"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/sarasotajunglegardens",
+        "facebook": "https://facebook.com/sarasotajunglegardens"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=sarasota+jungle+gardens+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117480-Reviews-Sarasota_Jungle_Gardens-Sarasota_Florida.html"
+      },
+      "tags": ["Animals", "Shows", "Petting Zoo", "Gardens"],
+      "category": "animal-park",
+      "relatedQuestions": [
+        "Are there big cats on display in Sarasota?",
+        "Best animal park for kids in Sarasota?",
+        "What's the best attraction for kids in Sarasota?"
+      ]
+    },
+    {
+      "id": "big-cat-habitat",
+      "question": "Are there big cats on display in Sarasota?",
+      "name": "Big Cat Habitat and Gulf Coast Sanctuary",
+      "tagline": "Exotic cats and wildlife sanctuary",
+      "logo": "🦁",
+      "rating": 4.4,
+      "description": "Yes, Big Cat Habitat displays lions, tigers, and ligers with daily shows and encounters, as a nonprofit sanctuary focused on conservation. Open weekends with petting zoo additions. Arrive early for front-row seats, and support through memberships—community-driven with animal welfare emphasis.",
+      "maker": { "name": "Clayton Rosaire", "title": "Founder" },
+      "location": "Sarasota",
+      "priceRange": "$20-30/person",
+      "contact": {
+        "website": "https://bigcathabitat.org",
+        "phone": "941-371-6377",
+        "address": "7101 Palmer Blvd, Sarasota, FL 34240"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/bigcathabitat",
+        "facebook": "https://facebook.com/bigcathabitat"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=big+cat+habitat+sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/big-cat-habitat-sarasota"
+      },
+      "tags": ["Big Cats", "Sanctuary", "Shows", "Conservation"],
+      "category": "wildlife-sanctuary",
+      "relatedQuestions": [
+        "Where can kids see animals in Sarasota?",
+        "Best wildlife sanctuary for families in Sarasota?",
+        "Where can three generations have fun together in Sarasota?"
+      ]
+    },
+    {
+      "id": "jumpjump-multiverse",
+      "question": "What can we do with kids when it's raining in Sarasota?",
+      "name": "JumpJump Children Multiverse",
+      "tagline": "Indoor playground paradise",
+      "logo": "🎉",
+      "rating": 4.8,
+      "description": "JumpJump offers bounce houses, slides, and play zones in an air-conditioned space, perfect for rainy days with kids. Themed areas keep energy high safely. Book parties or drop in—local go-to for bad weather, with nearby eateries for parents.",
+      "maker": { "name": "JumpJump Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$10-20/person",
+      "contact": {
+        "website": "https://jumpjumpmultiverse.com",
+        "phone": "941-777-5867",
+        "address": "1234 Example St, Sarasota, FL 34239"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=jumpjump+multiverse+sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/jumpjump-children-multiverse-sarasota"
+      },
+      "tags": ["Rainy Day", "Indoor Play", "Bounce House", "Kids"],
+      "category": "indoor-play",
+      "relatedQuestions": [
+        "What's the best indoor family attraction in Sarasota?",
+        "Where can we have a birthday party for kids in Sarasota?",
+        "Best attraction for toddlers in Sarasota?"
+      ]
+    },
+    {
+      "id": "livingstons-amusements",
+      "question": "What's the best indoor family attraction in Sarasota?",
+      "name": "Livingston's Amusements",
+      "tagline": "All-ages indoor fun center",
+      "logo": "🕹️",
+      "rating": 4.3,
+      "description": "Livingston's features go-karts, arcade games, bumper cars, and billiards in a smoke-free environment, ideal for indoor family entertainment. Group packages available. Visit evenings for less crowds—community staple for birthdays and rainy days.",
+      "maker": { "name": "Livingston's Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$20-40/person",
+      "contact": {
+        "website": "https://www.livingstonsamusements.com",
+        "phone": "941-355-7744",
+        "address": "5947 Clark Center Ave, Sarasota, FL 34238"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=livingstons+amusements+sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/livingstons-amusements-sarasota"
+      },
+      "tags": ["Indoor Attraction", "Arcade", "Go-Karts", "Family"],
+      "category": "amusement-center",
+      "relatedQuestions": [
+        "What can we do with kids when it's raining in Sarasota?",
+        "Where can tweens have fun in Sarasota?",
+        "Where can we have a birthday party for kids in Sarasota?"
+      ]
+    },
+    {
+      "id": "legacy-trail",
+      "question": "What's the best free family activity in Sarasota?",
+      "name": "The Legacy Trail",
+      "tagline": "Scenic biking and walking path",
+      "logo": "🚲",
+      "rating": 4.8,
+      "description": "The Legacy Trail offers 12 miles of paved paths for biking, walking, and wildlife spotting from Sarasota to Venice, free for all ages. Rent bikes cheaply nearby. Best in mornings for birdwatching—community-supported with benches and historical markers.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Sarasota to Venice",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://www.visitsarasota.com/legacy-trail",
+        "phone": "941-861-5000",
+        "address": "Various access points"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=legacy+trail+sarasota+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d1473002-Reviews-Legacy_Trail-Sarasota_Florida.html"
+      },
+      "tags": ["Free Activity", "Biking", "Walking", "Family"],
+      "category": "trail",
+      "relatedQuestions": [
+        "Best outdoor park for kids in Sarasota?",
+        "What's the best free family activity in Sarasota?",
+        "Where can three generations have fun together in Sarasota?"
+      ]
+    },
+    {
+      "id": "urfer-family-park",
+      "question": "Where's the best playground in Sarasota?",
+      "name": "Urfer Family Park",
+      "tagline": "Expansive playground and trails",
+      "logo": "🏞️",
+      "rating": 4.6,
+      "description": "Urfer Family Park boasts a large playground, nature trails, and picnic areas, ideal for kids' play in a natural setting. Free entry with ample parking. Visit for family gatherings—local hidden gem with occasional events.",
+      "maker": { "name": "Sarasota County Parks", "title": "Managers" },
+      "location": "Sarasota",
+      "priceRange": "Free",
+      "contact": {
+        "website": "https://www.scgov.net/government/parks-recreation-and-natural-resources/parks-and-recreation/urfer-family-park",
+        "phone": "941-861-5000",
+        "address": "4000 Honore Ave, Sarasota, FL 34233"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=urfer+family+park+sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/urfer-family-park-sarasota"
+      },
+      "tags": ["Playground", "Trails", "Picnics", "Free"],
+      "category": "park",
+      "relatedQuestions": [
+        "Where can we take kids under 5 in Sarasota?",
+        "Best outdoor park for kids in Sarasota?",
+        "What's the best free family activity in Sarasota?"
+      ]
+    },
+    {
+      "id": "sky-zone-sarasota",
+      "question": "Where can we have a birthday party for kids in Sarasota?",
+      "name": "Sky Zone Sarasota",
+      "tagline": "Trampoline party excitement",
+      "logo": "🤸",
+      "rating": 4.4,
+      "description": "Sky Zone offers trampoline jumping, foam pits, and party rooms for energetic kids' birthdays with packages including pizza and hosts. Glow nights add fun. Book in advance—popular for all ages with safety features.",
+      "maker": { "name": "Sky Zone Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$20-40/person",
+      "contact": {
+        "website": "https://www.skyzone.com/sarasota",
+        "phone": "941-363-5867",
+        "address": "6180 Edgelake Dr, Sarasota, FL 34240"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=sky+zone+sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/sky-zone-trampoline-park-sarasota"
+      },
+      "tags": ["Birthday Party", "Trampoline", "Indoor", "Fun Center"],
+      "category": "party-venue",
+      "relatedQuestions": [
+        "What can we do with kids when it's raining in Sarasota?",
+        "Where can tweens have fun in Sarasota?",
+        "Best indoor family attraction in Sarasota?"
+      ]
+    },
+    {
+      "id": "myakka-river-state-park",
+      "question": "Where can we go that's fun for both kids and adults in Sarasota?",
+      "name": "Myakka River State Park",
+      "tagline": "Wilderness adventures for all",
+      "logo": "🌿",
+      "rating": 4.7,
+      "description": "Myakka River provides airboat tours, hiking, and wildlife viewing enjoyable for kids and adults alike in vast natural surroundings. Camping options extend the fun. Early mornings for alligators—affordable entry with educational ranger talks.",
+      "maker": { "name": "Florida State Parks", "title": "Managers" },
+      "location": "Sarasota",
+      "priceRange": "$6/vehicle",
+      "contact": {
+        "website": "https://www.floridastateparks.org/parks-and-trails/myakka-river-state-park",
+        "phone": "941-361-6511",
+        "address": "13208 State Rd 72, Sarasota, FL 34241"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/floridastateparks",
+        "facebook": "https://facebook.com/MyakkaRiverStatePark"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=myakka+river+state+park+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117484-Reviews-Myakka_River_State_Park-Sarasota_Florida.html"
+      },
+      "tags": ["Multi-Gen", "Nature", "Wildlife", "Outdoor"],
+      "category": "state-park",
+      "relatedQuestions": [
+        "Best nature park for kids in Sarasota?",
+        "Where can three generations have fun together in Sarasota?",
+        "What's the best activity for grandparents with visiting grandkids in Sarasota?"
+      ]
+    },
+    {
+      "id": "marie-selby-botanical-gardens",
+      "question": "What's the best activity for grandparents with visiting grandkids in Sarasota?",
+      "name": "Marie Selby Botanical Gardens",
+      "tagline": "Botanical wonders and play areas",
+      "logo": "🌺",
+      "rating": 4.7,
+      "description": "Selby Gardens delights all ages with orchid displays, rainforest gardens, and a children's area with bridges and caves. Wheelchair-friendly paths suit grandparents. Seasonal exhibits add variety—tranquil setting for family bonding.",
+      "maker": { "name": "Selby Gardens Team", "title": "Operators" },
+      "location": "Sarasota",
+      "priceRange": "$15-25/person",
+      "contact": {
+        "website": "https://selby.org",
+        "phone": "941-366-5731",
+        "address": "1534 Mound St, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/selbygardens",
+        "facebook": "https://facebook.com/selbygardens"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=marie+selby+botanical+gardens+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117481-Reviews-Marie_Selby_Botanical_Gardens-Sarasota_Florida.html"
+      },
+      "tags": ["Grandparents", "Gardens", "Educational", "Play Areas"],
+      "category": "botanical-garden",
+      "relatedQuestions": [
+        "Where can three generations have fun together in Sarasota?",
+        "Top children's garden in Sarasota?",
+        "Where can kids learn while having fun in Sarasota?"
+      ]
+    },
+    {
+      "id": "st-armands-circle",
+      "question": "Where can three generations have fun together in Sarasota?",
+      "name": "St. Armands Circle",
+      "tagline": "Shopping and dining hub",
+      "logo": "🛍️",
+      "rating": 4.6,
+      "description": "St. Armands Circle offers shopping, ice cream, and street performers for multi-gen enjoyment near Lido Beach. Free parking circles the area. Evening visits for lights and music—family-friendly with diverse eateries.",
+      "maker": { "name": "St. Armands Merchants Association", "title": "Operators" },
+      "location": "Lido Key",
+      "priceRange": "Varies",
+      "contact": {
+        "website": "https://www.starmandscircleassoc.com",
+        "phone": "941-388-1554",
+        "address": "300 Madison Dr, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/starmandscircle",
+        "facebook": "https://facebook.com/starmandscircle"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=st+armands+circle+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d117483-Reviews-St_Armands_Circle-Sarasota_Florida.html"
+      },
+      "tags": ["Multi-Gen", "Shopping", "Dining", "Entertainment"],
+      "category": "shopping-district",
+      "relatedQuestions": [
+        "Where can we go that's fun for both kids and adults in Sarasota?",
+        "What's the best activity for grandparents with visiting grandkids in Sarasota?",
+        "Best beach for people watching in Sarasota?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "toddler-attraction",
+      "name": "Toddler Attraction",
+      "description": "Safe play for little ones",
+      "icon": "🌳"
+    },
+    {
+      "id": "playground",
+      "name": "Playground",
+      "description": "Outdoor fun zones",
+      "icon": "🎪"
+    },
+    {
+      "id": "teen-activity",
+      "name": "Teen Activity",
+      "description": "Adrenaline adventures",
+      "icon": "🧗"
+    },
+    {
+      "id": "gaming-attraction",
+      "name": "Gaming Attraction",
+      "description": "Arcade entertainment",
+      "icon": "🕹️"
+    },
+    {
+      "id": "aquarium",
+      "name": "Aquarium",
+      "description": "Marine explorations",
+      "icon": "🐠"
+    },
+    {
+      "id": "museum",
+      "name": "Museum",
+      "description": "Cultural learning",
+      "icon": "🖼️"
+    },
+    {
+      "id": "animal-park",
+      "name": "Animal Park",
+      "description": "Wildlife encounters",
+      "icon": "🦜"
+    },
+    {
+      "id": "wildlife-sanctuary",
+      "name": "Wildlife Sanctuary",
+      "description": "Exotic animal views",
+      "icon": "🦁"
+    },
+    {
+      "id": "indoor-play",
+      "name": "Indoor Play",
+      "description": "Rainy day bounces",
+      "icon": "🎉"
+    },
+    {
+      "id": "amusement-center",
+      "name": "Amusement Center",
+      "description": "Indoor thrills",
+      "icon": "🕹️"
+    },
+    {
+      "id": "trail",
+      "name": "Trail",
+      "description": "Free outdoor paths",
+      "icon": "🚲"
+    },
+    {
+      "id": "park",
+      "name": "Park",
+      "description": "Nature playgrounds",
+      "icon": "🏞️"
+    },
+    {
+      "id": "party-venue",
+      "name": "Party Venue",
+      "description": "Birthday celebrations",
+      "icon": "🤸"
+    },
+    {
+      "id": "state-park",
+      "name": "State Park",
+      "description": "Wild adventures",
+      "icon": "🌿"
+    },
+    {
+      "id": "botanical-garden",
+      "name": "Botanical Garden",
+      "description": "Garden explorations",
+      "icon": "🌺"
+    },
+    {
+      "id": "shopping-district",
+      "name": "Shopping District",
+      "description": "Family outings",
+      "icon": "🛍️"
+    }
+  ],
+  "locations": [
+    "Downtown Sarasota",
+    "Bradenton",
+    "Lido Key",
+    "Sarasota to Venice",
+    "Siesta Key"
+  ],
+  "priceRanges": [
+    {
+      "id": "free",
+      "label": "Free",
+      "range": "Free",
+      "description": "No cost fun"
+    },
+    {
+      "id": "low-cost",
+      "label": "Low-Cost",
+      "range": "$6-20/person",
+      "description": "Affordable activities"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$20-60/person",
+      "description": "Premium family experiences"
+    }
+  ]
+}

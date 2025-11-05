@@ -1,0 +1,68 @@
+<!-- Navigation -->
+<nav class="main-navigation">
+    <div class="nav-container">
+        <div class="nav-brand">
+            <a href="/" class="brand-link">
+                <span class="brand-icon">🌴</span>
+                <span class="brand-text">Vibing Sarasota</span>
+            </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="nav-links desktop-nav">
+            <a href="/" class="nav-link <%= currentPath === '/' ? 'active' : '' %>">All Categories</a>
+            <div class="nav-dropdown">
+                <a href="#" class="nav-link dropdown-toggle <%= currentPath.startsWith('/food') ? 'active' : '' %>">Food & Dining</a>
+                <div class="dropdown-menu">
+                    <a href="/food-service" class="dropdown-link <%= currentPath === '/food-service' ? 'active' : '' %>">Food Services</a>
+                    <a href="/fine-dining" class="dropdown-link <%= currentPath === '/fine-dining' ? 'active' : '' %>">Fine Dining</a>
+                    <a href="/party-vibes" class="dropdown-link <%= currentPath === '/party-vibes' ? 'active' : '' %>">Party Vibe</a>
+                </div>
+            </div>
+            <a href="/med-spas" class="dropdown-link <%= currentPath === '/med-spas' ? 'active' : '' %>">Med Spas</a>
+            <a href="/golf" class="nav-link <%= currentPath === '/golf' ? 'active' : '' %>">Golf</a>
+            <a href="/movie-theaters" class="nav-link <%= currentPath === '/movie-theaters' ? 'active' : '' %>">Movies</a>
+            <a href="/meet-people" class="nav-link <%= currentPath === '/meet-people' ? 'active' : '' %>">Meet People</a>
+            <a href="/st-armands" class="nav-link <%= currentPath === '/st-armands' ? 'active' : '' %>">St. Armands</a>
+            <a href="/beaches" class="nav-link <%= currentPath === '/beaches' ? 'active' : '' %>">Beaches</a>
+            <a href="/family" class="nav-lin <%= currentPath === '/family' ? 'active' : '' %>k">Family</a>
+            <a href="/hidden-gems" class="nav-link <%= currentPath === '/hidden-gems' ? 'active' : '' %>">Hidden Gems</a>
+        </div>
+
+        <!-- Vibe Button (Both Mobile & Desktop) -->
+        <button class="vibe-header-button" id="vibeHeaderButton" aria-label="Share your vibe">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <!-- Modal content -->
+        <%- include('vibe-modal.ejs') %>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-menu">
+        <a href="/" class="mobile-nav-link">🏠 All Categories</a>
+        <div class="mobile-nav-section">
+            <span class="mobile-nav-header">🍽️ Food & Dining</span>
+            <a href="/food-service" class="mobile-nav-link sub">🥗 Food Services</a>
+            <a href="/fine-dining" class="mobile-nav-link sub active">✨ Fine Dining</a>
+            <a href="/party-vibes" class="mobile-nav-link sub">🎉 Party Vibe</a>
+        </div>
+        <a href="/med-spas" class="mobile-nav-link">💆‍♀️ Med Spas</a>
+        <a href="/golf" class="mobile-nav-link">⛳ Golf</a>
+        <a href="/movie-theaters" class="mobile-nav-link">🎬 Movies</a>
+        <a href="/meet-people" class="mobile-nav-link">🤝 Meet People</a>
+        <a href="/st-armands" class="mobile-nav-link">🛍️ St. Armands</a>
+        <a href="/beaches" class="mobile-nav-link">🏖️ Beaches</a>
+        <a href="/family" class="mobile-nav-link">👨‍👩‍👧‍👦 Family</a>
+        <a href="/hidden-gems" class="mobile-nav-link">💎 Hidden Gems</a>
+    </div>
+</nav>

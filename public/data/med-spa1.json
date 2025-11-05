@@ -1,0 +1,264 @@
+{
+  "businesses": [
+    {
+      "id": "sarasota-facial-aesthetics",
+      "question": "What's the most luxurious med spa in Sarasota?",
+      "name": "Sarasota Facial Aesthetics",
+      "tagline": "Southwest Florida's premier medical aesthetic practice",
+      "logo": "💎",
+      "rating": 4.9,
+      "description": "The only Top 50 Allergan account in Sarasota and largest Allergan/Galderma account in Southwest Florida. Their two master APRNs serve as national trainers for Botox and Juvederm makers. First spa in Sarasota to offer the $1,450 AquaGold 'red carpet facial' beloved by celebrities. Established 2008 with 17 years of unmatched reputation.",
+      "maker": {
+        "name": "Beth Bobb and Susan McCann",
+        "title": "APRN-BC, Master Injector Partners"
+      },
+      "location": "Historic Southside Village",
+      "priceRange": "$12/unit Botox, $250-300 HydraFacial, $1,450 AquaGold",
+      "contact": {
+        "website": "https://www.sarasotafacialaesthetics.com",
+        "phone": "(941) 955-8384",
+        "address": "1806 S Osprey Ave, Sarasota, FL 34239"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "https://www.sarasotamagazine.com/fashion-and-shopping/2020/01/looking-for-a-luxe-facial-that-actually-does-something-try-this"
+      },
+      "tags": ["Luxury Treatments", "National Trainers", "Celebrity Facials", "Southside Village"],
+      "category": "med-spa",
+      "relatedQuestions": [
+        "Who does the best Botox in Sarasota?",
+        "What's the best place for facials in Sarasota?",
+        "Where do celebrities get treatments in Sarasota?"
+      ]
+    },
+    {
+      "id": "bowtique-med-spa",
+      "question": "What's the most affordable med spa in Sarasota?",
+      "name": "Bowtique Med Spa",
+      "tagline": "Trusted injectors, exclusive prices, five-star atmosphere",
+      "logo": "🎀",
+      "rating": 4.8,
+      "description": "Offers 25% lower prices than most Sarasota med spas while maintaining board-certified physician oversight. Botox for 3 areas costs $349-$449 versus area average of $500-$750. Part of one of Florida's largest plastic surgery practices with 16+ years experience and 800+ five-star reviews.",
+      "maker": {
+        "name": "Dr. J. David Holcomb",
+        "title": "Double Board-Certified Facial Plastic Surgeon"
+      },
+      "location": "South Tamiami Trail",
+      "priceRange": "$349-$449 Botox (3 areas), $399+ fillers per syringe",
+      "contact": {
+        "website": "https://www.bowtiquemedspa.com",
+        "phone": "(941) 360-2869",
+        "address": "6118 S Tamiami Trail, Sarasota, FL 34231"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/BowtiqueMedSpa/"
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "https://scenesarasota.com/magazine/article/introducing-bowtox-boutique/"
+      },
+      "tags": ["Affordable Pricing", "Board-Certified Oversight", "Value-Focused", "Accessible Location"],
+      "category": "med-spa",
+      "relatedQuestions": [
+        "Where can I get quality Botox for less in Sarasota?",
+        "What's the best value med spa in Sarasota?",
+        "Which med spa has the best deals in Sarasota?"
+      ]
+    },
+    {
+      "id": "rita-medical-elite",
+      "question": "Who does the best Botox in Sarasota?",
+      "name": "Rita Medical Elite",
+      "tagline": "Top 15 Dysport provider in the U.S. with 95% repeat clients",
+      "logo": "💉",
+      "rating": 4.9,
+      "description": "Rita Altman brings 36+ years of expertise and is rated as one of the top injectors in the country. Clients fly in from out of state specifically for her treatments. She trains plastic surgeons, physicians, and nurse practitioners, with 95% repeat customers and referrals demonstrating unmatched client loyalty.",
+      "maker": {
+        "name": "Rita Altman",
+        "title": "PA-C, Master Injector"
+      },
+      "location": "School Avenue Medical Corridor",
+      "priceRange": "Premium pricing for master-level expertise",
+      "contact": {
+        "website": "https://www.ritamedicalelite.com",
+        "phone": "(941) 951-2161",
+        "address": "3847 S School Ave, Sarasota, FL 34239"
+      },
+      "socialMedia": {
+        "instagram": "https://instagram.com/ritamedicalelite",
+        "facebook": "https://www.facebook.com/ritamedicalelite/"
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "https://cslcbeauty.com/sarasota/"
+      },
+      "tags": ["Master Injector", "National Recognition", "Training Provider", "Premium Expertise"],
+      "category": "med-spa",
+      "relatedQuestions": [
+        "Who's the most skilled injector in Sarasota?",
+        "Where do other doctors go for Botox in Sarasota?",
+        "What's the best place for advanced injectables in Sarasota?"
+      ]
+    },
+    {
+      "id": "reveal-vitality",
+      "question": "What's the best wellness center in Sarasota?",
+      "name": "Reveal Vitality",
+      "tagline": "Triple board-certified cardiologist's functional medicine revolution",
+      "logo": "🌟",
+      "rating": 4.7,
+      "description": "Dr. Christopher Davis combines triple board certification in cardiology with functional medicine expertise. Only center integrating cardiology, functional medicine, fitness, and longevity technologies. Features hyperbaric chamber, cryotherapy, AI-driven fitness, and personalized genetic testing for comprehensive wellness transformation.",
+      "maker": {
+        "name": "Dr. Christopher Davis",
+        "title": "MD, FACC, Triple Board-Certified Cardiologist"
+      },
+      "location": "Downtown Sarasota",
+      "priceRange": "$399 Foundational Assessment, concierge-style investment",
+      "contact": {
+        "website": "https://revealvitality.com",
+        "phone": "(941) 217-2777",
+        "address": "1217 SE Ave Suite 201, Sarasota, FL 34239"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "https://revealhealthblog.com/2025/04/29/the-best-luxury-and-wellness-gym-in-sarasota-fl/"
+      },
+      "tags": ["Functional Medicine", "Longevity Center", "Cardiology Expertise", "Cutting-Edge Technology"],
+      "category": "wellness",
+      "relatedQuestions": [
+        "What's the most advanced wellness center in Sarasota?",
+        "Where can I get comprehensive health optimization in Sarasota?",
+        "What's the best place for longevity treatments in Sarasota?"
+      ]
+    },
+    {
+      "id": "harmony-skin-care-spa",
+      "question": "What's the best place for laser treatments in Sarasota?",
+      "name": "Harmony Skin Care Spa",
+      "tagline": "2022 Best of Sarasota Award winner with 25+ years laser expertise",
+      "logo": "⚡",
+      "rating": 4.8,
+      "description": "Dr. Pabon personally performs all laser treatments with 25+ years of laser certification. Houston Laser Institute instructor who taught other medical professionals. Winner of 2022 Best of Sarasota Award with double-board certification and cutting-edge BBL technology for all skin types.",
+      "maker": {
+        "name": "Dr. J.E. Pabon",
+        "title": "MD, Laser Surgery Expert"
+      },
+      "location": "Central Sarasota",
+      "priceRange": "Competitive laser treatment pricing",
+      "contact": {
+        "website": "https://harmonyskincarefl.com",
+        "phone": "(941) 921-1007",
+        "address": "5100 Station Way, Suite B, Sarasota, FL 34233"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": ""
+      },
+      "tags": ["Award-Winning", "Laser Specialist", "Personal Physician Care", "Educational Approach"],
+      "category": "med-spa",
+      "relatedQuestions": [
+        "Who's the most experienced laser doctor in Sarasota?",
+        "What's the safest place for laser treatments in Sarasota?",
+        "Where can I get the newest laser technology in Sarasota?"
+      ]
+    },
+    {
+      "id": "sarasota-pain-treatment-center",
+      "question": "What's the best place for chronic pain treatment in Sarasota?",
+      "name": "Sarasota Pain Treatment Center",
+      "tagline": "Neurosomatic Therapy specialist solving 'impossible' cases",
+      "logo": "🎯",
+      "rating": 4.9,
+      "description": "Casey Smith, LMT specializes exclusively in Neurosomatic Therapy with over 20,000 clinical hours across 11+ years. Only center in Sarasota using this unique structural approach that consistently solves cases other healthcare providers couldn't address. Five-stage rehabilitation process targeting root causes.",
+      "maker": {
+        "name": "Casey Smith",
+        "title": "LMT, Neurosomatic Therapy Specialist"
+      },
+      "location": "Downtown Sarasota",
+      "priceRange": "$350 initial visit, $220 standard, $450 concierge",
+      "contact": {
+        "website": "https://www.sarasotapaintreatment.com",
+        "phone": "(941) 960-2096",
+        "address": "2389 Ringling Blvd Suite B, Sarasota, FL 34237"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": ""
+      },
+      "tags": ["Chronic Pain Specialist", "Neurosomatic Therapy", "Structural Approach", "Proven Results"],
+      "category": "wellness",
+      "relatedQuestions": [
+        "Where can I get help for chronic pain in Sarasota?",
+        "What's the most effective pain treatment in Sarasota?",
+        "Who specializes in hard-to-treat pain conditions in Sarasota?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "med-spa",
+      "name": "Med Spa",
+      "description": "Medical aesthetic treatments and cosmetic procedures",
+      "icon": "💎"
+    },
+    {
+      "id": "wellness",
+      "name": "Wellness",
+      "description": "Comprehensive health optimization and pain management",
+      "icon": "🌟"
+    }
+  ],
+  "locations": [
+    "Historic Southside Village",
+    "South Tamiami Trail",
+    "School Avenue Medical Corridor",
+    "Downtown Sarasota",
+    "Central Sarasota",
+    "Lakewood Ranch",
+    "Venice",
+    "Bradenton"
+  ],
+  "priceRanges": [
+    {
+      "id": "affordable",
+      "label": "Affordable",
+      "range": "$349-$449",
+      "description": "Budget-friendly med spa treatments"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$250-$500",
+      "description": "Standard medical spa services"
+    },
+    {
+      "id": "premium",
+      "label": "Premium",
+      "range": "$500-$1,450+",
+      "description": "Luxury treatments and celebrity-level services"
+    },
+    {
+      "id": "wellness-investment",
+      "label": "Wellness Investment",
+      "range": "$220-$450",
+      "description": "Comprehensive health optimization services"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "businesses": [
+    {
+      "id": "ringling-underground",
+      "question": "What’s a great monthly live music event in Sarasota with local and indie bands?",
+      "name": "Ringling Underground",
+      "tagline": "Indie music nights at the Ringling Museum",
+      "image": "../img/ringling_underground.jpg",
+      "logo": "🎶",
+      "rating": 4.7,
+      "description": "The Ringling Underground is a music concert hosted at the Ringling Museum every first Thursday of the month. It brings indie bands from around the US to perform inside the mansion, featuring psychedelic rock, electronic, and fusion genres. Admission is $15 and free for college students and members.",
+      "maker": { "name": "The Ringling Museum", "title": "Host" },
+      "location": "Ringling Museum, Sarasota",
+      "priceRange": "$15 (Free for Students & Members)",
+      "contact": {
+        "website": "https://www.ringling.org/event/ringling-underground-2/",
+        "phone": "",
+        "address": "5401 Bay Shore Rd, Sarasota, FL 34243"
+      },
+      "socialMedia": {},
+      "reviews": {},
+      "tags": ["Live Music", "Indie", "Event", "Museum"],
+      "category": "music-event",
+      "relatedQuestions": [
+        "What’s the best place to hear local bands in Sarasota?",
+        "Are there student discounts for Ringling events?"
+      ]
+    },
+    {
+      "id": "manna-tea",
+      "question": "Where can I relax and enjoy herbal drinks or kava in Sarasota?",
+      "name": "Manna Tea",
+      "tagline": "Chill kava bar and creative community spot",
+      "image": "../img/mannatea.webp",
+      "logo": "🍵",
+      "rating": 4.6,
+      "description": "Manna Tea is a kava bar offering herbal drinks, Italian sodas, and kava. It’s a popular hangout spot for studying, socializing, or meeting new people, with weekly events like open mics, poetry nights, and fire shows.",
+      "maker": { "name": "Manna Tea", "title": "Owners" },
+      "location": "Sarasota",
+      "priceRange": "$5–25",
+      "contact": {
+        "website": "https://www.instagram.com/mannateaandkava/",
+        "phone": "",
+        "address": "1192 Whitfield Ave, Sarasota, FL 34243"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/mannateaandkava/"
+      },
+      "reviews": {},
+      "tags": ["Kava Bar", "Community", "Live Events", "Poetry"],
+      "category": "kava-bar",
+      "relatedQuestions": [
+        "Where can I find late-night hangouts in Sarasota?",
+        "Are there any open mic events near Sarasota?"
+      ]
+    },
+    {
+      "id": "wslr-fogartyville",
+      "question": "What’s a great community venue for music and cultural events in Sarasota?",
+      "name": "WSLR + Fogartyville",
+      "tagline": "Community radio meets live performance space",
+      "image": "../img/wlsr-logo.jpg",
+      "logo": "📻",
+      "rating": 4.8,
+      "description": "WSLR is a community radio station that also runs the Fogartyville venue. The space hosts diverse events including folk, jazz, pop, open mics, meditations, and film screenings, offering something new for everyone.",
+      "maker": { "name": "WSLR Radio", "title": "Organizers" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$25–75 (Student & Member Discounts)",
+      "contact": {
+        "website": "https://wslr.org/",
+        "phone": "",
+        "address": "525 Kumquat Ct, Sarasota, FL 34236"
+      },
+      "socialMedia": {},
+      "reviews": {},
+      "tags": ["Community", "Music", "Radio", "Venue"],
+      "category": "cultural-venue",
+      "relatedQuestions": [
+        "Where can I find community-driven events in Sarasota?",
+        "Does WSLR host open mics or film nights?"
+      ]
+    },
+    {
+      "id": "the-george",
+      "question": "Where can I shop for boho fashion and unique art in Sarasota?",
+      "name": "The George",
+      "tagline": "Downtown boutique with Boho fashion and art",
+      "image": "../img/the-george.webp",
+      "logo": "🛍️",
+      "rating": 4.5,
+      "description": "The George is a boutique clothing store in downtown Sarasota offering boho and hippie fashion, original art, vintage furniture, and cultural goods.",
+      "maker": { "name": "The George Sarasota", "title": "Owners" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$10–80+",
+      "contact": {
+        "website": "https://thegeorgesarasota.com/",
+        "phone": "",
+        "address": "1960 Main St, Sarasota, FL 34236"
+      },
+      "socialMedia": {},
+      "reviews": {},
+      "tags": ["Boutique", "Fashion", "Art", "Vintage"],
+      "category": "shopping",
+      "relatedQuestions": [
+        "What are the best local boutiques in Sarasota?",
+        "Where can I find boho-style clothing downtown?"
+      ]
+    },
+    {
+      "id": "katys-cat-cafe",
+      "question": "Where can I enjoy coffee with adoptable cats in Sarasota?",
+      "name": "Katy’s Cat Cafe",
+      "tagline": "Coffee, cats, and community vibes",
+      "image": "../img/katys-cafe.jpg",
+      "logo": "🐱☕",
+      "rating": 4.9,
+      "description": "Katy’s Cat Cafe offers an inviting cafe experience where visitors can enjoy drinks and pastries while spending time with adoptable cats. The cat lounge admission helps fund the care of the animals.",
+      "maker": { "name": "Katy’s Cat Cafe", "title": "Owners" },
+      "location": "Sarasota",
+      "priceRange": "$5–15 (plus $20 for cat lounge)",
+      "contact": {
+        "website": "https://www.katyscatcafe.com/",
+        "phone": "",
+        "address": "1490 Boulevard of the Arts, Sarasota, FL 34236"
+      },
+      "socialMedia": {},
+      "reviews": {},
+      "tags": ["Cafe", "Cats", "Pet Adoption", "Coffee"],
+      "category": "cat-cafe",
+      "relatedQuestions": [
+        "Are there any cat cafes in Sarasota?",
+        "Where can I adopt cats while enjoying coffee?"
+      ]
+    }
+  ]
+}

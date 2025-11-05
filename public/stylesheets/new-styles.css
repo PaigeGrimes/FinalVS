@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1600px;
+    margin: 15px auto;
+
+}
+
+/* Nav */
+.nav-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 80px;
+    background: #ffffff;
+    border-bottom: 2px solid #1E3A8A;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav-brand a {
+    width: 20px;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #1e3a8a;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+    padding: 30px 12px;
+    transition: background 0.3s;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+    border-radius: 4px;
+    color: #1e3a8a;
+    font-weight: bolder;
+    background-color: rgba(168, 175, 193, 0.45);
+}
+
+/* Dropdown */
+.nav_dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.nav_dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Vibe Button */
+.vibe-header-button {
+    background-color: rgba(30, 58, 138, 0.58); /* Green */
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.vibe-header-button:hover {
+    background-color: rgb(253, 104, 90);
+    cursor: pointer;
+}
+
+.breadcrumb-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-link {
+    color: #1e3a8a;
+    text-decoration: none;
+    margin: 0;
+    min-height: auto;
+}
+
+/* Category */
+.category-header {
+    text-align: center;
+    color: #1e3a8a;
+    padding: 2rem 1rem;
+}
+
+.category-icon {
+    font-size: 2em;
+
+}
+
+.category-description {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Location Cards */
+.vibe-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.vibe-card {
+    display: flex;
+    flex-direction: column; /* stack content top-to-bottom */
+    justify-content: space-between; /* spread content */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+
+}
+
+.vibe-card h2 a {
+    color: #1e3a8a;
+    text-decoration: none;
+
+}
+
+.vibe-card:hover {
+    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.58), 0 6px 20px rgba(0, 0, 255, 0.71);
+    transform: scale(1.03);
+}
+
+.vibe-card a:hover {
+    color: rgb(32, 60, 139);
+    background: #f9f9f9;
+
+}
+
+.vibe-card img {
+    width: 100%;
+    height: 20%;
+}
+
+.vibe-card-button {
+    margin-top: auto; /* pushes the button to the bottom */
+    background-color: #1e3a8a;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* Filters */
+.filters {
+    margin-bottom: 1.5rem;
+    padding: .75rem 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.filters h2 {
+    margin: 0;
+    font-size: 1rem;
+    color: #1e3a8a;
+    padding-bottom: 2.5rem;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+}
+
+.filter-group label {
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+    color: #1e3a8a;
+}
+
+.filter-group select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Focus and hover states for accessibility */
+.filter-group select:focus {
+    border-color: #1e3a8a;
+    box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.2);
+    outline: none;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #1e3a8a;
+    color: ghostwhite;
+
+    padding: 3rem 1.5rem;
+}
+
+.footer-container {
+    max-width: 1600px;
+    margin: 0;
+    padding: 0 1rem;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    height: 50vh;
+    position: relative;
+    overflow: auto;
+    box-shadow: 0 4px 20px rgb(99, 99, 239);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.button-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.vibe-modal-button {
+    display: inline-block;
+    width: 70%;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    text-align: center;
+    align-self: center;
+
+}
+
+button .vibe-modal-button:hover {
+    background-color: rgb(99, 99, 239);
+    color: white;
+}
+
+.cancel-button {
+    background-color: red;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    align-self: center;
+
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+textarea {
+    overflow-y: scroll;
+    height: 50px;
+    resize: none; /* Remove this if you want the user to resize the textarea */
+}
+
+.carousel-container {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+
+    position: relative;
+    background-color: #203c8b;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+
+}
+
+.carousel-inner {
+    display: flex;
+    gap: 10px;          /* smaller spacing between items */
+    animation: scroll-horizontal 12s linear infinite;
+}
+
+.carousel-item {
+    flex: 0 0 180px;
+    height: 170px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    position: relative;       /* allow z-index stacking */
+    z-index: 1;               /* default behind hovered item */
+}
+.carousel-item p {
+    margin: 0;
+    line-height: 1;
+    white-space: normal;      /* allow wrapping */
+    overflow-wrap: break-word; /* break long words */
+}
+.carousel-item:hover {
+    transform: scale(1.08) translateY(-5px); /* lifts it slightly */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    background-color: #f9f9f9;
+    z-index: 10;              /* bring to front */
+    cursor: pointer;
+}
+
+/* horizontal scroll animation */
+@keyframes scroll-horizontal {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-1040px); }
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+    .carousel-item {
+        flex: 0 0 140px;
+        font-size: 0.9rem;
+    }
+}
+.carousel-item::after {
+    content: "23 others love this";
+    display: none;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.carousel-item:hover::after {
+    display: inline;
+
+}

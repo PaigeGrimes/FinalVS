@@ -1,0 +1,46 @@
+<!-- Google Consent Mode v2 - Must load before GTM -->
+<script>
+    // Initialize dataLayer before any other scripts
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+
+    // Set default consent states (denied until user provides consent)
+    gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'functionality_storage': 'granted',
+        'security_storage': 'granted'
+    });
+
+    // Check for existing consent preferences
+    const consentPreferences = localStorage.getItem('vibing_sarasota_consent');
+    if (consentPreferences) {
+        try {
+            const consent = JSON.parse(consentPreferences);
+            if (consent.analytics === true) {
+                gtag('consent', 'update', {
+                    'analytics_storage': 'granted'
+                });
+            }
+            if (consent.marketing === true) {
+                gtag('consent', 'update', {
+                    'ad_storage': 'granted',
+                    'ad_user_data': 'granted',
+                    'ad_personalization': 'granted'
+                });
+            }
+        } catch (e) {
+            console.warn('Error parsing consent preferences:', e);
+        }
+    }
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PX68MSTT');</script>
+<!-- End Google Tag Manager -->

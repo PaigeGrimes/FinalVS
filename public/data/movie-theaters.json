@@ -1,0 +1,217 @@
+{
+  "businesses": [
+    {
+      "id": "cmx-cinebistro-siestakey",
+      "question": "What's the best luxury movie theater in Sarasota for dinner and a movie?",
+      "name": "CMX CinéBistro Siesta Key",
+      "tagline": "Elevated cinema with in-theater dining",
+      "logo": "🍿",
+      "rating": 4.0,
+      "description": "CMX CinéBistro Siesta Key offers a premium movie experience with reserved recliner seating, full-service in-theater dining from a chef-crafted menu, and 4K projection for an immersive luxury outing. As Sarasota's top dine-in cinema, it's perfect for date nights or special occasions, with locals appreciating the sophisticated atmosphere near Siesta Beach. Insider tip: Arrive 30 minutes early for optimal service, and note age restrictions after 8pm for non-family films.",
+      "maker": { "name": "CMX Cinemas Team", "title": "Operators" },
+      "location": "Siesta Key",
+      "priceRange": "$15-25/ticket + food",
+      "contact": {
+        "website": "https://www.cmxcinemas.com/locationdetail/cinebistro--siesta-key",
+        "phone": "941-361-2456",
+        "address": "3501 S. Tamiami Trail Suite 1100, Sarasota, FL 34239"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/cmxcinebistrosiestakey/",
+        "facebook": "https://www.facebook.com/CMXCinebistroSiestaKey/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=CMX+Cin%C3%A9Bistro+Siesta+Key+reviews",
+        "featured": "https://www.yelp.com/biz/cmx-cin%C3%A9bistro-siesta-key-sarasota"
+      },
+      "tags": ["Luxury Cinema", "Dine-In", "Recliners", "Siesta Key"],
+      "category": "luxury-cinema",
+      "relatedQuestions": [
+        "What's the best indie film theater in Sarasota?",
+        "Best theater for blockbuster movies in Sarasota?",
+        "Best drive-in movie experience near Sarasota?"
+      ]
+    },
+    {
+      "id": "burns-court-cinemas",
+      "question": "What's the best indie film theater in Sarasota?",
+      "name": "Burns Court Cinemas",
+      "tagline": "Art house for independent cinema",
+      "logo": "🎞️",
+      "rating": 4.3,
+      "description": "Operated by the nonprofit Sarasota Film Society since 1984, Burns Court Cinemas specializes in independent, foreign, and documentary films, making it the go-to for cinephiles in downtown Sarasota. With intimate screenings and community events, it's cherished by locals for preserving cultural cinema in a historic neighborhood. Parking is available in nearby public lots, ideal for combining with a stroll through Burns Court shops.",
+      "maker": { "name": "Renee Baggott", "title": "President" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$10-15/ticket",
+      "contact": {
+        "website": "https://filmsociety.org/",
+        "phone": "941-955-3456",
+        "address": "506 Burns Lane, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/sarasota.film.society/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Burns+Court+Cinemas+reviews",
+        "featured": "https://www.tripadvisor.com/Attraction_Review-g34618-d2407320-Reviews-Burns_Court_Cinemas-Sarasota_Florida.html"
+      },
+      "tags": ["Indie Films", "Art House", "Film Society", "Downtown"],
+      "category": "indie-cinema",
+      "relatedQuestions": [
+        "What's the best luxury movie theater in Sarasota for dinner and a movie?",
+        "Best theater for blockbuster movies in Sarasota?",
+        "Best family-friendly cinema in Lakewood Ranch?"
+      ]
+    },
+    {
+      "id": "regal-hollywood-sarasota",
+      "question": "Best theater for blockbuster movies in Sarasota?",
+      "name": "Regal Hollywood - Sarasota",
+      "tagline": "Premier screens for major releases",
+      "logo": "👑",
+      "rating": 3.5,
+      "description": "With 20 screens featuring recliner and stadium seating, Regal Hollywood is Sarasota's definitive spot for blockbuster hits and mainstream entertainment in the heart of downtown. Locals favor it for its convenient location and free parking in the adjacent garage, perfect for evening shows after dining nearby. It stands out with standard and premium formats, drawing crowds for big premieres year-round.",
+      "maker": { "name": "Regal Cinemas", "title": "Corporate Operators" },
+      "location": "Downtown Sarasota",
+      "priceRange": "$10-18/ticket",
+      "contact": {
+        "website": "https://www.regmovies.com/theatres/regal-hollywood-sarasota-0467",
+        "phone": "844-462-7342",
+        "address": "1993 Main Street, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "https://www.instagram.com/regalmovies",
+        "facebook": "https://www.facebook.com/RegalMovies/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Regal+Hollywood+Sarasota+reviews",
+        "featured": "https://www.yelp.com/biz/regal-hollywood-sarasota-sarasota-4"
+      },
+      "tags": ["Blockbuster", "Mainstream", "Recliners", "Downtown"],
+      "category": "mainstream-cinema",
+      "relatedQuestions": [
+        "What's the best luxury movie theater in Sarasota for dinner and a movie?",
+        "What's the best indie film theater in Sarasota?",
+        "Best drive-in movie experience near Sarasota?"
+      ]
+    },
+    {
+      "id": "lakewood-ranch-cinemas",
+      "question": "Best family-friendly cinema in Lakewood Ranch?",
+      "name": "Lakewood Ranch Cinemas",
+      "tagline": "Indie and family films in comfort",
+      "logo": "📽️",
+      "rating": 4.0,
+      "description": "As part of the Sarasota Film Society, Lakewood Ranch Cinemas blends independent and family-oriented films in a modern, accessible venue east of Sarasota. It's prized by local families for its clean facilities, easy parking, and community screenings, offering a relaxed alternative to chain theaters. Seasonal events tie into Lakewood Ranch's vibrant master-planned community lifestyle.",
+      "maker": { "name": "Renee Baggott", "title": "President" },
+      "location": "Lakewood Ranch",
+      "priceRange": "$10-15/ticket",
+      "contact": {
+        "website": "https://filmsociety.org/",
+        "phone": "941-955-3456",
+        "address": "10715 Rodeo Drive #8, Lakewood Ranch, FL 34202"
+      },
+      "socialMedia": {
+        "facebook": "https://www.facebook.com/sarasota.film.society/"
+      },
+      "reviews": {
+        "google": "https://www.google.com/search?q=Lakewood+Ranch+Cinemas+reviews",
+        "featured": "https://www.yelp.com/biz/lakewood-ranch-cinemas-lakewood-ranch"
+      },
+      "tags": ["Family Cinema", "Indie", "Community", "Lakewood Ranch"],
+      "category": "family-cinema",
+      "relatedQuestions": [
+        "What's the best indie film theater in Sarasota?",
+        "Best theater for blockbuster movies in Sarasota?",
+        "Best drive-in movie experience near Sarasota?"
+      ]
+    },
+    {
+      "id": "ruskin-family-drivein",
+      "question": "Best drive-in movie experience near Sarasota?",
+      "name": "Ruskin Family Drive-In",
+      "tagline": "Nostalgic outdoor movies since 1952",
+      "logo": "🚗",
+      "rating": 4.5,
+      "description": "Family-owned for over 70 years, Ruskin Family Drive-In shows double features year-round on a massive screen, making it the ultimate nostalgic cinema spot just a short drive from Sarasota. With a playground, snack bar, and emphasis on family values, it's beloved by locals for affordable, wholesome entertainment under the stars. Recently rebuilt after hurricanes, it embodies community resilience with clean facilities and safe viewing areas.",
+      "maker": { "name": "Karen and Ted Freiwald", "title": "Owners" },
+      "location": "Ruskin",
+      "priceRange": "$6-9/person",
+      "contact": {
+        "website": "http://www.ruskinfamilydrivein.com/",
+        "phone": "",
+        "address": "Ruskin, FL"
+      },
+      "socialMedia": {},
+      "reviews": {
+        "google": "https://www.google.com/search?q=Ruskin+Family+Drive-In+reviews",
+        "featured": "https://www.abcactionnews.com/lifestyle/daly-discoveries/ruskin-drive-in-owners-feel-the-love-from-community-after-hurricane-milton-damage"
+      },
+      "tags": ["Drive-In", "Family", "Outdoor", "Nostalgic"],
+      "category": "drive-in",
+      "relatedQuestions": [
+        "Best theater for blockbuster movies in Sarasota?",
+        "What's the best luxury movie theater in Sarasota for dinner and a movie?",
+        "Best family-friendly cinema in Lakewood Ranch?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "luxury-cinema",
+      "name": "Luxury Cinema",
+      "description": "Dine-in movie experiences with premium amenities",
+      "icon": "🍿"
+    },
+    {
+      "id": "indie-cinema",
+      "name": "Indie Cinema",
+      "description": "Art house theaters for independent films",
+      "icon": "🎞️"
+    },
+    {
+      "id": "mainstream-cinema",
+      "name": "Mainstream Cinema",
+      "description": "Large screens for blockbuster releases",
+      "icon": "👑"
+    },
+    {
+      "id": "family-cinema",
+      "name": "Family Cinema",
+      "description": "Comfortable venues for all ages",
+      "icon": "📽️"
+    },
+    {
+      "id": "drive-in",
+      "name": "Drive-In",
+      "description": "Outdoor nostalgic movie viewing",
+      "icon": "🚗"
+    }
+  ],
+  "locations": [
+    "Siesta Key",
+    "Downtown Sarasota",
+    "Lakewood Ranch",
+    "Ruskin"
+  ],
+  "priceRanges": [
+    {
+      "id": "budget",
+      "label": "Budget",
+      "range": "$6-10/ticket",
+      "description": "Affordable outdoor options"
+    },
+    {
+      "id": "standard",
+      "label": "Standard",
+      "range": "$10-15/ticket",
+      "description": "Everyday cinema experiences"
+    },
+    {
+      "id": "premium",
+      "label": "Premium",
+      "range": "$15-25/ticket",
+      "description": "Luxury and dine-in"
+    }
+  ]
+}

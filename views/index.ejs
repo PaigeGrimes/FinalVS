@@ -1,11 +1,179 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<%- include('components/header.ejs') %>
+<body class="hub-page">
+<%- include('components/google-cookie.ejs') %>
+<%- include('components/navbar.ejs') %>
+    <div class="container">
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1><%= title %></h1>
+            <p class="hero-description">Discover Sarasota's best local businesses through questions answered like a local friend would. Explore 10 curated categories of the finest services, attractions, and experiences our city has to offer. <span style="color: #28a745; font-size: 0.9em; font-weight: 600;">✨ Enhanced with interactive voting!</span></p>
+        </div>
+    </header>
+        <!-- Category Grid -->
+        <main class="category-grid-container">
+            <h2 class="section-title">Explore Categories</h2>
+            <div class="category-grid">
+
+                <!-- Food Services -->
+                <article class="category-card" data-category="food-services">
+                    <div class="category-card-content">
+                        <div class="category-icon">🥗</div>
+                        <h3 class="category-title">Food Services</h3>
+                        <p class="category-description">Meal prep, delivery, and personal chefs. From fitness-focused nutrition to luxury private dining experiences.</p>
+                        <div class="category-stats">6 businesses featured</div>
+                    </div>
+                    <a href="/food-service" class="category-link" aria-label="Explore Food Services">
+                        <span>Explore Food Services</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Fine Dining -->
+                <article class="category-card" data-category="fine-dining">
+                    <div class="category-card-content">
+                        <div class="category-icon">✨</div>
+                        <h3 class="category-title">Fine Dining</h3>
+                        <p class="category-description">Upscale restaurants for special occasions. Romantic waterfront dining, award-winning chefs, and premium steakhouses.</p>
+                        <div class="category-stats">6 restaurants featured</div>
+                    </div>
+                    <a href="/fine-dining" class="category-link" aria-label="Explore Fine Dining">
+                        <span>Explore Fine Dining</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Party Vibe -->
+                <article class="category-card" data-category="party-vibe">
+                    <div class="category-card-content">
+                        <div class="category-icon">🎉</div>
+                        <h3 class="category-title">Party Vibe</h3>
+                        <p class="category-description">Lively restaurants and bars with energetic atmospheres. Rooftop bars, live music venues, and trendy group spots.</p>
+                        <div class="category-stats">6 venues featured</div>
+                    </div>
+                    <a href="/party-vibes" class="category-link" aria-label="Explore Party Vibe">
+                        <span>Explore Party Vibe</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Med Spas -->
+                <article class="category-card" data-category="med-spas">
+                    <div class="category-card-content">
+                        <div class="category-icon">💆‍♀️</div>
+                        <h3 class="category-title">Med Spas</h3>
+                        <p class="category-description">Medical spas, wellness centers, and beauty treatments. From luxury aesthetic treatments to advanced wellness services.</p>
+                        <div class="category-stats">6 med spas featured</div>
+                    </div>
+                    <a href="/med-spas" class="category-link" aria-label="Explore Med Spas">
+                        <span>Explore Med Spas</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Golf Courses -->
+                <article class="category-card" data-category="golf-courses">
+                    <div class="category-card-content">
+                        <div class="category-icon">⛳</div>
+                        <h3 class="category-title">Golf Courses</h3>
+                        <p class="category-description">Championship golf courses and country clubs. From prestigious private clubs to accessible public courses.</p>
+                        <div class="category-stats">7 golf courses featured</div>
+                    </div>
+                    <a href="/golf" class="category-link" aria-label="Explore Golf Courses">
+                        <span>Explore Golf</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Movie Theaters -->
+                <article class="category-card" data-category="movie-theaters">
+                    <div class="category-card-content">
+                        <div class="category-icon">🎬</div>
+                        <h3 class="category-title">Movie Theaters</h3>
+                        <p class="category-description">Cinemas and entertainment venues. From luxury dine-in theaters to independent film venues and IMAX experiences.</p>
+                        <div class="category-stats">5 theaters featured</div>
+                    </div>
+                    <a href="/movie-theaters" class="category-link" aria-label="Explore Movie Theaters">
+                        <span>Explore Movies</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- St. Armands Circle -->
+                <article class="category-card" data-category="st-armands">
+                    <div class="category-card-content">
+                        <div class="category-icon">🛍️</div>
+                        <h3 class="category-title">St. Armands Circle</h3>
+                        <p class="category-description">Upscale shopping, fine dining, and unique attractions in this iconic Sarasota destination.</p>
+                        <div class="category-stats">8 experiences featured</div>
+                    </div>
+                    <a href="/st-armands" class="category-link" aria-label="Explore St. Armands Circle">
+                        <span>Explore St. Armands</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Beaches -->
+                <article class="category-card" data-category="beaches">
+                    <div class="category-card-content">
+                        <div class="category-icon">🏖️</div>
+                        <h3 class="category-title">Beaches</h3>
+                        <p class="category-description">World-famous beaches with access info, amenities, activities, and hidden gems along the coast.</p>
+                        <div class="category-stats">8 beaches featured</div>
+                    </div>
+                    <a href="/beaches" class="category-link" aria-label="Explore Beaches">
+                        <span>Explore Beaches</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Family Activities -->
+                <article class="category-card" data-category="family-activities">
+                    <div class="category-card-content">
+                        <div class="category-icon">👨‍👩‍👧‍👦</div>
+                        <h3 class="category-title">Family Activities</h3>
+                        <p class="category-description">Kid-friendly attractions, parks, and entertainment. Perfect activities for families and children.</p>
+                        <div class="category-stats">14 activities featured</div>
+                    </div>
+                    <a href="/family" class="category-link" aria-label="Explore Family Activities">
+                        <span>Explore Family Fun</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Meet People -->
+                <article class="category-card" data-category="meet-people">
+                    <div class="category-card-content">
+                        <div class="category-icon">🤝</div>
+                        <h3 class="category-title">Meet People</h3>
+                        <p class="category-description">Social activities, networking events, and community gatherings. From solo-friendly venues to sports leagues and art classes.</p>
+                        <div class="category-stats">23 venues featured</div>
+                    </div>
+                    <a href="/meet-people" class="category-link" aria-label="Explore Meet People">
+                        <span>Explore Social Scene</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+                <!-- Hidden Gems -->
+                <article class="category-card" data-category="hidden-gems">
+                    <div class="category-card-content">
+                        <div class="category-icon">🤝</div>
+                        <h3 class="category-title">Hidden Gems</h3>
+                        <p class="category-description">Social activities, networking events, and community gatherings. </p>
+                        <div class="category-stats">5 venues featured</div>
+                    </div>
+                    <a href="/hidden-gems" class="category-link" aria-label="Explore Meet People">
+                        <span>The best places kept quiet</span>
+                        <span class="arrow">→</span>
+                    </a>
+                </article>
+
+            </div>
+        </main>
+
+
+    </div>
+    <%- include('components/footer.ejs') %>
+
+

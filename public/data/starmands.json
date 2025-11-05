@@ -1,0 +1,356 @@
+{
+  "businesses": [
+    {
+      "id": "columbia-restaurant-st-armands",
+      "question": "What's the best restaurant for a special dinner at St. Armands Circle?",
+      "name": "Columbia Restaurant",
+      "tagline": "Oldest restaurant in Sarasota serving authentic Spanish-Cuban cuisine since 1959",
+      "logo": "🏛️",
+      "rating": 4.8,
+      "description": "Family-owned for 120+ years, Columbia is Sarasota's oldest operating restaurant and features the world-famous 1905 Salad prepared tableside. Located in hand-painted Mediterranean-style dining rooms with family heirlooms, offering award-winning Spanish/Cuban cuisine. Open 365 days a year with both indoor and patio seating overlooking the Circle.",
+      "maker": {
+        "name": "Hernandez/Gonzmart Family",
+        "title": "5th Generation Restaurant Family"
+      },
+      "location": "St. Armands Circle",
+      "priceRange": "Mid-range to upscale, entrees $20-35",
+      "contact": {
+        "website": "https://www.columbiarestaurant.com/st-armands-circle-sarasota",
+        "phone": "(941) 388-3987",
+        "address": "411 St. Armands Circle, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Sarasota Magazine recognition for authentic Cuban cuisine"
+      },
+      "tags": ["Historic Dining", "Spanish-Cuban Cuisine", "Tableside Service", "Open 365 Days"],
+      "category": "dining",
+      "relatedQuestions": [
+        "Where can I get the best Cuban food in Sarasota?",
+        "What's the most historic restaurant on St. Armands Circle?",
+        "Where should we eat for our anniversary dinner in Sarasota?"
+      ]
+    },
+    {
+      "id": "cafe-on-st-armands",
+      "question": "What's the most romantic fine dining restaurant at St. Armands Circle?",
+      "name": "Café on St. Armands",
+      "tagline": "50-year Continental tradition reimagined with Mediterranean flair for 2025",
+      "logo": "🕯️",
+      "rating": 4.7,
+      "description": "Celebrating 50+ years as a Sarasota fine dining institution, now reimagined for 2025 with fresh Mediterranean influences. Located in John Ringling's original 1926 real estate office, the oldest building on the Circle. Features live piano music Friday and Saturday nights, creating the perfect romantic atmosphere.",
+      "maker": {
+        "name": "John & Amanda Horne",
+        "title": "Proprietors continuing Letschert legacy"
+      },
+      "location": "St. Armands Circle",
+      "priceRange": "Upscale fine dining, $35-65 per entree",
+      "contact": {
+        "website": "https://www.cafeleurope.com",
+        "phone": "(941) 388-4415",
+        "address": "431 St. Armands Circle, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Your Observer 50th anniversary feature"
+      },
+      "tags": ["Fine Dining", "Historic Building", "Live Piano", "Romantic Atmosphere"],
+      "category": "dining",
+      "relatedQuestions": [
+        "Where's the most romantic restaurant on St. Armands Circle?",
+        "What's the oldest fine dining restaurant in Sarasota?",
+        "Where can we hear live music while dining on St. Armands Circle?"
+      ]
+    },
+    {
+      "id": "tommy-bahama-st-armands",
+      "question": "What's the best casual dining with shopping at St. Armands Circle?",
+      "name": "Tommy Bahama Restaurant & Store",
+      "tagline": "Island lifestyle dining and shopping experience since 1996",
+      "logo": "🌴",
+      "rating": 4.6,
+      "description": "Tommy Bahama's second-ever location opening in 1996, now featuring a new combined 11,000 sq ft restaurant, bar and retail store. Offers island-inspired cuisine, award-winning hospitality, and signature cocktails alongside tropical resort wear. Perfect for a relaxed lunch followed by shopping for beachy vibes and timeless styles.",
+      "maker": {
+        "name": "Tommy Bahama",
+        "title": "Island Lifestyle Brand"
+      },
+      "location": "St. Armands Circle",
+      "priceRange": "Casual upscale, entrees $18-32",
+      "contact": {
+        "website": "https://www.tommybahama.com",
+        "phone": "(941) 388-2888",
+        "address": "465 John Ringling Blvd, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Business Observer new location announcement"
+      },
+      "tags": ["Island Dining", "Shopping Combo", "Casual Upscale", "Tropical Vibes"],
+      "category": "dining-shopping",
+      "relatedQuestions": [
+        "Where can I shop and eat in the same place on St. Armands Circle?",
+        "What's the best place for island-style dining in Sarasota?",
+        "Where can I buy resort wear on St. Armands Circle?"
+      ]
+    },
+    {
+      "id": "lido-beach",
+      "question": "What's the best beach near St. Armands Circle for a perfect day?",
+      "name": "Lido Beach",
+      "tagline": "3,000 feet of pristine white sand just steps from the Circle",
+      "logo": "🏖️",
+      "rating": 4.8,
+      "description": "Less crowded than Siesta Key but equally beautiful, offering 3,000 feet of white sand with lifeguards and full amenities including the Lido Beach Pavilion. Features concession stands, outdoor showers, restrooms, and picnic tables. Famous for Florida lobster rolls at the pavilion and easy walking access to St. Armands Circle shopping and dining.",
+      "maker": {
+        "name": "City of Sarasota",
+        "title": "Public Beach Management"
+      },
+      "location": "Lido Key (adjacent to St. Armands Circle)",
+      "priceRange": "Free beach access, parking fees apply",
+      "contact": {
+        "website": "https://www.visitsarasota.com",
+        "phone": "",
+        "address": "700 Ben Franklin Dr, Lido Key, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Visit Sarasota County beach guide"
+      },
+      "tags": ["White Sand Beach", "Less Crowded", "Full Amenities", "Walking Distance"],
+      "category": "beach-recreation",
+      "relatedQuestions": [
+        "What's the closest beach to St. Armands Circle?",
+        "Where's the best beach for families near Sarasota shopping?",
+        "What beach has the best amenities near St. Armands Circle?"
+      ]
+    },
+    {
+      "id": "june-simmons-jewelry",
+      "question": "Where's the best jewelry shopping on St. Armands Circle?",
+      "name": "June Simmons Jewelry at The Met",
+      "tagline": "Master jeweler's collectible creations from emerging to storied designers",
+      "logo": "💎",
+      "rating": 4.9,
+      "description": "Pop into Simmons' exclusive location inside The Met for the finest collectible jewelry from emerging to legendary design houses. Browse selections from fashion jewelry to timeless gems to vintage jewels, plus discover unique pieces by master jeweler June Simmons herself. A destination for serious jewelry collectors and gift buyers.",
+      "maker": {
+        "name": "June Simmons",
+        "title": "Master Jeweler & Designer"
+      },
+      "location": "The Met, St. Armands Circle",
+      "priceRange": "Luxury jewelry, wide range of price points",
+      "contact": {
+        "website": "",
+        "phone": "(941) 321-1737",
+        "address": "35 S. Boulevard of Presidents, St. Armands Circle"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Sarasota Magazine jewelry shopping guide"
+      },
+      "tags": ["Master Jeweler", "Collectible Pieces", "Designer Selection", "Custom Work"],
+      "category": "shopping",
+      "relatedQuestions": [
+        "Where can I find unique jewelry on St. Armands Circle?",
+        "What's the best place for custom jewelry in Sarasota?",
+        "Where do locals shop for fine jewelry on St. Armands Circle?"
+      ]
+    },
+    {
+      "id": "influence-boutiques",
+      "question": "What's the best fashion boutique on St. Armands Circle?",
+      "name": "INfluence Boutiques",
+      "tagline": "Side-by-side multi-label boutiques for style-minded men and women",
+      "logo": "👗",
+      "rating": 4.6,
+      "description": "Style-minded shoppers depend on these side-by-side boutiques for expertly curated fashion edits. Features names like LNA, Wildfox, Clare Vivier, Rory Beca, Vince, The Jetset Diaries, and Nightcap. Separate men's and women's stores offer contemporary fashion that you won't find everywhere else.",
+      "maker": {
+        "name": "INfluence Fashion Team",
+        "title": "Fashion Curators"
+      },
+      "location": "St. Armands Circle",
+      "priceRange": "Contemporary fashion, $50-300+ per piece",
+      "contact": {
+        "website": "",
+        "phone": "(941) 343-2315",
+        "address": "474 & 478 John Ringling Blvd, St. Armands Circle"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Sarasota Magazine fashion shopping guide"
+      },
+      "tags": ["Contemporary Fashion", "Multi-Label", "Men's & Women's", "Curated Selection"],
+      "category": "shopping",
+      "relatedQuestions": [
+        "Where can I find designer fashion on St. Armands Circle?",
+        "What's the best clothing boutique for contemporary styles in Sarasota?",
+        "Where do fashionable people shop on St. Armands Circle?"
+      ]
+    },
+    {
+      "id": "kilwins-st-armands",
+      "question": "What's the best place for dessert and treats on St. Armands Circle?",
+      "name": "Kilwin's Chocolates & Ice Cream",
+      "tagline": "Sweet in every sense since 1947 - legendary fudge you can smell from blocks away",
+      "logo": "🍫",
+      "rating": 4.8,
+      "description": "Founded in Petoskey, Michigan in 1947, offering traditional ice cream and fudge shop experience. Famous for fudge so aromatic you can smell it from blocks away - permanently embedding itself in visitors' memories of the Circle. Perfect afternoon pick-me-up between shopping and before dinner.",
+      "maker": {
+        "name": "Kilwin's Family",
+        "title": "Traditional Confectioners since 1947"
+      },
+      "location": "St. Armands Circle",
+      "priceRange": "Affordable treats, $5-15 typical purchase",
+      "contact": {
+        "website": "",
+        "phone": "(941) 388-3200",
+        "address": "312 John Ringling Blvd, St. Armands Circle"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "Visit Sarasota County dining guide mention"
+      },
+      "tags": ["Legendary Fudge", "Traditional Ice Cream", "Aromatic Experience", "Perfect Afternoon Stop"],
+      "category": "dessert",
+      "relatedQuestions": [
+        "Where's the best ice cream on St. Armands Circle?",
+        "What's the most famous fudge shop in Sarasota?",
+        "Where can families get treats while shopping on St. Armands Circle?"
+      ]
+    },
+    {
+      "id": "st-armands-circle-experience",
+      "question": "How should I spend a perfect weekend day at St. Armands Circle and Lido Beach?",
+      "name": "St. Armands Circle & Lido Beach Perfect Day Experience",
+      "tagline": "European-style shopping circle with pristine beach just steps away",
+      "logo": "🎪",
+      "rating": 4.9,
+      "description": "Start with morning beach time at less-crowded Lido Beach (3,000 feet of white sand), then stroll to the Circle for lunch and shopping among 130+ boutiques and restaurants. Afternoon browsing includes the Circus Ring of Fame honoring Sarasota's big-top heritage. End with sunset dining at sidewalk cafes with European flair - all walkable within five blocks.",
+      "maker": {
+        "name": "John Ringling",
+        "title": "Original Designer & Developer (1920s)"
+      },
+      "location": "Lido Key",
+      "priceRange": "Free to explore, individual purchase costs vary",
+      "contact": {
+        "website": "https://visitstarmands.org",
+        "phone": "",
+        "address": "St. Armands Circle, Sarasota, FL 34236"
+      },
+      "socialMedia": {
+        "instagram": "",
+        "facebook": ""
+      },
+      "reviews": {
+        "google": "#",
+        "featured": "TripAdvisor Travelers' Choice Award - Top 10% properties"
+      },
+      "tags": ["Beach & Shopping Combo", "Walkable Experience", "European Flair", "Circus Heritage"],
+      "category": "experience",
+      "relatedQuestions": [
+        "What's the perfect itinerary for St. Armands Circle and Lido Beach?",
+        "How do I spend a day combining beach and shopping in Sarasota?",
+        "What makes St. Armands Circle special compared to other shopping areas?"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "dining",
+      "name": "Fine Dining",
+      "description": "Upscale restaurants with sophisticated cuisine and atmosphere",
+      "icon": "🍽️"
+    },
+    {
+      "id": "dining-shopping",
+      "name": "Casual Dining & Shopping",
+      "description": "Relaxed dining experiences combined with retail therapy",
+      "icon": "🌴"
+    },
+    {
+      "id": "shopping",
+      "name": "Boutique Shopping",
+      "description": "Unique boutiques and specialty stores with curated selections",
+      "icon": "🛍️"
+    },
+    {
+      "id": "beach-recreation",
+      "name": "Beach & Recreation",
+      "description": "Beach activities and outdoor experiences",
+      "icon": "🏖️"
+    },
+    {
+      "id": "dessert",
+      "name": "Desserts & Treats",
+      "description": "Ice cream, fudge, and sweet confections",
+      "icon": "🍦"
+    },
+    {
+      "id": "experience",
+      "name": "Complete Experience",
+      "description": "Full day itineraries and unique destination experiences",
+      "icon": "🎪"
+    }
+  ],
+  "locations": [
+    "St. Armands Circle",
+    "Lido Key",
+    "Lido Beach",
+    "John Ringling Boulevard",
+    "Boulevard of Presidents",
+    "The Met Shopping Center"
+  ],
+  "priceRanges": [
+    {
+      "id": "budget",
+      "label": "Budget-Friendly",
+      "range": "$5-25",
+      "description": "Affordable treats, casual dining, and accessible shopping"
+    },
+    {
+      "id": "mid-range",
+      "label": "Mid-Range",
+      "range": "$25-75",
+      "description": "Quality dining and boutique shopping experiences"
+    },
+    {
+      "id": "upscale",
+      "label": "Upscale",
+      "range": "$75-200+",
+      "description": "Fine dining and luxury shopping destinations"
+    },
+    {
+      "id": "experience-based",
+      "label": "Experience-Based",
+      "range": "Varies by activity",
+      "description": "Costs depend on chosen activities and dining preferences"
+    }
+  ]
+}
