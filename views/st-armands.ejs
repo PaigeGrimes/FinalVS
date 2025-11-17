@@ -2,8 +2,12 @@
 <body data-category="st-armands">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
-
-<div class="container">
+    <!-- Category Header -->
+    <header class="category-header <%= category %>">
+        <h1>St. Armands Circle</h1>
+        <p class="category-description">Discover the best of St. Armands Circle - upscale shopping, fine dining, and unique attractions in this iconic Sarasota destination with European flair.</p>
+    </header>
+    <div class="container">
     <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
         <ol class="breadcrumb-list">
@@ -16,13 +20,6 @@
             </li>
         </ol>
     </nav>
-
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">🛍️</div>
-        <h1>St. Armands Circle</h1>
-        <p class="category-description">Discover the best of St. Armands Circle - upscale shopping, fine dining, and unique attractions in this iconic Sarasota destination with European flair.</p>
-    </header>
 
     <!-- Related Categories -->
     <section class="related-categories">

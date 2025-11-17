@@ -1,7 +1,7 @@
 :root {
   /* Color Palette */
-  --primary-blue: #1E3A8A; /* Navy blue for headers and primary elements */
-  --secondary-blue: #3B82F6; /* Bright blue for accents */
+  --primary-blue: #1e3a8a; /* Navy blue for headers and primary elements */
+  --secondary-blue: #1a7159; /* Bright blue for accents */
   --accent-orange: #F15A29; /* Retained from Ringling for vibrancy */
   --neutral-white: #FFFFFF; /* Clean background */
   --neutral-gray: #4A4A4A; /* Secondary text or backgrounds */
@@ -47,7 +47,7 @@ body {
   font-family: var(--font-primary);
   font-size: var(--font-size-body);
   color: var(--neutral-gray);
-  background-color: var(--neutral-white);
+  background-color: floralwhite;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -63,7 +63,7 @@ body {
 h1, h2, h3 {
   font-family: var(--font-primary);
   font-weight: 700;
-  color: var(--primary-blue);
+  color:#022804;
   margin: 0 0 var(--spacing-md) 0;
   line-height: 1.2;
 }
@@ -116,7 +116,7 @@ a {
 a:hover,
 a:focus {
   color: var(--accent-orange);
-  background-color: rgba(241, 90, 41, 0.1);
+  /*background-color: rgba(241, 90, 41, 0.1);*/
 }
 
 /* Touch-friendly active states */
@@ -130,18 +130,19 @@ a:active {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: var(--spacing-md);
+  padding: 0 var(--spacing-md);
 }
 
 @media (min-width: 768px) {
   .container {
-    padding: var(--spacing-xl);
+    padding: 5px var(--spacing-xl);
   }
 }
 
 /* Navigation */
 .main-navigation {
   background-color: var(--neutral-white);
+  background-color: floralwhite;
   border-bottom: 1px solid var(--border-gray);
   position: sticky;
   top: 0;
@@ -150,30 +151,26 @@ a:active {
 }
 
 .nav-container {
-  max-width: 1200px;
+    max-width: 100%;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: 0 var(--spacing-lg);
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  min-height: 60px;
+  justify-content: center;
+  height: 80px;
 }
 
 .nav-brand .brand-link {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  font-size: 20px;
-  font-weight: 700;
-  color: var(--primary-blue);
-  text-decoration: none;
-  margin: 0;
-  padding: var(--spacing-sm);
-  min-height: auto;
+    display: flex;            /* makes it a flex container */
+    justify-content: center;  /* centers horizontally */
+    align-items: center;      /* centers vertically if container has height */
+    margin-bottom: 1rem;
 }
 
-.brand-icon {
-  font-size: 24px;
+.brand-icon img {
+    height: 200px;  /* or whatever size you want */
+    width: auto;    /* preserve aspect ratio */
+    display: block;
 }
 
 .desktop-nav {
@@ -185,7 +182,7 @@ a:active {
   padding: var(--spacing-sm) var(--spacing-md);
   color: var(--neutral-gray);
   text-decoration: none;
-  border-radius: var(--border-radius-sm);
+  /*border-radius: var(--border-radius-sm);*/
   transition: all var(--transition-medium);
   font-weight: 500;
   margin: 0;
@@ -195,12 +192,12 @@ a:active {
 .nav-link:hover,
 .nav-link:focus {
   background-color: var(--light-gray);
-  color: var(--primary-blue);
+  color: #022804;
 }
 
 .nav-link.active {
-  background-color: var(--secondary-blue);
-  color: var(--neutral-white);
+  /*background-color: var(--secondary-blue);*/
+  color: #1a7159;
 }
 
 /* Mobile Menu Toggle */
@@ -210,7 +207,7 @@ a:active {
   gap: 4px;
   background: none;
   border: none;
-  padding: var(--spacing-sm);
+  padding: var(--spacing-md);
   cursor: pointer;
   min-height: var(--touch-target-min);
   width: var(--touch-target-min);
@@ -221,7 +218,7 @@ a:active {
 .mobile-menu-toggle span {
   width: 20px;
   height: 2px;
-  background-color: var(--primary-blue);
+  background-color: #022804;
   transition: all var(--transition-medium);
 }
 
@@ -259,14 +256,14 @@ a:active {
   transition: all var(--transition-medium);
   font-weight: 500;
   min-height: var(--touch-target-min);
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .mobile-nav-link:hover,
 .mobile-nav-link:focus {
   background-color: var(--light-gray);
-  color: var(--primary-blue);
+  color: #022804;
 }
 
 .mobile-nav-link.active {
@@ -300,7 +297,7 @@ a:active {
   left: 0;
   background-color: var(--neutral-white);
   border: 1px solid var(--border-gray);
-  border-radius: var(--border-radius);
+  border-radius: 0 0 10px 10px;
   box-shadow: 0 4px 12px var(--shadow-medium);
   min-width: 180px;
   opacity: 0;
@@ -330,12 +327,12 @@ a:active {
 .dropdown-link:hover,
 .dropdown-link:focus {
   background-color: var(--light-gray);
-  color: var(--primary-blue);
+  color: #022804;
 }
 
 .dropdown-link.active {
-  background-color: var(--secondary-blue);
-  color: var(--neutral-white);
+  /*background-color: var(--secondary-blue);*/
+  color: var(--secondary-blue);
 }
 
 .dropdown-link:first-child {
@@ -368,20 +365,31 @@ a:active {
   font-size: var(--font-size-caption);
   margin-bottom: var(--spacing-xs);
 }
+/* --- MOBILE MODE --- */
+@media (max-width: 1695px) {
+    .desktop-nav {
+        display: none !important;
+    }
+
+    .mobile-menu-toggle {
+        display: flex;
+    }
+
+}
 
 /* Desktop Navigation */
-@media (min-width: 768px) {
-  .desktop-nav {
-    display: flex;
-  }
+@media (min-width: 1695px) {
+    .desktop-nav {
+        display: none;
+    }
 
-  .mobile-menu-toggle {
-    display: none;
-  }
+    .mobile-menu-toggle {
+        display: none  !important;
+    }
 
-  .mobile-menu {
-    display: none !important;
-  }
+    .mobile-menu {
+        display:none !important;
+    }
 }
 
 /* Breadcrumb Navigation */
@@ -426,13 +434,60 @@ a:active {
   font-weight: 500;
 }
 
-/* Category Header */
 .category-header {
-  text-align: center;
-  margin-bottom: var(--spacing-xl);
-  padding: var(--spacing-lg) 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 800px;
+    padding: var(--spacing-lg) 0;
+    margin-bottom: var(--spacing-xl);
+
+    color: #fff;
+    text-align: center;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+
 }
 
+/* Optional: Add a dark overlay for better readability */
+.category-header::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);  /* subtle dark overlay */
+    z-index: 1; }
+
+.category-header h1 {
+    color: ghostwhite;
+}
+
+.category-header.beaches {
+    background-image: url('../img/siestakey.jpg');
+}
+.category-header.st-armands {
+    background-image: url('../img/st-armands-circle-statue.jpg');
+}
+.category-header.family-activities {
+    background-image: url('../img/paynepark.jpg');
+}
+.category-header.hidden-gems {
+    background-image: url('../img/ringling.png');
+}
+.category-header.party-vibe {
+    background-image: url('../img/perspective-rooftop-pool-bar-of-art-ovation-hotel-autograph-collection-at-sarasota-florida.jpg');
+}
+.category-header > * {
+    position: relative;
+    z-index: 2;   /* brings text above overlay */
+}
 .category-icon {
   font-size: 48px;
   margin-bottom: var(--spacing-md);
@@ -444,7 +499,7 @@ a:active {
 
 .category-description {
   font-size: 18px;
-  color: var(--neutral-gray);
+  color: ghostwhite;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -468,7 +523,7 @@ a:active {
 .related-categories h2 {
   text-align: center;
   margin-bottom: var(--spacing-lg);
-  color: var(--primary-blue);
+  color: #022804;
   font-size: 1.5rem;
 }
 
@@ -534,7 +589,7 @@ a:active {
 .hero-section {
   text-align: center;
   padding: var(--spacing-xxl) 0;
-  background: linear-gradient(135deg, var(--light-gray) 0%, var(--neutral-white) 100%);
+  background: floralwhite;
   border-radius: var(--border-radius);
   margin-bottom: var(--spacing-xxl);
 }
@@ -544,7 +599,9 @@ a:active {
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }
-
+.hero-content img {
+    height: 500px;
+}
 .hero-title {
   font-size: 2.5rem;
   font-weight: 700;
@@ -574,7 +631,7 @@ a:active {
 .section-title {
   text-align: center;
   font-size: 2rem;
-  color: var(--primary-blue);
+  color: #022804;
   margin-bottom: var(--spacing-xl);
   font-weight: 700;
 }
@@ -652,13 +709,13 @@ a:active {
 .category-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--primary-blue);
+  color:ghostwhite;
   margin-bottom: var(--spacing-sm);
   line-height: 1.3;
 }
 
 .category-description {
-  color: var(--neutral-gray);
+  color: ghostwhite;
   line-height: 1.6;
   margin-bottom: var(--spacing-md);
 }
@@ -2350,7 +2407,7 @@ a:active {
 
 .vibe-widget-header h2 {
   font-size: var(--font-size-heading);
-  color: var(--primary-blue);
+  color: #022804;
   margin-bottom: var(--spacing-sm);
   font-weight: 700;
 }

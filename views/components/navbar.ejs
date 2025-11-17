@@ -1,22 +1,27 @@
 <!-- Navigation -->
 <nav class="main-navigation">
     <div class="nav-container">
-        <div class="nav-brand">
-            <a href="/" class="brand-link">
-                <span class="brand-icon">🌴</span>
-                <span class="brand-text">Vibing Sarasota</span>
-            </a>
-        </div>
+
 
         <!-- Desktop Navigation -->
         <div class="nav-links desktop-nav">
             <a href="/" class="nav-link <%= currentPath === '/' ? 'active' : '' %>">All Categories</a>
+
+            <!-- Food & Dining Dropdown -->
             <div class="nav-dropdown">
-                <a href="#" class="nav-link dropdown-toggle <%= currentPath.startsWith('/food') ? 'active' : '' %>">Food & Dining</a>
+                <a href="#" class="dropdown-toggle <%= currentPath.startsWith('/food') ? 'active' : '' %>">
+                    Food & Dining
+                </a>
                 <div class="dropdown-menu">
-                    <a href="/food-service" class="dropdown-link <%= currentPath === '/food-service' ? 'active' : '' %>">Food Services</a>
-                    <a href="/fine-dining" class="dropdown-link <%= currentPath === '/fine-dining' ? 'active' : '' %>">Fine Dining</a>
-                    <a href="/party-vibes" class="dropdown-link <%= currentPath === '/party-vibes' ? 'active' : '' %>">Party Vibe</a>
+                    <a href="/food-service" class="dropdown-link <%= currentPath === '/food-service' ? 'active' : '' %>">
+                        Food Services
+                    </a>
+                    <a href="/fine-dining" class="dropdown-link <%= currentPath === '/fine-dining' ? 'active' : '' %>">
+                        Fine Dining
+                    </a>
+                    <a href="/party-vibes" class="dropdown-link <%= currentPath === '/party-vibes' ? 'active' : '' %>">
+                        Party Vibe
+                    </a>
                 </div>
             </div>
             <a href="/med-spas" class="dropdown-link <%= currentPath === '/med-spas' ? 'active' : '' %>">Med Spas</a>
@@ -25,7 +30,7 @@
             <a href="/meet-people" class="nav-link <%= currentPath === '/meet-people' ? 'active' : '' %>">Meet People</a>
             <a href="/st-armands" class="nav-link <%= currentPath === '/st-armands' ? 'active' : '' %>">St. Armands</a>
             <a href="/beaches" class="nav-link <%= currentPath === '/beaches' ? 'active' : '' %>">Beaches</a>
-            <a href="/family" class="nav-lin <%= currentPath === '/family' ? 'active' : '' %>k">Family</a>
+            <a href="/family" class="nav-link <%= currentPath === '/family' ? 'active' : '' %>">Family</a>
             <a href="/hidden-gems" class="nav-link <%= currentPath === '/hidden-gems' ? 'active' : '' %>">Hidden Gems</a>
         </div>
 
@@ -39,14 +44,16 @@
         <!-- Modal content -->
         <%- include('vibe-modal.ejs') %>
 
+
         <!-- Mobile Menu Toggle -->
         <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
-    </div>
 
+
+</div>
     <!-- Mobile Navigation -->
     <div class="mobile-menu">
         <a href="/" class="mobile-nav-link">🏠 All Categories</a>
@@ -64,5 +71,11 @@
         <a href="/beaches" class="mobile-nav-link">🏖️ Beaches</a>
         <a href="/family" class="mobile-nav-link">👨‍👩‍👧‍👦 Family</a>
         <a href="/hidden-gems" class="mobile-nav-link">💎 Hidden Gems</a>
+        </div>
+    <div class="nav-brand">
+        <a href="/" class="brand-link">
+            <span class="brand-icon"> <img src="../img/vibing-sarasota-transparent.png" alt=""></span>
+            <!--                <span class="brand-text">Vibing Sarasota</span>-->
+        </a>
     </div>
-</nav>
+        </nav>

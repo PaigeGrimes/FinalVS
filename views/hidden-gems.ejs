@@ -2,7 +2,12 @@
 <body data-category="hidden-gems">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
-
+<!-- Category Header -->
+<header class="category-header <%= category %>">
+    <h1>Hidden Gems</h1>
+    <p class="category-description">Uncover Sarasota's unique dining, secret hangouts, and authentic experiences
+        beyond the tourist trail.</p>
+</header>
 <div class="container">
     <!-- Breadcrumb Navigation -->
     <nav aria-label="Breadcrumb">
@@ -16,13 +21,7 @@
             </li>
         </ol>
     </nav>
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">💎</div>
-        <h1>Hidden Gems</h1>
-        <p class="category-description">Uncover Sarasota's unique dining, secret hangouts, and authentic experiences
-            beyond the tourist trail.</p>
-    </header>
+
 
     <!-- Vibe Widget Container (loads collapsible component) -->
     <div id="vibe-widget-container"></div>
