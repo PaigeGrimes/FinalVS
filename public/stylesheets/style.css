@@ -1,11 +1,11 @@
 :root {
   /* Color Palette */
-  --primary-blue: #1e3a8a; /* Navy blue for headers and primary elements */
-  --secondary-blue: #1a7159; /* Bright blue for accents */
-  --accent-orange: #F15A29; /* Retained from Ringling for vibrancy */
-  --neutral-white: #FFFFFF; /* Clean background */
+  --primary-blue: #022804; /* Navy blue for headers and primary elements */
+  --secondary-blue: #022804; /* Bright blue for accents */
+  --accent-orange: #022804; /* Retained from Ringling for vibrancy */
+  --neutral-white: rgb(255, 250, 240); /* Clean background */
   --neutral-gray: #4A4A4A; /* Secondary text or backgrounds */
-  --light-gray: #F8F9FA; /* Light background for cards */
+  --light-gray: rgba(248, 223, 180, 0.71); /* Light background for cards */
   --border-gray: #E5E7EB; /* Border color */
   --shadow-light: rgba(0, 0, 0, 0.1); /* Light shadow */
   --shadow-medium: rgba(0, 0, 0, 0.15); /* Medium shadow */
@@ -141,7 +141,6 @@ a:active {
 
 /* Navigation */
 .main-navigation {
-  background-color: var(--neutral-white);
   background-color: floralwhite;
   border-bottom: 1px solid var(--border-gray);
   position: sticky;
@@ -153,22 +152,22 @@ a:active {
 .nav-container {
     max-width: 100%;
   margin: 0 auto;
-  padding: 0 var(--spacing-lg);
+  padding: 0 var(--spacing-sm);
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
+  height: 120px;
 }
 
 .nav-brand .brand-link {
     display: flex;            /* makes it a flex container */
     justify-content: center;  /* centers horizontally */
     align-items: center;      /* centers vertically if container has height */
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 .brand-icon img {
-    height: 200px;  /* or whatever size you want */
+    height: 150px;  /* or whatever size you want */
     width: auto;    /* preserve aspect ratio */
     display: block;
 }
@@ -191,8 +190,9 @@ a:active {
 
 .nav-link:hover,
 .nav-link:focus {
-  background-color: var(--light-gray);
+  /*background-color: ghostwhite;*/
   color: #022804;
+    text-decoration: 2px underline;
 }
 
 .nav-link.active {
@@ -442,7 +442,7 @@ a:active {
     align-items: center;
     justify-content: center;
 
-    height: 800px;
+    height: 600px;
     padding: var(--spacing-lg) 0;
     margin-bottom: var(--spacing-xl);
 
@@ -462,8 +462,11 @@ a:active {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.35);  /* subtle dark overlay */
-    z-index: 1; }
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 50% opacity */
+    font-weight: bold;
+    font-size: 1.5em;
+    z-index: 1;
+}
 
 .category-header h1 {
     color: ghostwhite;
@@ -484,10 +487,33 @@ a:active {
 .category-header.party-vibe {
     background-image: url('../img/perspective-rooftop-pool-bar-of-art-ovation-hotel-autograph-collection-at-sarasota-florida.jpg');
 }
+.category-header.med-spas {
+    background-image: url('../img/the-spa-salon-at-the-ritz-carlton-sarasota-spa-healing-waters-entrance.jpg');
+}
+.category-header.golf-courses {
+    background-image: url('../img/Top-Sarasota-golf-courses.jpg');
+}
+.category-header.movie-theaters{
+    background-image: url('../img/cinebistro.webp');
+}
+.category-header.meet-people {
+    background-image: url('../img/artcenter.webp');
+}
+.category-header.fine-dining {
+    background-image: url('../img/dining.webp');
+}
+.category-header.food-services {
+    background-image: url('../img/pngtree-food-truck-is-parked-against-a-sunset-backdrop-picture-image_2695031.png');
+}
+.category-header.home-page {
+    background-image: url('../img/2634_1.jpg');
+}
 .category-header > * {
     position: relative;
     z-index: 2;   /* brings text above overlay */
 }
+
+
 .category-icon {
   font-size: 48px;
   margin-bottom: var(--spacing-md);
@@ -515,7 +541,7 @@ a:active {
 .related-categories {
   margin-bottom: var(--spacing-xl);
   padding: var(--spacing-lg);
-  background-color: var(--light-gray);
+  background-color: #f9f9f9;
   border-radius: var(--border-radius);
   border: 1px solid var(--border-gray);
 }
@@ -540,7 +566,7 @@ a:active {
 }
 
 .related-category-card {
-  background-color: var(--neutral-white);
+  background-color: ghostwhite;
   border: 1px solid var(--border-gray);
   border-radius: var(--border-radius);
   padding: var(--spacing-lg);
@@ -556,7 +582,7 @@ a:active {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px var(--shadow-medium);
   border-color: var(--secondary-blue);
-  background-color: var(--neutral-white);
+  background-color: ghostwhite;
 }
 
 .related-category-icon {
@@ -661,7 +687,7 @@ a:active {
 
 /* Category Cards */
 .category-card {
-  background: var(--neutral-white);
+  background: ghostwhite;
   border: 1px solid var(--border-gray);
   border-radius: var(--border-radius);
   padding: var(--spacing-xl);
@@ -670,7 +696,7 @@ a:active {
   position: relative;
   overflow: hidden;
   box-shadow: 0 2px 8px var(--shadow-light);
-  opacity: 0;
+  /*opacity: 0;*/
   transform: translateY(20px);
 }
 
@@ -709,20 +735,19 @@ a:active {
 .category-title {
   font-size: 1.5rem;
   font-weight: 700;
-  color:ghostwhite;
+  color: #022804;
   margin-bottom: var(--spacing-sm);
   line-height: 1.3;
 }
 
-.category-description {
-  color: ghostwhite;
+.cat-description {
+  color: var(--neutral-gray);
   line-height: 1.6;
   margin-bottom: var(--spacing-md);
 }
-
 .category-stats {
   font-size: var(--font-size-caption);
-  color: var(--secondary-blue);
+  color: rgb(2, 40, 4);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -866,7 +891,7 @@ a:active {
     content: "🔍 Filters";
     display: block;
     padding: var(--spacing-sm);
-    background: var(--primary-blue);
+    background: #022804FF;
     color: white;
     border-radius: var(--border-radius);
     text-align: center;
@@ -1020,7 +1045,7 @@ a:active {
   font-size: var(--font-size-body);
   border: 2px solid var(--border-gray);
   border-radius: var(--border-radius);
-  background-color: var(--neutral-white);
+  background-color: ghostwhite;
   color: var(--neutral-gray);
   cursor: pointer;
   transition: all var(--transition-medium);
@@ -1038,12 +1063,12 @@ a:active {
 
 .filter-group select:focus {
   outline: none;
-  border-color: var(--secondary-blue);
+  border-color: #022804FF;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
 .filter-group select:hover {
-  border-color: var(--secondary-blue);
+  border-color: #022804FF;
 }
 
 /* Mobile-first: Hide desktop filters, show mobile filter toggle */
@@ -1108,7 +1133,7 @@ a:active {
 
 /* Business Card - Mobile First */
 .business-card {
-  background-color: var(--neutral-white);
+  background-color: ghostwhite;
   border: 1px solid var(--border-gray);
   border-radius: var(--border-radius);
   padding: var(--spacing-lg);
@@ -1265,7 +1290,7 @@ a:active {
   user-select: none
 }
 .vibe-modal-button:hover {
-    background-color: rgb(99, 99, 239);
+    background-color: rgb(26, 113, 89);
     color: white;
 }
 
@@ -1291,7 +1316,7 @@ a:active {
     display: none;
   }
 
-  .vibe-modal-button .button-icon {
+  .vibe-button .button-icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1299,9 +1324,9 @@ a:active {
     height: 16px;
   }
 
-  .vibe-modal-button .button-icon svg {
-    width: 12px;
-    height: 12px;
+  .vibe-button .button-icon svg {
+    width: 5px;
+    height: 5px;
   }
 
   .vibe-modal-button.vibed .button-icon svg {
@@ -1351,7 +1376,7 @@ a:active {
       rgba(255, 255, 255, 0.4) 0%,
       rgba(255, 255, 255, 0.1) 25%,
       rgba(255, 255, 255, 0) 50%,
-      rgba(255, 71, 87, 0.1) 100%);
+    rgb(85, 140, 124) 100%);
     border-radius: 50%;
     opacity: 0;
     transition: all 0.3s ease;
@@ -1375,7 +1400,7 @@ a:active {
   .vibe-header-button:hover {
     transform: translateY(-2px) scale(1.05);
     box-shadow:
-      0 4px 12px rgba(255, 107, 107, 0.35),
+      0 4px 12px rgb(26, 113, 89),
       0 2px 6px rgba(0, 0, 0, 0.15);
   }
 
@@ -1405,9 +1430,9 @@ a:active {
 
   /* Active state when modal is open */
   .vibe-header-button[active] {
-    background: linear-gradient(135deg, #ff5252 0%, #ff7979 50%, #ff9999 100%);
+    background: linear-gradient(135deg, #022804 0%, #1a7159 50%, #558c7c 100%);
     box-shadow:
-      0 2px 8px rgba(255, 82, 82, 0.4),
+      0 2px 8px rgb(85, 140, 124),
       0 1px 3px rgba(0, 0, 0, 0.15);
   }
 
@@ -1419,9 +1444,9 @@ a:active {
   .vibe-header-button:focus {
     outline: none;
     box-shadow:
-      0 2px 8px rgba(255, 107, 107, 0.25),
+      0 2px 8px rgb(85, 140, 124),
       0 1px 3px rgba(0, 0, 0, 0.1),
-      0 0 0 3px rgba(255, 107, 107, 0.2);
+      0 0 0 3px rgb(85, 140, 124);
   }
 
   /* Vibe Modal Styles - Fixed Working Version */
@@ -1866,7 +1891,7 @@ a:active {
   align-items: center;
   min-height: var(--touch-target-min);
   padding: var(--spacing-xs) var(--spacing-sm);
-  background-color: var(--light-gray);
+  background-color: #558C7CFF;
   border: 1px solid var(--border-gray);
   border-radius: var(--border-radius-sm);
   font-size: var(--font-size-caption);
@@ -1875,12 +1900,13 @@ a:active {
   text-decoration: none;
   /* Reset link margins */
   margin: 0;
+    color: ghostwhite;
 }
 
 .business-card .contact a:hover,
 .business-card .contact a:focus {
   background-color: var(--secondary-blue);
-  color: var(--neutral-white);
+  color: ghostwhite;
   border-color: var(--secondary-blue);
   transform: translateY(-1px);
 }
@@ -2010,10 +2036,10 @@ a:active {
   .vibe-header-button {
     /*width: 36px;*/
     /*height: 36px;*/
-    background: linear-gradient(135deg, #ff4757 0%, #ff6b6b 50%, #ff8e8e 100%);
+    background: linear-gradient(135deg, #022804 0%, #1a7159 50%, #558c7c 100%);
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow:
-      0 2px 8px rgba(255, 71, 87, 0.2),
+      0 2px 8px rgb(85, 140, 124),
       0 1px 3px rgba(0, 0, 0, 0.08),
       inset 0 1px 0 rgba(255, 255, 255, 0.2);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -2022,7 +2048,7 @@ a:active {
   .vibe-header-button:hover {
     transform: translateY(-1px) scale(1.02);
     box-shadow:
-      0 4px 12px rgba(255, 71, 87, 0.25),
+      0 4px 12px rgb(85, 140, 124),
       0 2px 6px rgba(0, 0, 0, 0.1),
       inset 0 1px 0 rgba(255, 255, 255, 0.3);
   }
@@ -2767,7 +2793,7 @@ a:active {
 }
 
 .vibe-message-info .vibe-message-content {
-  border-left-color: #3B82F6;
+  border-left-color: #558c7c;
 }
 
 .vibe-message-text {

@@ -47,21 +47,21 @@ body {
 .nav-links a {
     color: black;
     text-decoration: none;
-    padding: 30px 12px;
+    padding: 20px 12px;
     font-weight: bolder;
     transition: background 0.3s;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .nav-links a:hover {
     border-radius: 4px;
-    color: var(--primary-blue);
+    color: #022804;
     font-weight: bolder;
 }
 
 /* Vibe Button */
 .vibe-header-button {
-    background-color: rgba(30, 58, 138, 0.58); /* Green */
+    background-color: rgb(85, 140, 124); /* Green */
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: auto 10px;
     border: none;
@@ -74,7 +74,7 @@ body {
 }
 
 .vibe-header-button:hover {
-    background-color: rgb(253, 104, 90);
+    background-color: #022804;
     cursor: pointer;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 .breadcrumb-link {
-    color: #1e3a8a;
+    color: #022804FF;
     text-decoration: none;
     margin: 0;
     min-height: auto;
@@ -113,6 +113,7 @@ body {
     font-size: 18px;
     max-width: 600px;
     margin: 0 auto;
+    color:ghostwhite;
 }
 
 /* Location Cards */
@@ -137,18 +138,18 @@ body {
 }
 
 .vibe-card h2 a {
-    color: #1e3a8a;
+    color: #022804FF;
     text-decoration: none;
 
 }
 
 .vibe-card:hover {
-    box-shadow: 0 4px 8px rgba(30, 58, 138, 0.58), 0 6px 20px rgba(0, 0, 255, 0.71);
+    box-shadow: 0 4px 8px rgb(85, 140, 124), 0 6px 20px rgb(2, 40, 4);
     transform: scale(1.03);
 }
 
 .vibe-card a:hover {
-    color: rgb(32, 60, 139);
+    color: rgb(2, 40, 4);
     background: #f9f9f9;
 
 }
@@ -160,7 +161,7 @@ body {
 
 .vibe-card-button {
     margin-top: auto; /* pushes the button to the bottom */
-    background-color: #1e3a8a;
+    background-color: #022804FF;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
     border: none;
     color: white;
@@ -188,7 +189,7 @@ body {
 .filters h2 {
     margin: 0;
     font-size: 1rem;
-    color: #1e3a8a;
+    color: #022804;
     padding-bottom: 2.5rem;
 }
 
@@ -201,7 +202,7 @@ body {
 .filter-group label {
     font-weight: 500;
     margin-bottom: 0.25rem;
-    color: #1e3a8a;
+    color: #022804;
 }
 
 .filter-group select {
@@ -214,14 +215,14 @@ body {
 
 /* Focus and hover states for accessibility */
 .filter-group select:focus {
-    border-color: #1e3a8a;
+    border-color: #022804;
     box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.2);
     outline: none;
 }
 
 /* Footer */
 .site-footer {
-    background-color: #1e3a8a;
+    background-color: #1a7159;
     color: ghostwhite;
 
     padding: 3rem 1.5rem;
@@ -284,10 +285,10 @@ body {
     padding: 20px;
     border: 1px solid #888;
     width: 40%;
-    height: 50vh;
+    height: 80vh;
     position: relative;
     overflow: auto;
-    box-shadow: 0 4px 20px rgb(99, 99, 239);
+    box-shadow: 0 4px 20px rgb(26, 113, 89);
     border-radius: 20px 20px 20px 20px;
 }
 
@@ -315,16 +316,17 @@ h3 {
 
 .vibe-modal-button {
     display: inline-block;
-    width: 70%;
+    width: 60%;
     background-color: rgb(240, 240, 240);
     color: black;
     text-align: center;
     align-self: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(85, 140, 124);
 
 }
 
 button .vibe-modal-button:hover {
-    background-color: rgb(99, 99, 239);
+    background-color: #022804FF;
     color: white;
 }
 
@@ -368,7 +370,7 @@ textarea {
     padding: 5px;
 
     position: relative;
-    background-color: #203c8b;
+    background-color: #022804FF;
     justify-content: center;
     align-content: center;
     margin: 0;
@@ -424,11 +426,14 @@ textarea {
 .carousel-item::after {
     content: "23 others love this";
     display: none;
-    color: #1e3a8a;
+    color: #022804FF;
     font-weight: bold;
 }
 
 .carousel-item:hover::after {
     display: inline;
 
+}
+.category-header, .category-description p{
+    color: ghostwhite;
 }

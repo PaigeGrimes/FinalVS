@@ -2,7 +2,11 @@
 <body data-category="med-spas">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
-
+<!-- Category Header -->
+<header class="category-header <%= category %>">
+    <h1>Med Spas</h1>
+    <p class="category-description"></p>
+</header>
 <div class="container">
     <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -17,12 +21,7 @@
         </ol>
     </nav>
 
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">💆‍♀️</div>
-        <h1>Med Spas</h1>
-        <p class="category-description">Discover Sarasota's best med spas and wellness centers. From luxury aesthetic treatments to advanced wellness services and expert injectors.</p>
-    </header>
+
 
     <!-- Vibe Widget Container (loads collapsible component) -->
     <div id="vibe-widget-container"></div>

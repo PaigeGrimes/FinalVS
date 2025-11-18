@@ -2,6 +2,11 @@
 <body data-category="movie-theaters">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
+<!-- Category Header -->
+<header class="category-header <%= category %>">
+    <h1>Movie Theaters</h1>
+    <p class="category-description"></p>
+</header>
 
 <div class="container">
     <!-- Breadcrumb Navigation -->
@@ -16,13 +21,6 @@
             </li>
         </ol>
     </nav>
-
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">🎬</div>
-        <h1>Movie Theaters</h1>
-        <p class="category-description">Discover Sarasota's best movie theaters and cinemas. From luxury theaters with reclining seats to IMAX experiences and independent film venues.</p>
-    </header>
 
     <!-- Vibe Widget Container (loads collapsible component) -->
     <div id="vibe-widget-container"></div>

@@ -2,6 +2,11 @@
 <body data-category="golf-courses">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
+<!-- Category Header -->
+<header class="category-header <%= category %>">
+    <h1>Golf Courses</h1>
+    <p class="category-description">Discover Sarasota's best golf courses and country clubs. From championship courses to beginner-friendly layouts, find the perfect golf experience in Sarasota.</p>
+</header>
 <div class="container">
     <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -15,13 +20,6 @@
             </li>
         </ol>
     </nav>
-
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">⛳</div>
-        <h1>Golf Courses</h1>
-        <p class="category-description">Discover Sarasota's best golf courses and country clubs. From championship courses to beginner-friendly layouts, find the perfect golf experience in Sarasota.</p>
-    </header>
 
     <!-- Vibe Widget Container (loads collapsible component) -->
     <div id="vibe-widget-container"></div>

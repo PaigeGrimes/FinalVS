@@ -2,7 +2,11 @@
 <body data-category="fine-dining">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
-
+<!-- Category Header -->
+<header class="category-header <%= category %>">
+    <h1><%= title %></h1>
+    <p class="category-description"></p>
+</header>
 <div class="container">
     <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -16,13 +20,6 @@
             </li>
         </ol>
     </nav>
-
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">✨</div>
-        <h1>Fine Dining</h1>
-        <p class="category-description">Discover Sarasota's best fine dining restaurants for special occasions. From romantic waterfront dining to award-winning chef-driven cuisine and premium steakhouses.</p>
-    </header>
 
     <!-- Related Categories -->
     <section class="related-categories">

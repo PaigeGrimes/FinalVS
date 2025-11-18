@@ -2,7 +2,11 @@
 <body data-category="food-services">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
-
+<!-- Category Header -->
+<header class="category-header <%= category %>">
+    <h1><%= title %></h1>
+    <p class="category-description"></p>
+</header>
 <div class="container">
     <!-- Breadcrumb Navigation -->
     <nav class="breadcrumb" aria-label="Breadcrumb">
@@ -16,13 +20,6 @@
             </li>
         </ol>
     </nav>
-
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">🥗</div>
-        <h1>Food Services</h1>
-        <p class="category-description">Discover Sarasota's best meal prep services, food delivery, and personal chefs. From fitness-focused meal prep to luxury private dining experiences.</p>
-    </header>
 
     <!-- Related Categories -->
     <section class="related-categories">

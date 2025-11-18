@@ -2,6 +2,11 @@
 <body data-category="meet-people">
 <%- include('components/google-cookie.ejs') %>
 <%- include('components/navbar.ejs') %>
+<!-- Category Header -->
+<header class="category-header <%= category %>">
+    <h1>Meet People</h1>
+    <p class="category-description"></p>
+</header>
 
 <div class="container">
     <!-- Breadcrumb Navigation -->
@@ -16,15 +21,6 @@
             </li>
         </ol>
     </nav>
-
-    <!-- Category Header -->
-    <header class="category-header">
-        <div class="category-icon">🤝</div>
-        <h1>Meet People</h1>
-        <p class="category-description">Discover the best places to meet people in Sarasota. From solo-friendly venues and sports leagues to networking events, art classes, and community activities for making new connections.</p>
-    </header>
-
-
 
     <!-- Vibe Widget Container (loads collapsible component) -->
     <div id="vibe-widget-container"></div>
