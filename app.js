@@ -1,26 +1,44 @@
-var createError = require('http-errors');
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+const createError = require('http-errors');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
+const mongoose = require('mongoose');
+const dotenv = require('dotenv');
+dotenv.config();
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var foodRouter = require('./routes/food-services');
-var legalRouter = require('./routes/legal');
-var beachesRouter = require('./routes/beaches');
-var familyRouter = require('./routes/family-activities');
-var fineDiningRouter = require('./routes/fine-dining');
-var golfRouter = require('./routes/golf-courses');
-var hiddenGemsRouter = require('./routes/hidden-gems');
-var medSpasRouter = require('./routes/med-spas');
-var meetPeopleRouter = require('./routes/meet-people');
-var moviesRouter = require('./routes/movie-theaters');
-var partyVibesRouter = require('./routes/party-vibe');
-var stArmandsRouter = require('./routes/st-armands');
+// Create Routes
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
+const foodRouter = require('./routes/food-services');
+const legalRouter = require('./routes/legal');
+const beachesRouter = require('./routes/beaches');
+const familyRouter = require('./routes/family-activities');
+const fineDiningRouter = require('./routes/fine-dining');
+const golfRouter = require('./routes/golf-courses');
+const hiddenGemsRouter = require('./routes/hidden-gems');
+const medSpasRouter = require('./routes/med-spas');
+const meetPeopleRouter = require('./routes/meet-people');
+const moviesRouter = require('./routes/movie-theaters');
+const partyVibesRouter = require('./routes/party-vibe');
+const stArmandsRouter = require('./routes/st-armands');
+const vibesRouter = require('./routes/vibes');
 
+const app = express();
 
-var app = express();
+const connectDB = async (MONGO_URI) => {
+    try {
+        await mongoose.connect(MONGO_URI );
+        console.log('MongoDB connected');
+    } catch (err) {
+        console.error(err.message);
+        process.exit(1);
+    }
+};
+connectDB(process.env.MONGO_URI)
+    .then(r => console.log("Connected to database"))
+    .catch(err => console.error('MongoDB connection error:', err));
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -51,6 +69,7 @@ app.use('/meet-people', meetPeopleRouter);
 app.use('/movie-theaters', moviesRouter);
 app.use('/party-vibes', partyVibesRouter);
 app.use('/st-armands', stArmandsRouter);
+app.use('/update', vibesRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

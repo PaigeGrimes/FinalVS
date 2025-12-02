@@ -538,11 +538,11 @@ class VibingSarasotaApp {
     const originalText = button.innerHTML;
     button.innerHTML = `
       <span class="button-icon">
-        <svg viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z">
-            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 12 12" to="360 12 12" dur="1s" repeatCount="indefinite"/>
-          </path>
-        </svg>
+<!--        <svg viewBox="0 0 24 24" fill="currentColor">-->
+<!--          <path d="M12,4V2A10,10 0 0,0 2,12H4A8,8 0 0,1 12,4Z">-->
+<!--            <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 12 12" to="360 12 12" dur="1s" repeatCount="indefinite"/>-->
+<!--          </path>-->
+<!--        </svg>-->
       </span>
       <span class="button-text">Vibing...</span>
     `;
@@ -557,9 +557,9 @@ class VibingSarasotaApp {
         button.classList.add('vibed');
         button.innerHTML = `
           <span class="button-icon">
-            <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z"/>
-            </svg>
+<!--            <svg viewBox="0 0 24 24" fill="currentColor">-->
+<!--              <path d="M9,20.42L2.79,14.21L5.62,11.38L9,14.77L18.88,4.88L21.71,7.71L9,20.42Z"/>-->
+<!--            </svg>-->
           </span>
           <span class="button-text">Vibed!</span>
         `;
@@ -580,9 +580,9 @@ class VibingSarasotaApp {
         // Show error state
         button.innerHTML = `
           <span class="button-icon">
-            <svg viewBox="0 0 24 24" fill="currentColor">
-              <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
-            </svg>
+<!--            <svg viewBox="0 0 24 24" fill="currentColor">-->
+<!--              <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>-->
+<!--            </svg>-->
           </span>
           <span class="button-text">Try Again</span>
         `;
@@ -593,9 +593,9 @@ class VibingSarasotaApp {
       console.error('Vote submission failed:', error);
       button.innerHTML = `
         <span class="button-icon">
-          <svg viewBox="0 0 24 24" fill="currentColor">
-            <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
-          </svg>
+<!--          <svg viewBox="0 0 24 24" fill="currentColor">-->
+<!--            <path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>-->
+<!--          </svg>-->
         </span>
         <span class="button-text">Try Again</span>
       `;
@@ -619,13 +619,13 @@ class VibingSarasotaApp {
   async loadVibeScore(businessId, vibeIndexElement, forceRefresh = false) {
     try {
       // Check cache first (unless force refresh)
-      if (!forceRefresh) {
-        const cachedScore = this.getVibeFromCache(businessId);
-        if (cachedScore !== null) {
-          vibeIndexElement.textContent = cachedScore;
-          return;
-        }
-      }
+      // if (!forceRefresh) {
+      //   const cachedScore = this.getVibeFromCache(businessId);
+      //   if (cachedScore !== null) {
+      //     vibeIndexElement.textContent = cachedScore;
+      //     return;
+      //   }
+      // }
 
       // Show loading state
       vibeIndexElement.textContent = '...';
@@ -634,17 +634,18 @@ class VibingSarasotaApp {
       const scoreData = await this.fetchVibeScore(businessId);
       if (scoreData && scoreData.score !== null) {
         vibeIndexElement.textContent = scoreData.score;
-        this.setVibeCache(businessId, scoreData.score);
+        // this.setVibeCache(businessId, scoreData.score);
 
         // Add tooltip with additional info
         vibeIndexElement.title = `Score: ${scoreData.score} | Votes: ${scoreData.vote_count || 0} | Source: ${scoreData.source || 'unknown'}`;
-      } else {
-        // Fallback to simulated score
-        const fallbackScore = this.generateFallbackScore(businessId);
-        vibeIndexElement.textContent = fallbackScore;
-        vibeIndexElement.title = `Score: ${fallbackScore} | Source: generated`;
-        this.setVibeCache(businessId, fallbackScore);
       }
+      // else {
+      //   // Fallback to simulated score
+      //   const fallbackScore = this.generateFallbackScore(businessId);
+      //   vibeIndexElement.textContent = fallbackScore;
+      //   vibeIndexElement.title = `Score: ${fallbackScore} | Source: generated`;
+      //   this.setVibeCache(businessId, fallbackScore);
+      // }
     } catch (error) {
       console.warn('Failed to load vibe score:', error);
       // Use fallback
@@ -657,7 +658,7 @@ class VibingSarasotaApp {
   // Fetch vibe score from API
   async fetchVibeScore(businessId) {
     try {
-      const response = await fetch(`https://vibing-sarasota-api.azurewebsites.net/api/vibe-score?businessId=${encodeURIComponent(businessId)}`, {
+      const response = await fetch(`http://localhost:3000/update/${encodeURIComponent(businessId)}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
@@ -667,7 +668,7 @@ class VibingSarasotaApp {
       if (response.ok) {
         const data = await response.json();
         console.log('Vibe score data:', data); // Debug logging
-        return data;
+        return { score: data.vibe_count, vote_count: data.vibe_count, source: 'server' };
       } else {
         console.warn('API response not ok:', response.status, response.statusText);
       }
@@ -678,36 +679,65 @@ class VibingSarasotaApp {
   }
 
   // Submit vote to API
-  async submitVote(businessId) {
-    try {
-      const response = await fetch('https://vibing-sarasota-api.azurewebsites.net/api/vote', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          businessId: businessId,
-          location: this.getCurrentLocation()
-        })
-      });
-
-      if (response.ok) {
-        const data = await response.json();
-        console.log('Vote submitted successfully:', data);
-        return true;
-      } else if (response.status === 429) {
-        // Rate limited
-        const errorData = await response.json();
-        throw new Error('Rate limited: ' + errorData.message);
-      } else {
-        console.warn('Vote submission failed:', response.status, response.statusText);
-        return false;
-      }
-    } catch (error) {
-      console.error('Vote submission error:', error);
-      throw error;
+  // async submitVote(businessId) {
+  //   try {
+  //     const response = await fetch('https://vibing-sarasota-api.azurewebsites.net/api/vote', {
+  //       method: 'POST',
+  //       headers: {
+  //         'Content-Type': 'application/json'
+  //       },
+  //       body: JSON.stringify({
+  //         businessId: businessId,
+  //         location: this.getCurrentLocation()
+  //       })
+  //     });
+  //
+  //     if (response.ok) {
+  //       const data = await response.json();
+  //       console.log('Vote submitted successfully:', data);
+  //       return true;
+  //     } else if (response.status === 429) {
+  //       // Rate limited
+  //       const errorData = await response.json();
+  //       throw new Error('Rate limited: ' + errorData.message);
+  //     } else {
+  //       console.warn('Vote submission failed:', response.status, response.statusText);
+  //       return false;
+  //     }
+  //   } catch (error) {
+  //     console.error('Vote submission error:', error);
+  //     throw error;
+  //   }
+  // }
+    async submitVote(businessId) {
+        try {
+            const response = await fetch(`http://localhost:3000/update/vibing-it`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    businessId: businessId,
+                    location: this.getCurrentLocation()
+                })
+            });
+            if (response.ok) {
+                // const data = await response.json();
+                console.log('Vote submitted successfully');
+                return true;
+            } else if (response.status === 429) {
+                // Rate limited
+                const errorData = await response.json();
+                throw new Error('Rate limited: ' + errorData.message);
+            } else {
+                console.warn('Vote submission failed:', response.status, response.statusText);
+                return false;
+            }
+        } catch (error) {
+            console.error('Vote submission error:', error);
+            throw error;
+        }
     }
-  }
 
   // Generate fallback score based on business characteristics
   generateFallbackScore(businessId) {

@@ -1,0 +1,48 @@
+<%- include('components/header.ejs') %>
+<body class="hub-page">
+<%- include('components/google-cookie.ejs') %>
+<%- include('components/navbar.ejs') %>
+<!-- Category Header -->
+<header class="category-header home-page">
+    <h1>Community Vibes</h1>
+    <p class="category-description">See what locals, tourists, and new residents love to do in Sarasota. Explore shared
+        experiences, favorite activities, dining spots, and hidden gems recommended by real people.</p>
+</header>
+<div class="container">
+    <!-- Vibe Widget Container (loads collapsible component) -->
+    <div id="vibe-widget-container"></div>
+
+
+<main class="category-grid-container">
+
+    <div class="category-grid">
+
+        <% if (vibes.length === 0) { %>
+            <p>No vibes shared yet.</p>
+        <% } else { %>
+            <% vibes.forEach(vibe => { %>
+
+                <article class="category-card">
+                    <div class="category-card-content">
+
+                        <h3 class="category-title">
+                            <%= vibe.visitor_type %> — <%= vibe.love_or_want %>
+                        </h3>
+
+                        <p class="cat-description">
+                            <strong>Activity:</strong> <%= vibe.activity %><br>
+                            <strong>Atmosphere:</strong> <%= vibe.atmosphere %><br>
+                            <strong>Comments:</strong> <%= vibe.comments %><br>
+                            <strong>Date:</strong> <%= vibe.date ? vibe.date.toLocaleDateString() : '' %>
+                        </p>
+
+                    </div>
+                </article>
+
+            <% }) %>
+        <% } %>
+
+    </div>
+</main>
+</div>
+<%- include('components/footer.ejs') %>

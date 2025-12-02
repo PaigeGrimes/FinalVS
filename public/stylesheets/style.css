@@ -5,7 +5,7 @@
   --accent-orange: #022804; /* Retained from Ringling for vibrancy */
   --neutral-white: rgb(255, 250, 240); /* Clean background */
   --neutral-gray: #4A4A4A; /* Secondary text or backgrounds */
-  --light-gray: rgba(248, 223, 180, 0.71); /* Light background for cards */
+  --light-gray: rgb(85, 140, 124); /* Light background for cards */
   --border-gray: #E5E7EB; /* Border color */
   --shadow-light: rgba(0, 0, 0, 0.1); /* Light shadow */
   --shadow-medium: rgba(0, 0, 0, 0.15); /* Medium shadow */
@@ -160,16 +160,17 @@ a:active {
 }
 
 .nav-brand .brand-link {
-    display: flex;            /* makes it a flex container */
-    justify-content: center;  /* centers horizontally */
-    align-items: center;      /* centers vertically if container has height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: .5rem;
 }
 
 .brand-icon img {
-    height: 150px;  /* or whatever size you want */
-    width: auto;    /* preserve aspect ratio */
+    height: 150px;
+    width: auto;
     display: block;
+    padding-top: 10px;
 }
 
 .desktop-nav {
@@ -2941,7 +2942,7 @@ a:active {
 .feature-item {
   text-align: center;
   padding: var(--spacing-lg);
-  background: var(--light-gray);
+  background:  var(--neutral-white);
   border-radius: var(--border-radius);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -2977,7 +2978,7 @@ a:active {
 
 .category-item {
   padding: var(--spacing-md);
-  background: var(--light-gray);
+  background:  var(--neutral-white);
   border-radius: var(--border-radius);
   font-size: 0.95rem;
   color: var(--text-medium);
@@ -2985,7 +2986,7 @@ a:active {
 
 /* Contact Section */
 .contact-section {
-  background: linear-gradient(135deg, var(--light-gray) 0%, var(--neutral-white) 100%);
+  background: var(--neutral-white);
 }
 
 .contact-info {

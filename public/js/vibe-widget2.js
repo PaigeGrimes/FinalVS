@@ -18,9 +18,9 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
-// When the user clicks anywhere outside of the modal, close it
+// When the user clicks anywhere outside the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
+    if (event.target === modal) {
         modal.style.display = "none";
     }
 }
@@ -89,15 +89,16 @@ function vibeFormChoice(option) {
         console.log("All choices made:", choices);
 
         // Add a text area so the user can add a comment to their vibe
-        // TODO: Limit the character count
         const description = document.createElement("textarea");
         description.classList.add("vibe-comment");
+        description.setAttribute("required", "true");
         description.cols = 40;
         description.row= 5;
+        description.setAttribute("placeholder", "Leave a short description about what you love or want.");
 
         container.appendChild(description);
 
-        // Add the submit button // TODO: Add submit form logic
+        // Add the submit button
         const submitButton = document.createElement("button");
         submitButton.classList.add("vibe-modal-button");
         submitButton.innerText = "Submit";
@@ -106,4 +107,40 @@ function vibeFormChoice(option) {
 
 
     }
+}
+
+async function submitForm() {
+    const comment = document.querySelector(".vibe-comment").value;
+
+    try {
+        const response = await fetch(`http://localhost:3000/update/share`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                love_or_want: choices[0],        // Local / Tourist / New Resident
+                visitor_type: choices[1],         // Date / Solo / Family / Friends
+                activity: choices[2],    // Upscale / Casual / Trendy / Hidden
+                atmosphere: choices[3],          // If this is intentional; remove if not
+                comments: comment
+            })
+        });if (response.ok) {
+            // const data = await response.json();
+            console.log('Vibe Share submitted successfully');
+            return true;
+        } else if (response.status === 429) {
+            // Rate limited
+            const errorData = await response.json();
+            throw new Error('Rate limited: ' + errorData.message);
+        } else {
+            console.warn('Vibe Share submission failed:', response.status, response.statusText);
+            return false;
+        }
+    } catch (e) {
+        console.error('Vibe Share submission error:', e);
+        throw e;
+    }
+
+
 }
