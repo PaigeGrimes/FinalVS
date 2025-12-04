@@ -1,6 +1,5 @@
 // VibingSarasota.com - Shared JavaScript Module
 // Common functionality used across all category pages
-
 class VibingSarasotaApp {
   constructor(categoryConfig) {
     this.categoryConfig = categoryConfig;
@@ -658,7 +657,8 @@ class VibingSarasotaApp {
   // Fetch vibe score from API
   async fetchVibeScore(businessId) {
     try {
-      const response = await fetch(`http://localhost:3000/update/${encodeURIComponent(businessId)}`, {
+      const config = await (await fetch('/config')).json();
+      const response = await fetch(`${config.localUri}/update/${encodeURIComponent(businessId)}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json'
@@ -711,7 +711,8 @@ class VibingSarasotaApp {
   // }
     async submitVote(businessId) {
         try {
-            const response = await fetch(`http://localhost:3000/update/vibing-it`, {
+            const config = await (await fetch('/config')).json();
+            const response = await fetch(`${config.localUri}/update/vibing-it`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

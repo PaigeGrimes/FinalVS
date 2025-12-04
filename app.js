@@ -71,6 +71,12 @@ app.use('/party-vibes', partyVibesRouter);
 app.use('/st-armands', stArmandsRouter);
 app.use('/update', vibesRouter);
 
+app.get('/config', (req, res) => {
+    res.json({
+        localUri: process.env.LOCAL_URI
+    });
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));

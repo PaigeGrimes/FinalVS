@@ -113,7 +113,8 @@ async function submitForm() {
     const comment = document.querySelector(".vibe-comment").value;
 
     try {
-        const response = await fetch(`http://localhost:3000/update/share`, {
+        const config = await (await fetch('/config')).json();
+        const response = await fetch(`${config.localUri}/update/share`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
