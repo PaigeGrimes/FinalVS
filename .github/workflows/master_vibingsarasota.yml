@@ -21,7 +21,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
-          node-version: '20.x'
+          node-version: '16.x'
 
       - name: npm install, build, and test
         run: |
@@ -51,9 +51,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_6DAAAABBEF9D4B45A266AAF68D1B1C32 }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_A59F024EF2784A2E8EB6F01104D53487 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_FB69124EA27546AF8CBA4002F3275BA8 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_5AEECF87A79443AAB94C6C26D59CBF21 }}
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_361747C358334787AB7C093BD004F9C6 }}
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_F29D1EEAA32541A4B9FB3DE4466AC815 }}
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v3
@@ -62,4 +62,5 @@ jobs:
           app-name: 'vibingsarasota'
           slot-name: 'Production'
           package: .
+
           
